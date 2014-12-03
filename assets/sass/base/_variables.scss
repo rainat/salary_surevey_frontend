@@ -1,0 +1,66 @@
+
+//BASE COLOR PALLETE
+$black 				: #000000; 
+$grey 				: #f6f5f7;
+$magenta-light 		: #76688e;
+$magenta-dark		: #453874;
+$magenta-clean		: #e2dfe7;
+$ourple				: #e510f8;
+$white				: #ffffff;
+$font-color			: #4c4c4c;
+$title-color		: #424040;
+$orange-color		: #f28f00;
+$green 				: #3b9136;
+$grey 				: #f0f0f0;
+$red 				: #ff3737;
+
+$text_link 	: $orange-color;
+$text_alert	: $red;
+
+//SIZE
+$pixel 	: 	10px !default;
+$pixel_1: 	9px  !default;
+$pixel_2: 	8px  !default;
+$pixel_3: 	7px  !default;
+$pixel_4: 	6px  !default;
+$pixel_5: 	5px  !default;
+$pixel_6: 	4px  !default;
+$pixel_7: 	3px  !default;
+$pixel_8: 	2px  !default;
+$pixel_9: 	1px  !default;
+
+//SCREEN SIZE
+//Responsive
+$screen-phone 	: 330px !default;
+
+//SIZE
+$pixel			: 10px !default;
+
+// Extra small screen / phone
+// Note: Deprecated $screen-xs and $screen-phone as of v3.0.1
+//$screen-xs:                  480px !default;
+//$screen-xs-min:              $screen-xs !default;
+//$screen-phone:               $screen-xs-min !default;
+
+// Small screen / tablet
+// Note: Deprecated $screen-sm and $screen-tablet as of v3.0.1
+//$screen-sm:                  768px !default;
+//$screen-sm-min:              $screen-sm !default;
+//$screen-tablet:              $screen-sm-min !default;
+
+// Medium screen / desktop
+// Note: Deprecated $screen-md and $screen-desktop as of v3.0.1
+//$screen-md:                  992px !default;
+//$screen-md-min:              $screen-md !default;
+//$screen-desktop:             $screen-md-min !default;
+
+// Large screen / wide desktop
+// Note: Deprecated $screen-lg and $screen-lg-desktop as of v3.0.1
+//$screen-lg:                  1200px !default;
+//$screen-lg-min:              $screen-lg !default;
+//$screen-lg-desktop:          $screen-lg-min !default;
+
+// So media queries don't overlap when required, provide a maximum
+//$screen-xs-max:              ($screen-sm-min - 1) !default;
+//$screen-sm-max:              ($screen-md-min - 1) !default;
+//$screen-md-max:              ($screen-lg-min - 1) !default;

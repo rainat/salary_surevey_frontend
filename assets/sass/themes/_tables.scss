@@ -1,0 +1,140 @@
+/*==========================================================================
+  ZEBRA TABLE
+========================================================================== */
+
+.tablezebra{
+	width: 100%;
+	margin-bottom: 20px;
+	max-width: 100%;
+	background-color: transparent;
+
+	@media (min-width : $screen-sm ){
+		table-layout: fixed;
+		white-space: normal;
+	}
+
+	&.table{
+
+		tr{
+			border-bottom:13px solid white;
+			& > td,  & > th{
+				padding: 8px;
+				line-height: 1.42857143;
+				vertical-align: top;
+				font: 400 12px 'arial', sans-serif;
+			}
+
+
+			& > th{
+				vertical-align:middle;
+				background: #276528;
+				color: #fff;
+				padding:12px 15px;
+				border-right:1px solid #ffffff;
+				cursor:pointer;
+
+				&:last-child{
+					border:none;
+				}
+			}
+
+			& > td{
+				background:#e9e9e9;
+				border-top:1px solid #dbd6d6;
+				border-bottom:1px solid #dbd6d6;
+				border-right:1px solid #dbd6d6;
+				padding:15px;
+				color:#383838;
+				vertical-align:middle;
+
+				&:nth-child(even){
+					background:#dedcdc;
+				}
+				&:nth-of-type(odd){
+					background: #e9e9e9;
+				}
+				&:first-child{
+					border-left:3px solid  #8dbb1d;
+				}
+
+				&.td-nodata{
+					background:white !important;
+					border:none;
+					text-align:center;
+					height:150px;
+					a{
+						color:$text_link;
+
+					}
+				}
+			}
+
+
+		}
+	}
+
+	.icon-table{
+		@include inline-block();
+		@include prefixed(transition, all .3s linear);
+		position:relative;
+		&:hover{
+			top:1px;
+		}
+	}		
+}
+
+
+
+
+.icon-guide{
+	font: 12px 'arial', sans-serif;
+	ul{
+		li{
+			@include inline-block();
+			border-right:1px solid #dedcdc;
+			padding:3px 15px;
+			margin:0 7px;
+
+			&:last-child{
+				border:none;
+			}
+			&:first-child{
+				margin-left:0;
+				padding-left:0;
+			}
+
+			&.icon-guide-key{
+				padding-left:0;
+				border-right:none;
+				font-weight:700;
+			}
+
+			&.icon-guide-edit{
+				background:image-url('icon_edit.png') center left no-repeat;
+				padding-left:26px;
+			}
+
+			&.icon-guide-delete{
+				background:image-url('icon_remove.png') center left no-repeat;
+				padding-left:21px;
+			}
+			
+		}
+	}
+}
+
+.tb-link-green{color:$green }
+.tb-link-aply{
+	background:$orange-color;
+	@include inline-block();
+	padding:10px 20px;
+	color:white;
+	font-size:12px;
+
+	&:hover{
+		text-decoration:none;
+		color:white;
+		background:darken($orange-color, 8%);
+	}
+}
+.tb-link-ex{color:$red }

@@ -1,0 +1,134 @@
+/*==========================================================================
+  FORM COMPANY
+========================================================================== */
+input[type="text"],
+input[type="email"],
+textarea, select{
+	background:#f4f1f1;
+	border:1px solid #cecece;
+	font-size:12px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea, select{
+	&.inp-white{
+		background:white;
+	}
+}
+
+.iteminput1, .iteminput2 {
+	input[type="text"],
+	input[type="email"],
+	textarea, select
+	{
+		border:1px solid #cecece;
+		background:#f4f1f1;
+		font-size:12px;
+
+		&.inp-white{
+			background:white;
+		}
+	}
+}
+
+input[type="text"],
+input[type="email"],
+textarea, select{
+	&:hover, &:focus{
+		background:white;
+	}
+}
+
+
+.bootstrap-select{
+	font-size:14px;
+	font-family:'arial', sans-serif;
+	.btn-default{
+		background:#f4f1f1;
+		border:1px solid #cecece;
+		color:#b8b4b4;
+	}
+}
+
+
+.form-title{
+  background: #3d9436;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  @include inline-block();
+  float: left;
+  padding: 14px 20px;
+  position: relative;
+  font-size: 14px;
+  text-transform:uppercase;
+  margin-bottom:44px;
+
+  &:before{
+  	content:'';
+  	@include size(21px, 20px);
+  	position:absolute;
+  	left:0;
+  	bottom:-20px;
+  	background:transparent image-url('arrowme4.png') 0 0 no-repeat;
+  }
+
+}
+
+
+.grey-block{
+	background: #fafafa;
+	width: 100%;
+	min-height: 100px;
+	padding: 48px 30px 37px 30px;
+	border: #cecece solid 1px;
+	position: relative;
+	z-index:1;
+	@include inline-block();
+	@include clearfix();
+	
+
+	&.grey-block-arrow{
+		&:before{
+			content:'';
+			position:absolute;
+			@include size(100%, 37px);
+			left:0;
+			bottom:-37px;
+			background:image-url('arrowme6.png') center top no-repeat;
+		}
+	}
+}
+
+
+.notif-greybox{
+	background:#f2f2f2;
+	padding: 23px 25px;
+	@include clearfix();
+	border:1px solid #cecece;
+	color:#3c3a3a;
+	position:relative;
+	z-index:1;
+	text-align:center;
+	font: 400 17px/1.7 'Open Sans', sans-serif;
+	width: 83% \9;
+	width: 89%;
+	max-width:785px;
+	margin: 0 auto 80px auto;
+
+	&:before{
+		content:'';
+		position:absolute;
+		left:0;
+		bottom:-30px;
+		@include size(100%, 30px);
+		background:transparent image-url('arrowme3.png') center top no-repeat;
+	}
+
+	.icon-angle{
+		text-align:center;
+		color:#d0d0d0;
+		text-align:center;
+		margin:0;
+	}
+}
