@@ -1032,17 +1032,6 @@ table.tabelhome td:nth-child(even) {
   position: relative;
 }
 
-.itempage-result {
-  background: white url(../images/bg-grey-grad.jpg) repeat-x left top;
-  width: auto;
-  padding: 1px 1px 0;
-  width: 100%;
-  min-height: 100px;
-  margin-top: 50px;
-  font-family: 'Open Sans';
-  position: relative;
-}
-
 /*PROGRESSBAR*/
 .greenprogress {
   font-family: "Lato",sans-serif;
@@ -3107,6 +3096,17 @@ ul.clink li a:hover {
 /*==========================================================================
   ADDITIONAL PAGES & STYLE
 ========================================================================== */
+.itempage-result {
+  background: white url(../images/bg-grey-grad.jpg) repeat-x left top;
+  width: auto;
+  padding: 1px 1px 0;
+  width: 100%;
+  min-height: 100px;
+  margin-top: 50px;
+  font-family: 'Open Sans';
+  position: relative;
+}
+
 .bgwhit-main {
   background: #fff;
   width: auto;
@@ -3592,6 +3592,7 @@ textarea:focus, select:hover, select:focus {
   color: #ff3737;
 }
 
+/*END ADDITIONAL PAGE */
 /*==========================================================================
   MEDIA QUERIES
 ========================================================================== */
