@@ -1,12 +1,17 @@
 /*==========================================================================
   FORM COMPANY
 ========================================================================== */
+textarea{
+	width:100%;
+}
+
 input[type="text"],
 input[type="email"],
 textarea, select{
 	background:#f4f1f1;
 	border:1px solid #cecece;
 	font-size:12px;
+	@include border-radius(0);
 }
 
 input[type="text"],

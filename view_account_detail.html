@@ -2,7 +2,10 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!--[if gt IE 8]><!-->
+
+<html class="no-js">
+<!--<![endif]-->
 
 <head>
   <title>..:: Home ::..</title>
@@ -13,7 +16,6 @@
   "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
   name="viewport">
   <link href="assets/img/favicon.ico" rel="shortcut icon">
-  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
   <link href="assets/bootstrap/css/bootstrap.css" media="all" rel="stylesheet" type="text/css">
   <link href="assets/css/jquery.qtip.css" media="all" rel="stylesheet" type="text/css">
   <link href="assets/css/style.css" media="all" rel="stylesheet" type="text/css">
@@ -30,7 +32,6 @@
 </head>
 
 <body>
-
 	<header id="headerweb">
 		<div class="wrapper">
 		      <a class="logintop" href="#">Login &nbsp;&nbsp;<i class=
@@ -61,64 +62,25 @@
 		</nav> <!-- //nav-page -->
 	</header><!-- endheaderweb -->
 
-	<div id="bodyweb">
-		<a class="recruit rotate90 fadeInLeft">Recruiting? </a>	
+	<div id="main">
 		<div class="wrapper">
 			<div class="itempage-result">
-				<div class="bgwhit-main">
+				<div class="bgwhit-main clearfix">
 
-					<div class="notif-greybox">
-						<p>Complete this page to create an account and profile for your company. Your company profile will be listed in our A-Z of games industry employers free of charge. You can also use this account to post jobs and hire talent.</p>
-						<p class="icon-angle"><i class="fa fa-angle-up"></i></p>
-					</div><!-- /itempagestop -->
-					
-					<form id="ssearch" class="form-horizontal">
-						<div class="centered">
+					<header class="title-mainblack">
+						<h2>Candidate Home</h2>
+						<p>Here you can update your salary data, track your job applications and manage job and salary alerts.</p>
+					</header> <!-- //title-company -->
 
-							<div class="form-title">
-								<span class="text-greenlt">STEP 1 : </span>&nbsp;&nbsp;ABOUT YOUR COMPANY
-							</div><div class="clearfix"></div> <!-- form-title -->
-
-							<div class="grey-block grey-block-arrow">
-								<div class="col-sm-6">
-									<div class="iteminput1">
-										<span><strong>1.</strong>Company Name<i class="red-text">*</i></span>
-										<input type="text" placeholder="Enter your company name">
-									</div>
-
-									<div class="iteminput1">
-										<span><strong>3.</strong>Company Website<i class="red-text">*</i></span>
-										<input type="text" placeholder="Enter your website address">
-									</div>
-								</div>
-
-								<div class="col-sm-6">
-									<div class="iteminput1">
-										<span><strong>2.</strong>City Location<i class="red-text">*</i></span>
-										<input type="text" placeholder="Enter your company name">
-									</div>
-
-									<div class="iteminput1">
-										<span><strong>4.</strong>Company Video</span>
-										<input type="text" placeholder="Enter your website address">
-									</div>
-								</div>
-
-								<div class="col-md-12 iteminput1">
-									<span><strong>5.</strong>Company Synopsis<i class="red-text">*</i></span>
-									<textarea rows="8"></textarea>
-								</div>
-							</div>
-						</div><!-- /centered -->
-
-						<div class="orangegadient linkorangeform">
-							<input type="submit" name="submit" class="no-btn" value="Show Me Salaries"> &nbsp;<img src="assets/images/arrowbntorange.png" alt="">
+					<div class="border-block">
+						<div class="btn-center">
+							<button type="button" class="btn-orange logout">Logout</button><br><br>
+							<a href="#" class="link-green">See you again soon</a>
 						</div>
-					</form>
-
-				</div><!-- //bgwhit-main -->
-			</div><!-- //itempage-result -->
-		</div><!-- /wrapper -->
+					</div> <!-- //border-block -->
+				</div>
+			</div> <!-- //itempage-result -->
+		</div>
 	</div><!-- endbodyweb -->
 
 	<footer id="footerweb">
@@ -183,43 +145,17 @@
 		</div>
 	</footer><!-- footerweb -->
 
-	<script type="text/javascript" src="assets/js/jquery-1.11.0.min.js"></script>
-	<script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="assets/js/bootstrap-select.js"></script>
-	<script type="text/javascript" src="assets/js/jquery.validate.js"></script>
-	<script type="text/javascript" src="assets/js/jquery.qtip.min.js"></script>
-	<script type="text/javascript" src="assets/js/checkbox_radio.js"></script>
-	<script type="text/javascript" src="assets/js/progress.js"></script>
-	<script type="text/javascript" src="assets/js/wow.min.js"></script>
-	<script type="text/javascript">new WOW().init();</script>
-	<script type="text/javascript" src="assets/js/myjs.js"></script>
-	<script type="text/javascript">
-		$('#ssearch').validate({
-			ignore: [],
-			errorClass:'error',
-			validClass:'success',
-			errorElement:'span',
-			highlight: function (element, errorClass, validClass) {
-				$(element).parents('div.check-val').addClass(errorClass); 
-				$(element).parents('div.check-val').next('div.'+validClass).fadeOut(); 
-			},
-			unhighlight: function (element, errorClass, validClass) {
-				$(element).parents('div.check-val').removeClass(errorClass); 
-				$(element).parents('div.check-val').next('div.'+validClass).fadeIn(); 
-			},
-			rules: {
-				specialistarea: {
-					required: true
-				},
-				ygender: {
-					required: true
-				}
-			},
-			submitHandler: function (form) {
-				alert('valid form submitted');
-				return false;
-			}
-		});
+	<script src="assets/js/jquery-1.11.0.min.js" type="text/javascript"></script> <script src="assets bootstrap/js/bootstrap.min.js" type="text/javascript"></script> 
+	<script src="assets/js/bootstrap-select.js" type="text/javascript"></script> 
+	<script src="assets/js/jquery.validate.js" type="text/javascript"></script> 
+	<script src="assets/js/jquery.qtip.min.js" type="text/javascript"></script> 
+	<script src="assets/js/checkbox_radio.js" type="text/javascript"></script> 
+	<script src="assets/js/progress.js" type="text/javascript"></script> 
+	<script src="assets/js/wow.min.js" type="text/javascript">
+	</script> <script type="text/javascript">
+	new WOW().init();
+	</script> 
+	<script src="assets/js/myjs.js" type="text/javascript"></script> <script type="text/javascript">
 	</script>
 </body>
 </html>
