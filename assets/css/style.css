@@ -3592,6 +3592,13 @@ textarea:focus, select:hover, select:focus {
   color: #ff3737;
 }
 
+.text-link {
+  color: #f28f00;
+}
+.text-link:hover {
+  text-decoration: none;
+}
+
 /*END ADDITIONAL PAGE */
 /*==========================================================================
   MEDIA QUERIES

@@ -1,7 +1,6 @@
 /*==========================================================================
   ZEBRA TABLE
 ========================================================================== */
-
 .tablezebra{
 	width: 100%;
 	margin-bottom: 20px;
@@ -138,3 +137,10 @@
 	}
 }
 .tb-link-ex{color:$red }
+
+.text-link{
+	color:$orange-color;
+	&:hover{
+		text-decoration:none;
+	}
+}
