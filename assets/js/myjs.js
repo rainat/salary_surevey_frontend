@@ -185,7 +185,30 @@ $(document).ready(function(){
     $('#input_fields_wrap').on("click",".remove_field", function(e){ //user click on remove text
         e.preventDefault(); 
         $(this).parent().remove(); x--;
-    })
+    });
+
+    //EDIT_TABLE ====================================================
+    jQuery(".btn-editable")./*dbl*/click(function () {
+    	event.preventDefault();
+        var OriginalContent = jQuery('.tb_edit_target').text();
+         
+        jQuery(OriginalContent).addClass("cellEditing");
+        jQuery(OriginalContent).html("<input type='text' value='" + OriginalContent + "' />");
+        jQuery(OriginalContent).children().first().focus();
+ 
+        jQuery(this).children().first().keypress(function (e) {
+            if (e.which == 13) {
+                var newContent = jQuery(this).val();
+                jQuery(this).parent().text(newContent);
+                jQuery(this).parent().removeClass("cellEditing");
+            }
+        });
+         
+      jQuery(this).children().first().blur(function(){
+          jQuery(this).parent().text(OriginalContent);
+          jQuery(this).parent().removeClass("cellEditing");
+      });
+    });
 });
 
 
