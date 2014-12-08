@@ -59,6 +59,10 @@
 	padding:30px;
 	position:relative;
 
+	@media (max-width : $screen-xs){
+		padding:15px;
+	}
+
 	&:before{
 		content :"";
 		position:absolute;
@@ -67,6 +71,14 @@
 		@include size(7px , 45px);
 		background:$green;
 	}
+
+	&.nogreen{
+		&:before{
+			display:none;
+		}
+	}
+
+
 }
 
 .box-topline{
@@ -163,5 +175,58 @@
 			font: 900 17px 'Lato', sans-serif;
 			color:#424040;
 		}
+	}
+}
+
+/* ======== APPLICATION CONFIRMATION ======== */
+
+.greybox-app{
+	background:#ededed;
+	padding:20px;
+	margin-bottom:30px;
+	color:#737373;
+	@media (min-width : $screen-md){
+		width:80%;
+		max-width:560px;
+	}
+
+	.icons{
+			display:block;
+			float:left;
+			@include size(37px, 60px);
+			background:image-url('icons/check_green.png') 0 0 no-repeat;
+			margin-right:20px;
+
+			@media (max-width : 330px){
+				float:none;
+				margin:0 auto 15px auto;
+			}
+	}
+
+	.desc{
+		@media (min-width : $screen-md){
+			overflow:hidden;
+		}
+
+	}
+	strong{
+		display:block;
+		font-weight:900;
+		font-size:17px;
+		color:darken($font-color, 5%);
+		margin-bottom:$pixel;
+	}
+}
+
+
+.applican-notes{
+	margin-bottom:80px;
+}
+
+.listdot{
+	li{
+		list-style-type: disc;
+		margin-left: 53px;
+		margin-bottom: 5px;
 	}
 }

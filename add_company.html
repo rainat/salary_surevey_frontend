@@ -79,7 +79,7 @@
 								<span class="text-greenlt">STEP 1 : </span>&nbsp;&nbsp;ABOUT YOUR COMPANY
 							</div><div class="clearfix"></div> <!-- form-title -->
 
-							<div class="grey-block grey-block-arrow">
+							<div class="grey-block">
 								<div class="col-sm-6">
 									<div class="iteminput1">
 										<span><strong>1.</strong>Company Name<i class="red-text">*</i></span>
@@ -103,16 +103,89 @@
 										<input type="text" placeholder="Enter your website address">
 									</div>
 								</div>
+								<div class="clearfix"></div>
 
 								<div class="col-md-12 iteminput1">
 									<span><strong>5.</strong>Company Synopsis<i class="red-text">*</i></span>
 									<textarea rows="8"></textarea>
 								</div>
-							</div>
+
+								<div id="input_fields_wrap" class="col-sm-12">
+									<div class="iteminput1"><span><strong>6.</strong>Social Media</span></div>
+
+									<div class="iteminput1 row dynamic-field">
+										<div  class="col-md-7"><input type="text" placeholder="Enter valid link to a social media page"></div>
+										<div  class="col-md-4">
+											<select class="selectpicker select2" multiple data-max-options="1">
+												<option value="">Twitter</option>
+												<option value="1">Facebook</option>
+												<option value="2">Path</option>
+											</select>
+										</div>
+										<a href="#" class="remove_field move-field"></a>
+										<div class="clearfix"></div>
+									</div>
+								</div>
+								<div  class="clearfix"></div>
+								
+								<div class="btn-fieldwrap"><a href="#" class="add_field_button">Add another social media page</a></div>
+								
+								<div class="col-sm-6">
+									<div class="iteminput1">
+										<span><strong>7.</strong>Company Phone</span>
+										<input type="text" placeholder="Enter company phone number">
+									</div>
+								</div>
+
+								<div class="col-sm-6">
+									<div class="iteminput1">
+										<span><strong>8.</strong>Company Email    </span>
+										<input type="text" placeholder="Enter company email address">
+									</div>
+								</div>
+
+								<div class="col-md-12">
+									<div class="iteminput1">
+										<span><strong>9.</strong>Company Logo</span>
+									</div>
+								</div>
+							</div> <!-- GreyBlock -->
+
+							<br><br><br><br><br>
+							<div class="form-title">
+								<span class="text-greenlt">STEP 2 : </span>&nbsp;&nbsp;ABOUT YOU
+							</div><div class="clearfix"></div> <!-- form-title -->
+
+							<div class="grey-block grey-block-arrow">
+								
+								<p class="f-textcenter">N.B. The information in this section will not 
+								be visible on your company profile,<br> this is the contact information we need for your account.</p>
+
+								<div class="clearfix"></div>
+								<div class="col-sm-6">
+									<div class="iteminput1">
+										<span><strong>10.</strong>Contact Name<i class="red-text">*</i></span>
+										<input type="text" placeholder="Enter your full name">
+									</div>
+
+									<div class="iteminput1">
+										<span><strong>11.</strong>Your Phone<i class="red-text">*</i></span>
+										<input type="text" placeholder="Enter your email address">
+									</div>
+								</div>
+
+								<div class="col-sm-6">
+									<div class="iteminput1">
+										<span><strong>12.</strong>Your Email <i class="red-text">*</i></span>
+										<input type="text" placeholder="Enter your phone number	">
+									</div>
+								</div>
+
+							</div> <!-- //grey-blog -->
 						</div><!-- /centered -->
 
 						<div class="orangegadient linkorangeform">
-							<input type="submit" name="submit" class="no-btn" value="Show Me Salaries"> &nbsp;<img src="assets/images/arrowbntorange.png" alt="">
+							<input type="submit" name="submit" class="no-btn" value="Preview"> &nbsp;<img src="assets/images/arrowbntorange.png" alt="">
 						</div>
 					</form>
 
@@ -190,6 +263,7 @@
 	<script type="text/javascript" src="assets/js/jquery.qtip.min.js"></script>
 	<script type="text/javascript" src="assets/js/checkbox_radio.js"></script>
 	<script type="text/javascript" src="assets/js/progress.js"></script>
+	<script src="assets/js/jquery.tablesorter.js" type="text/javascript"></script> 
 	<script type="text/javascript" src="assets/js/wow.min.js"></script>
 	<script type="text/javascript">new WOW().init();</script>
 	<script type="text/javascript" src="assets/js/myjs.js"></script>

@@ -9,7 +9,7 @@
 ========================================================================== */
 body {
   color: #4c4c4c;
-  font: 14px/1.4 'Lato', sans-serif;
+  font: 13px/1.4 'Lato', sans-serif;
   margin: 0;
   background: url(../images/bgmap.jpg) center top no-repeat;
   -webkit-font-smoothing: antialiased;
@@ -3181,6 +3181,11 @@ ul.clink li a:hover {
   padding: 30px;
   position: relative;
 }
+@media (max-width: 480px) {
+  .border-block {
+    padding: 15px;
+  }
+}
 .border-block:before {
   content: "";
   position: absolute;
@@ -3189,6 +3194,9 @@ ul.clink li a:hover {
   width: 7px;
   height: 45px;
   background: #3b9136;
+}
+.border-block.nogreen:before {
+  display: none;
 }
 
 .box-topline {
@@ -3301,6 +3309,56 @@ ul.clink li a:hover {
   transition: all 0.3s ease-out;
   font: 900 17px 'Lato', sans-serif;
   color: #424040;
+}
+
+/* ======== APPLICATION CONFIRMATION ======== */
+.greybox-app {
+  background: #ededed;
+  padding: 20px;
+  margin-bottom: 30px;
+  color: #737373;
+}
+@media (min-width: 992px) {
+  .greybox-app {
+    width: 80%;
+    max-width: 560px;
+  }
+}
+.greybox-app .icons {
+  display: block;
+  float: left;
+  width: 37px;
+  height: 60px;
+  background: url('../images/icons/check_green.png?1418033177') 0 0 no-repeat;
+  margin-right: 20px;
+}
+@media (max-width: 330px) {
+  .greybox-app .icons {
+    float: none;
+    margin: 0 auto 15px auto;
+  }
+}
+@media (min-width: 992px) {
+  .greybox-app .desc {
+    overflow: hidden;
+  }
+}
+.greybox-app strong {
+  display: block;
+  font-weight: 900;
+  font-size: 17px;
+  color: #3f3f3f;
+  margin-bottom: 10px;
+}
+
+.applican-notes {
+  margin-bottom: 80px;
+}
+
+.listdot li {
+  list-style-type: disc;
+  margin-left: 53px;
+  margin-bottom: 5px;
 }
 
 /*==========================================================================
@@ -3458,6 +3516,47 @@ textarea:focus, select:hover, select:focus {
   color: #d0d0d0;
   text-align: center;
   margin: 0;
+}
+
+/* ======== ADD FIELD DYNAMICALLY ======== */
+.move-field {
+  display: block;
+  float: left;
+  width: 41px;
+  height: 40px;
+  background: url('../images/icons/close_row.png?1417835549') 0 0 no-repeat;
+}
+
+.btn-fieldwrap {
+  width: 100%;
+  padding-left: 15px;
+  margin-bottom: 20px;
+}
+.btn-fieldwrap a {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  background: url('../images/icons/add-more.png?1417835580') left center no-repeat;
+  color: #565656;
+  padding: 12px 0 12px 45px;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.btn-fieldwrap a:hover {
+  color: #f28f00;
+  text-decoration: none;
+}
+
+.f-textcenter {
+  text-align: center;
+  margin-bottom: 35px;
+  font-weight: 700;
 }
 
 /*==========================================================================

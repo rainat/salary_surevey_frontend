@@ -1016,3 +1016,87 @@ Load paths:
 2014-12-05 06:43:56 overwrite css/style.css 
 2014-12-06 06:30:44 overwrite css/style.css 
 2014-12-06 06:31:26 overwrite css/style.css 
+2014-12-06 12:44:34 overwrite css/style.css 
+2014-12-06 12:48:25 overwrite css/style.css 
+2014-12-06 12:49:06 overwrite css/style.css 
+2014-12-06 12:49:13 identical css/style.css 
+2014-12-06 12:50:25 overwrite css/style.css 
+2014-12-06 12:51:29 overwrite css/style.css 
+2014-12-06 12:57:15 overwrite css/style.css 
+2014-12-06 14:58:53 overwrite css/style.css 
+2014-12-06 15:00:06 overwrite css/style.css 
+2014-12-06 15:01:07 overwrite css/style.css 
+2014-12-06 15:01:45 identical css/style.css 
+2014-12-06 15:09:23 overwrite css/style.css 
+2014-12-06 15:15:04 overwrite css/style.css 
+2014-12-06 15:17:22     error sass/style.scss (Line 158 of sass/themes/_form-company.scss: Undefined variable: "$orange".)
+2014-12-06 15:17:22 overwrite css/style.css 
+2014-12-06 15:17:31     error sass/style.scss (Line 158 of sass/themes/_form-company.scss: Undefined variable: "$orange".)
+2014-12-06 15:17:31 identical css/style.css 
+2014-12-06 15:18:03     error sass/style.scss (Line 158 of sass/themes/_form-company.scss: Undefined variable: "$orange".)
+2014-12-06 15:18:03 identical css/style.css 
+2014-12-06 15:19:05     error sass/style.scss (Line 158 of sass/themes/_form-company.scss: Undefined variable: "$orange".)
+2014-12-06 15:19:05 identical css/style.css 
+2014-12-06 15:19:21 overwrite css/style.css 
+2014-12-06 15:28:34 identical css/style.css 
+2014-12-06 15:28:45 overwrite css/style.css 
+2014-12-06 15:28:54 identical css/style.css 
+2014-12-06 15:29:40 overwrite css/style.css 
+2014-12-06 15:30:03 overwrite css/style.css 
+2014-12-06 15:30:51 identical css/style.css 
+2014-12-06 15:31:10 overwrite css/style.css 
+2014-12-06 15:31:21 identical css/style.css 
+2014-12-06 15:32:03 overwrite css/style.css 
+2014-12-06 15:32:37 identical css/style.css 
+2014-12-06 16:19:45 overwrite css/style.css 
+2014-12-06 16:20:03 identical css/style.css 
+2014-12-06 16:36:56 identical css/style.css 
+2014-12-06 16:37:23 overwrite css/style.css 
+2014-12-06 16:37:44 overwrite css/style.css 
+2014-12-06 21:10:40 overwrite css/style.css 
+2014-12-06 21:12:49 identical css/style.css 
+2014-12-06 21:14:47 overwrite css/style.css 
+2014-12-06 21:15:07 overwrite css/style.css 
+2014-12-08 17:15:55     error sass/style.scss (Line 175 of sass/themes/_dashboard.scss: Invalid CSS after "}": expected selector or at-rule, was "]")
+2014-12-08 17:15:55 overwrite css/style.css 
+2014-12-08 17:16:14     error sass/style.scss (Line 175 of sass/themes/_dashboard.scss: Invalid CSS after "}": expected selector or at-rule, was "]")
+2014-12-08 17:16:14 overwrite css/style.css 
+2014-12-08 17:16:19 overwrite css/style.css 
+2014-12-08 17:18:30 overwrite css/style.css 
+2014-12-08 17:19:58 overwrite css/style.css 
+2014-12-08 17:22:08 identical css/style.css 
+2014-12-08 17:22:57 overwrite css/style.css 
+2014-12-08 17:24:31 overwrite css/style.css 
+2014-12-08 17:25:03 overwrite css/style.css 
+2014-12-08 17:25:13     error sass/style.scss (Line 188 of sass/themes/_dashboard.scss: Undefined variable: "$font".)
+2014-12-08 17:25:13 overwrite css/style.css 
+2014-12-08 17:25:25 overwrite css/style.css 
+2014-12-08 17:26:13 overwrite css/style.css 
+2014-12-08 17:26:33 overwrite css/style.css 
+2014-12-08 17:27:27 overwrite css/style.css 
+2014-12-08 17:28:24 overwrite css/style.css 
+2014-12-08 17:28:41 overwrite css/style.css 
+2014-12-08 17:28:58 overwrite css/style.css 
+2014-12-08 17:29:09 identical css/style.css 
+2014-12-08 17:29:14 identical css/style.css 
+2014-12-08 17:29:22 overwrite css/style.css 
+2014-12-08 17:30:03 overwrite css/style.css 
+2014-12-08 17:30:12 overwrite css/style.css 
+2014-12-08 17:30:33 overwrite css/style.css 
+2014-12-08 17:30:48 overwrite css/style.css 
+2014-12-08 17:30:59 overwrite css/style.css 
+2014-12-08 17:45:15 identical css/style.css 
+2014-12-08 17:48:14 identical css/style.css 
+2014-12-08 17:48:20 identical css/style.css 
+2014-12-08 17:48:31 overwrite css/style.css 
+2014-12-08 17:49:29 identical css/style.css 
+2014-12-08 17:51:07 overwrite css/style.css 
+2014-12-08 17:52:22 overwrite css/style.css 
+2014-12-08 17:53:02 overwrite css/style.css 
+2014-12-08 17:53:16 overwrite css/style.css 
+2014-12-08 17:55:32 overwrite css/style.css 
+2014-12-08 17:56:37 overwrite css/style.css 
+2014-12-08 19:49:38 overwrite css/style.css 
+2014-12-08 20:03:16 overwrite css/style.css 
+2014-12-08 20:06:16 overwrite css/style.css 
+2014-12-08 20:07:46 overwrite css/style.css 

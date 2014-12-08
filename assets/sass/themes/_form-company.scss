@@ -137,3 +137,38 @@ textarea, select{
 		margin:0;
 	}
 }
+
+
+/* ======== ADD FIELD DYNAMICALLY ======== */
+.move-field{
+	display:block;
+	float:left;
+	@include size(41px, 40px);
+	background:image-url('icons/close_row.png') 0 0 no-repeat;
+}
+
+.btn-fieldwrap{
+	width:100%;
+	padding-left:15px;
+	margin-bottom:20px;
+
+	a{
+		@include inline-block();
+		background:image-url('icons/add-more.png') left center no-repeat;
+		color:#565656;	
+		padding: 12px 0 12px 45px;	
+		@include prefixed(transition, all .2s linear);
+
+
+		&:hover{
+			color:$orange-color;
+			text-decoration:none;
+		}
+	}
+}
+
+.f-textcenter{
+	text-align:center;
+	margin-bottom:35px;
+	font-weight:700;
+}

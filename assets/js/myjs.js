@@ -168,6 +168,24 @@ $(document).ready(function(){
 	//SORT TABLE
 	$("#sortTable").tablesorter( {sortList: [[0,0], [1,0]]} ); 
 
+
+	var max_fields      = 5; //maximum input boxes allowed
+    var wrapper         = $(".dynamic-field"); //Fields wrapper
+    var add_button      = $(".add_field_button"); //Add button ID
+    
+    //Add/Remove Input Fields
+    var x = 1; //initlal text box count
+    $(add_button).click(function(e){ //on add input button click
+        e.preventDefault();
+        if(x < max_fields){ //max input box allowed
+            x++; //text box increment
+            $(wrapper).clone().appendTo('#input_fields_wrap');
+        }
+    });
+    $('#input_fields_wrap').on("click",".remove_field", function(e){ //user click on remove text
+        e.preventDefault(); 
+        $(this).parent().remove(); x--;
+    })
 });
 
 
