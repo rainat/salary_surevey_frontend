@@ -35,6 +35,10 @@
 				&:last-child{
 					border:none;
 				}
+
+				&.center{
+					text-align:center !important; 
+				}
 			}
 
 			& > td{
