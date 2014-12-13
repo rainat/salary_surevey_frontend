@@ -3358,6 +3358,9 @@ ul.clink li a:hover {
   color: #3f3f3f;
   margin-bottom: 10px;
 }
+.greybox-app b {
+  color: #3f3f3f;
+}
 
 .applican-notes {
   margin-bottom: 80px;
@@ -3367,6 +3370,7 @@ ul.clink li a:hover {
   list-style-type: disc;
   margin-left: 53px;
   margin-bottom: 5px;
+  padding-left: 20px;
 }
 
 /*==========================================================================

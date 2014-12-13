@@ -229,6 +229,11 @@
 		color:darken($font-color, 5%);
 		margin-bottom:$pixel;
 	}
+
+	b{
+		color:darken($font-color, 5%);
+	
+	}
 }
 
 
@@ -241,5 +246,6 @@
 		list-style-type: disc;
 		margin-left: 53px;
 		margin-bottom: 5px;
+		padding-left:20px;
 	}
 }
