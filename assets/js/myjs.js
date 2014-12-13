@@ -45,18 +45,13 @@ $(document).ready(function(){
 		setTimeout(function(){$('.wraphide').fadeOut('slow')});		
 	});
 
-
-
 	$('.arrowshow').click(function(){
 		setTimeout(function(){$('.arrowhider').show()});		
 		setTimeout(function(){$('.arrowshow').hide()});		
 		setTimeout(function(){$('.wraphide').fadeIn('slow')},100);		
 	});
 
-
-
 	//DELETE 
-
 	$('a.del-this').each(function() {
 		$(this).on('click',function(e){
 			$(this).parent().fadeOut(function() {
@@ -66,10 +61,7 @@ $(document).ready(function(){
 
 	});
 
-
-
 	//VALIDATION
-
 	$('#ssearch').validate({
 		ignore: [],
 		errorClass:'error',
@@ -99,10 +91,7 @@ $(document).ready(function(){
 		}
 	});
 
-
-
 	//EXPAND
-
 	$('ul#list-search li').eq(5).nextAll().addClass('dnone');
 
 	$('#expanded .tr-line').eq(2).nextAll('.tr-line').addClass('dnone');

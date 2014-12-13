@@ -7,7 +7,7 @@
 	max-width: 100%;
 	background-color: transparent;
 
-	@media (min-width : $screen-sm ){
+	@media (min-width : $screen-md ){
 		table-layout: fixed;
 		white-space: normal;
 	}
@@ -51,10 +51,10 @@
 				vertical-align:middle;
 
 				&:nth-child(even){
-					background:#dedcdc;
+					background: #e9e9e9;
 				}
 				&:nth-of-type(odd){
-					background: #e9e9e9;
+					background:#dedcdc;
 				}
 				&:first-child{
 					border-left:3px solid  #8dbb1d;
@@ -98,6 +98,14 @@
 			padding:3px 15px;
 			margin:0 7px;
 
+			@media(max-width : $screen-sm-max){
+				display:block;
+				border:none;
+				border-bottom:1px solid  #dedcdc;
+				padding-bottom: 10px;
+				margin-bottom: 10px;
+			}
+
 			&:last-child{
 				border:none;
 			}
@@ -121,6 +129,21 @@
 				background:image-url('icon_remove.png') center left no-repeat;
 				padding-left:21px;
 			}
+
+			&.icon-guide-archive{
+				background:image-url('icons/bookstack.png') center left no-repeat;
+				padding-left:33px;
+			}
+
+			&.icon-guide-copy{
+				background:image-url('icons/clip.png') center left no-repeat;
+				padding-left:33px;
+			}
+
+			&.icon-guide-renew{
+				background:image-url('icons/referesh.png') center left no-repeat;
+				padding-left:26px;
+			}
 			
 		}
 	}
@@ -134,7 +157,7 @@
 	color:white;
 	font-size:12px;
 
-	&:hover{
+	&:hover, &:active{
 		text-decoration:none;
 		color:white;
 		background:darken($orange-color, 8%);
@@ -142,10 +165,46 @@
 }
 .tb-link-ex{color:$red }
 
+.btn-orangeflat{
+	background:$orange-color;
+	@include inline-block();
+	padding:10px 20px;
+	color:white;
+	font-size:13px;
+
+	&:hover, &:active{
+		text-decoration:none;
+		color:white;
+		background:darken($orange-color, 8%);
+	}
+}
+
 .text-link{
 	color:$orange-color;
 	&:hover{
 		text-decoration:none;
+	}
+}
+
+.tb-iconscolect{
+	text-align:center;
+	a{
+		@include inline-block();
+		@include prefixed(transition, all .2s linear);
+		margin-right:10px;
+		margin-bottom:5px;
+
+		&:hover{
+			@include opacity(0.6);
+		}
+	}
+
+	@media (max-width : $screen-xs-max){
+		word-wrap:break-word;
+		white-space:normal;
+		a{
+			margin-bottom:10px;
+		}
 	}
 }
 
@@ -176,3 +235,102 @@
       border:0;
       background-color:rgb(255,253,210);  
   }
+
+
+/* ======== JOB POSTING BOX ======== */
+#boxposting{
+	width:70%;
+	max-width:575px;
+	margin-bottom:24px;
+
+	@media (max-width : $screen-sm-max){
+		width:100%;
+	}
+
+	.table{
+		border:1px solid #dfdfdf;
+		tr{
+			td, th{
+				padding:12px 19px;
+			}
+
+			th{
+				font-size:15px;
+				color:$green;
+				position:relative;
+
+				&:first-child{
+					&:before{
+						content:'';
+						top:0;
+						left:0;
+						@include size(7px, 100%);
+						position:absolute;
+						border-left: 7px solid #8dbb1d;
+					}
+
+				}
+			}
+		}	
+
+
+	}
+}
+
+
+.optionshow{
+	margin-bottom:18px;
+	ul {
+		li{
+			@include inline-block();
+			vertical-align:top;
+
+			.text{
+				font-weight:700;
+				margin-right:8px;
+				@include inline-block();
+				vertical-align:top;
+			}
+		}
+	}
+}
+
+/* ======== COSTUM RADICHECK ======== */
+.radio-bulled{
+	font-weight:normal;	
+	.custom-radio{
+		@include square(17px);
+		background:image-url('icons/radio.png') 0 0 no-repeat;
+		margin-top:3px;
+
+		&.checked{
+			background:image-url('icons/radio_active.png') 0 0 no-repeat;
+
+			&.focus{
+				background:image-url('icons/radio_active.png') 0 0 no-repeat;
+			}
+		}
+	}
+}
+
+.cxbox-sm{
+	.custom-check{
+		@include square(13px);
+		background:image-url('icons/cxbox.png') 0 0 no-repeat;
+		margin-top:3px;
+
+		&.checked{
+			background:image-url('icons/cxbox_active.png') 0 0 no-repeat;
+
+			&.focus{
+				background:image-url('icons/cxbox_active.png') 0 0 no-repeat;
+			}
+		}
+	}
+}
+
+@media (max-width : $screen-sm-max){
+	.btn-orange{
+		margin-bottom:11px;
+	}
+}
