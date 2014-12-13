@@ -104,7 +104,7 @@
 	
 	padding-top:18px;
 	position:relative;
-	margin-bottom:18px;
+	margin-bottom:12px;
 	overflow:hidden;
 	@include prefixed(transition, all .3s linear);
 	position:relative;
@@ -153,7 +153,7 @@
 		width:60px;
 		float:left;
 		overflow:hidden;
-		margin-right:15px;
+		margin-right:10px;
 	}
 
 	.desc{
@@ -231,8 +231,7 @@
 	}
 
 	b{
-		color:darken($font-color, 5%);
-	
+		color:darken($font-color, 5%);	
 	}
 }
 

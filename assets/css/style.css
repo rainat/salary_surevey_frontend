@@ -3227,7 +3227,7 @@ ul.clink li a:hover {
   margin: 0 15px;
   padding-top: 18px;
   position: relative;
-  margin-bottom: 18px;
+  margin-bottom: 12px;
   overflow: hidden;
   -webkit-transition: all 0.3s linear;
   -moz-transition: all 0.3s linear;
@@ -3282,7 +3282,7 @@ ul.clink li a:hover {
   width: 60px;
   float: left;
   overflow: hidden;
-  margin-right: 15px;
+  margin-right: 10px;
 }
 .dsboard-item .desc {
   overflow: hidden;
