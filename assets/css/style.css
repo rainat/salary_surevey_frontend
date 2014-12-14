@@ -3356,7 +3356,7 @@ ul.clink li a:hover {
 }
 .greybox-app strong {
   display: block;
-  font-weight: 900;
+  font-weight: 700;
   font-size: 17px;
   color: #3f3f3f;
   margin-bottom: 10px;
@@ -3942,6 +3942,69 @@ textarea:focus, select:hover, select:focus {
     margin-bottom: 11px;
   }
 }
+/* ======== SEARCH ON TABLE ======== */
+.tb-search form {
+  position: relative;
+}
+.tb-search .inp-src {
+  width: 100%;
+  border: 1px solid #cecece;
+  background: white;
+  padding: 13px;
+  padding-right: 62px;
+  margin-top: 7px;
+  margin-bottom: 15px;
+  font-size: 13px;
+}
+.tb-search .btn-src {
+  position: absolute;
+  right: 0;
+  top: 17%;
+  background: none;
+  border: none;
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+  background: transparent url('../images/icons/src.png?1418569376') center center no-repeat;
+  border-left: 1px solid #f28f00;
+  width: 47px;
+  height: 37px;
+}
+
+/*==========================================================================
+  PAGINATION
+========================================================================== */
+.pagination {
+  text-align: right;
+  margin: 10px 0 20px 0;
+}
+.pagination a, .pagination strong {
+  background: #dedcdc;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  margin-left: 8px;
+  padding: 6px 10px;
+  text-decoration: none;
+  line-height: 1.5em;
+  color: #6f6f6f;
+}
+.pagination a:hover, .pagination a:active, .pagination a.active {
+  background-color: #f28f00;
+  color: #fff;
+}
+.pagination strong {
+  color: #6f6f6f;
+  background-color: white;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
 /*END ADDITIONAL PAGE */
 /*==========================================================================
   MEDIA QUERIES

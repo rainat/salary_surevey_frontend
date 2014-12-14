@@ -335,3 +335,33 @@
 		margin-bottom:11px;
 	}
 }
+
+/* ======== SEARCH ON TABLE ======== */
+
+.tb-search{
+	form{
+		position:relative;
+	}
+	.inp-src{
+		width:100%;
+		border:1px solid #cecece;
+		background:white;
+		padding:13px;
+		padding-right:62px;
+		margin-top:7px;
+		margin-bottom:15px;
+		font-size:13px;
+	}
+
+	.btn-src{
+		position:absolute;
+		right:0;
+		top:17%;
+		background:none;
+		border:none;
+		@include hide-text();
+		background:transparent image-url('icons/src.png') center center no-repeat;
+		border-left:1px solid $orange-color;
+		@include size(47px, 37px);
+	}
+}
