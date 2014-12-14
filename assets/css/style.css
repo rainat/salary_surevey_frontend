@@ -3980,6 +3980,11 @@ textarea:focus, select:hover, select:focus {
   text-align: right;
   margin: 10px 0 20px 0;
 }
+@media (max-width: 991px) {
+  .pagination {
+    text-align: left;
+  }
+}
 .pagination a, .pagination strong {
   background: #dedcdc;
   display: -moz-inline-stack;
@@ -3993,6 +3998,12 @@ textarea:focus, select:hover, select:focus {
   text-decoration: none;
   line-height: 1.5em;
   color: #6f6f6f;
+}
+@media (max-width: 480px) {
+  .pagination a, .pagination strong {
+    margin-left: 4px;
+    padding: 2px 7px;
+  }
 }
 .pagination a:hover, .pagination a:active, .pagination a.active {
   background-color: #f28f00;

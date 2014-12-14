@@ -5,6 +5,9 @@
 .pagination {
     text-align: right;
     margin:10px 0 20px 0;
+    @media (max-width : $screen-sm-max){
+    	text-align:left;
+    }
 
      a, strong{
      	background: #dedcdc;
@@ -14,7 +17,12 @@
     	text-decoration: none;
 		line-height: 1.5em;
 		color:#6f6f6f;
-     }
+
+		@media (max-width : $screen-xs){
+			margin-left: 4px;
+			padding: 2px 7px;
+		}
+	}
 
      a{
      	&:hover, &:active, &.active {

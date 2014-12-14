@@ -1292,3 +1292,11 @@ Load paths:
 2014-12-14 23:40:54 overwrite css/style.css 
 2014-12-14 23:41:30 overwrite css/style.css 
 2014-12-14 23:42:33 overwrite css/style.css 
+2014-12-14 23:47:45 overwrite css/style.css 
+2014-12-14 23:50:49     error sass/style.scss (Line 40 of sass/themes/_pagination.scss: Invalid CSS after "}": expected "}", was "")
+2014-12-14 23:50:49 overwrite css/style.css 
+2014-12-14 23:50:52     error sass/style.scss (Line 40 of sass/themes/_pagination.scss: Invalid CSS after "}": expected "}", was "")
+2014-12-14 23:50:52 identical css/style.css 
+2014-12-14 23:51:31     error sass/style.scss (Line 40 of sass/themes/_pagination.scss: Invalid CSS after "}": expected "}", was "")
+2014-12-14 23:51:31 identical css/style.css 
+2014-12-14 23:51:35 overwrite css/style.css 
