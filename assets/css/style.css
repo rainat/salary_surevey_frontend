@@ -1394,7 +1394,6 @@ ul#list-search li h5 {
 
 .iteminput1 {
   display: block;
-  width: 100%;
   margin-bottom: 20px;
   position: relative;
 }
@@ -3380,6 +3379,31 @@ ul.clink li a:hover {
 /*==========================================================================
   FORM COMPANY
 ========================================================================== */
+.f-textcenter {
+  text-align: center;
+  margin-bottom: 35px;
+  font-weight: 700;
+}
+
+label.nobold {
+  font-weight: normal;
+}
+
+.uploadbox {
+  background: #e4e4e4;
+  padding: 12px;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+}
+
+.inp-nolabel {
+  margin-top: 24px;
+}
+
 textarea {
   width: 100%;
 }
@@ -3566,27 +3590,6 @@ textarea:focus, select:hover, select:focus {
 .btn-fieldwrap a:hover {
   color: #f28f00;
   text-decoration: none;
-}
-
-.f-textcenter {
-  text-align: center;
-  margin-bottom: 35px;
-  font-weight: 700;
-}
-
-label.nobold {
-  font-weight: normal;
-}
-
-.uploadbox {
-  background: #e4e4e4;
-  padding: 12px;
-  display: -moz-inline-stack;
-  display: inline-block;
-  vertical-align: middle;
-  *vertical-align: auto;
-  zoom: 1;
-  *display: inline;
 }
 
 /*==========================================================================

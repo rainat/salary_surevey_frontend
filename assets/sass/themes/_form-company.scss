@@ -1,6 +1,28 @@
 /*==========================================================================
   FORM COMPANY
 ========================================================================== */
+
+.f-textcenter{
+	text-align:center;
+	margin-bottom:35px;
+	font-weight:700;
+}
+
+label.nobold{
+	font-weight:normal;
+}
+
+.uploadbox{
+	background:#e4e4e4;
+	padding:12px;
+	@include inline-block();
+}
+
+.inp-nolabel{
+	margin-top:24px;
+}
+
+
 textarea{
 	width:100%;
 }
@@ -166,18 +188,5 @@ textarea, select{
 	}
 }
 
-.f-textcenter{
-	text-align:center;
-	margin-bottom:35px;
-	font-weight:700;
-}
 
-label.nobold{
-	font-weight:normal;
-}
 
-.uploadbox{
-	background:#e4e4e4;
-	padding:12px;
-	@include inline-block();
-}

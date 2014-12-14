@@ -67,121 +67,91 @@
 			<div class="itempage-result">
 				<div class="bgwhit-main">
 
-					<div class="notif-greybox">
-						<p>Complete this page to create an account and profile for your company. Your company profile will be listed in our A-Z of games industry employers free of charge. You can also use this account to post jobs and hire talent.</p>
-						<p class="icon-angle"><i class="fa fa-angle-up"></i></p>
-					</div><!-- /itempagestop -->
-					
 					<form id="ssearch" class="form-horizontal">
 						<div class="centered">
 
-							<div class="form-title">
-								<span class="text-greenlt">STEP 1 : </span>&nbsp;&nbsp;ABOUT YOUR COMPANY
-							</div><div class="clearfix"></div> <!-- form-title -->
+							<div class="form-title">Post a job</div><div class="clearfix"></div> <!-- form-title -->
 
-							<div class="grey-block">
+							<div class="grey-block grey-block-arrow">
 								<div class="col-sm-6">
 									<div class="iteminput1">
-										<span><strong>1.</strong>Company Name<i class="red-text">*</i></span>
-										<input type="text" placeholder="Enter your company name">
+										<span><strong>1.</strong>Job Title</span>
+										<input type="text" placeholder="E.g. Gameplay Programmer">
 									</div>
 
 									<div class="iteminput1">
-										<span><strong>3.</strong>Company Website<i class="red-text">*</i></span>
-										<input type="text" placeholder="Enter your website address">
+										<span><strong>3.</strong>Job Type</span>
+										<select class="selectpicker select2" multiple data-max-options="1">
+											<option value="">Writer</option>
+											<option value="1">Design</option>
+											<option value="2">Video maker</option>
+										</select>
 									</div>
 								</div>
 
 								<div class="col-sm-6">
 									<div class="iteminput1">
-										<span><strong>2.</strong>City Location<i class="red-text">*</i></span>
-										<input type="text" placeholder="Enter your company name">
+										<span><strong>2.</strong>Job Reference</span>
+										<input type="text" placeholder="Enter job reference if required">
 									</div>
 
 									<div class="iteminput1">
-										<span><strong>4.</strong>Company Video</span>
-										<input type="text" placeholder="Enter your website address">
+										<span><strong>4.</strong>Job Category</span>
+										<select class="selectpicker select2" multiple data-max-options="1">
+											<option value="">Writer</option>
+											<option value="1">Design</option>
+											<option value="2">Video maker</option>
+										</select>
 									</div>
 								</div>
 								<div class="clearfix"></div>
 
 								<div class="col-md-12 iteminput1">
-									<span><strong>5.</strong>Company Synopsis<i class="red-text">*</i></span>
+									<span><strong>5.</strong>Job Description</span>
 									<textarea rows="8"></textarea>
 								</div>
-
-								<div id="input_fields_wrap" class="col-sm-12">
-									<div class="iteminput1"><span><strong>6.</strong>Social Media</span></div>
-
-									<div class="iteminput1 row dynamic-field">
-										<div  class="col-md-7"><input type="text" placeholder="Enter valid link to a social media page"></div>
-										<div  class="col-md-4">
-											<select class="selectpicker select2" multiple data-max-options="1">
-												<option value="">Twitter</option>
-												<option value="1">Facebook</option>
-												<option value="2">Path</option>
-											</select>
-										</div>
-										<a href="#" class="remove_field move-field"></a>
-										<div class="clearfix"></div>
+								<div class="clearfix"></div>
+								
+								<div>
+									<div class="iteminput1 col-sm-6">
+										<span><strong>6.</strong>Job Location</span>
+										<input type="text" placeholder="Enter City and select">
 									</div>
-								</div>
-								<div  class="clearfix"></div>
-								
-								<div class="btn-fieldwrap"><a href="#" class="add_field_button">Add another social media page</a></div>
-								
-								<div class="col-sm-6">
-									<div class="iteminput1">
-										<span><strong>7.</strong>Company Phone</span>
+
+									<div class="iteminput1 col-sm-6">
+										<span><strong>7.</strong>Expires On</span>
 										<input type="text" placeholder="Enter company phone number">
 									</div>
 								</div>
 
-								<div class="col-sm-6">
-									<div class="iteminput1">
-										<span><strong>8.</strong>Company Email    </span>
-										<input type="text" placeholder="Enter company email address">
+								<div>
+									<div class="iteminput1 col-sm-6">
+										<span><strong>8.</strong>Job Application Method</span>
+										<select class="selectpicker select2" multiple data-max-options="1">
+											<option value="0">By Email</option>
+											<option value="1">Redirect to URL</option>
+										</select>
+									</div>
+
+									<div class="col-sm-6 iteminput1">
+										<input type="text" placeholder="abcgames@gmail.com" class="inp-nolabel">
 									</div>
 								</div>
 
 								<div class="col-md-12">
 									<div class="iteminput1">
-										<span><strong>9.</strong>Company Logo</span>
+										<span><strong>9.</strong>Job Logo</span>
+										<label class="radio-bulled">
+										  <input type="radio" name="rd" value="option1" class="radio" checked> Use Existing Logo
+										</label>
+										<label class="radio-bulled">
+										  <input type="radio" name="rd" value="option2" class="radio"> Upload Logo
+										</label>
+										<br>
+
 									</div>
 								</div>
 							</div> <!-- GreyBlock -->
-
-							<br><br><br><br><br>
-							<div class="form-title">
-								<span class="text-greenlt">STEP 2 : </span>&nbsp;&nbsp;ABOUT YOU
-							</div><div class="clearfix"></div> <!-- form-title -->
-
-							<div class="grey-block grey-block-arrow">
-								
-								<p class="f-textcenter">N.B. The information in this section will not 
-								be visible on your company profile,<br> this is the contact information we need for your account.</p>
-
-								<div class="clearfix"></div>
-								<div class="col-sm-6">
-									<div class="iteminput1">
-										<span><strong>10.</strong>Contact Name<i class="red-text">*</i></span>
-										<input type="text" placeholder="Enter your full name">
-									</div>
-
-									<div class="iteminput1">
-										<span><strong>11.</strong>Your Phone<i class="red-text">*</i></span>
-										<input type="text" placeholder="Enter your email address">
-									</div>
-								</div>
-
-								<div class="col-sm-6">
-									<div class="iteminput1">
-										<span><strong>12.</strong>Your Email <i class="red-text">*</i></span>
-										<input type="text" placeholder="Enter your phone number	">
-									</div>
-								</div>
-
-							</div> <!-- //grey-blog -->
 						</div><!-- /centered -->
 
 						<div class="orangegadient linkorangeform">
