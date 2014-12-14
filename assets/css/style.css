@@ -3123,6 +3123,10 @@ ul.clink li a:hover {
 }
 
 /* ======== COMPANY HOME ======== */
+.text-orange {
+  color: #f28f00;
+}
+
 .dsboard-title {
   vertical-align: middle;
   overflow: hidden;
@@ -3570,6 +3574,21 @@ textarea:focus, select:hover, select:focus {
   font-weight: 700;
 }
 
+label.nobold {
+  font-weight: normal;
+}
+
+.uploadbox {
+  background: #e4e4e4;
+  padding: 12px;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+}
+
 /*==========================================================================
   ZEBRA TABLE
 ========================================================================== */
@@ -3854,6 +3873,11 @@ textarea:focus, select:hover, select:focus {
   height: 100%;
   position: absolute;
   border-left: 7px solid #8dbb1d;
+}
+#boxposting .post-nopack {
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 0;
 }
 
 .optionshow {
