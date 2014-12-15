@@ -3749,6 +3749,10 @@ textarea:focus, select:hover, select:focus {
   background: url('../images/icons/pdf.png?1418611730') center left no-repeat;
   padding-left: 30px;
 }
+.icon-guide ul li.icon-guide-view {
+  background: url('../images/icons/zoom.png?1418471952') center left no-repeat;
+  padding-left: 30px;
+}
 
 .tb-link-green {
   color: #3b9136;

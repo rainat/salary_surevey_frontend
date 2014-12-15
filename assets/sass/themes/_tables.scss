@@ -163,7 +163,10 @@
 				background:image-url('icons/pdf.png') center left no-repeat;
 				padding-left:30px;
 			}
-			
+			&.icon-guide-view{
+				background:image-url('icons/zoom.png') center left no-repeat;
+				padding-left:30px;
+			}
 		}
 	}
 }
