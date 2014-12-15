@@ -80,6 +80,14 @@
 		@include inline-block();
 		@include prefixed(transition, all .3s linear);
 		position:relative;
+		margin:0 9px;
+
+
+		@media (max-width : $screen-sm-max){
+			margin:0 4px;
+			margin-bottom:7px;
+		}
+		
 		&:hover{
 			top:1px;
 		}
@@ -139,6 +147,10 @@
 
 			&.icon-guide-renew{
 				background:image-url('icons/referesh.png') center left no-repeat;
+				padding-left:26px;
+			}
+			&.icon-guide-disable{
+				background:image-url('icons/disable.png') center left no-repeat;
 				padding-left:26px;
 			}
 			

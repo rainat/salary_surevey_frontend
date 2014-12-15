@@ -3670,6 +3670,13 @@ textarea:focus, select:hover, select:focus {
   -o-transition: all 0.3s linear;
   transition: all 0.3s linear;
   position: relative;
+  margin: 0 9px;
+}
+@media (max-width: 991px) {
+  .tablezebra .icon-table {
+    margin: 0 4px;
+    margin-bottom: 7px;
+  }
 }
 .tablezebra .icon-table:hover {
   top: 1px;
@@ -3728,6 +3735,10 @@ textarea:focus, select:hover, select:focus {
 }
 .icon-guide ul li.icon-guide-renew {
   background: url('../images/icons/referesh.png?1418472058') center left no-repeat;
+  padding-left: 26px;
+}
+.icon-guide ul li.icon-guide-disable {
+  background: url('../images/icons/disable.png?1418602515') center left no-repeat;
   padding-left: 26px;
 }
 
@@ -3994,7 +4005,7 @@ textarea:focus, select:hover, select:focus {
   zoom: 1;
   *display: inline;
   margin-left: 8px;
-  padding: 6px 10px;
+  padding: 2px 7px;
   text-decoration: none;
   line-height: 1.5em;
   color: #6f6f6f;

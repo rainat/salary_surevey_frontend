@@ -12,7 +12,8 @@
   <meta content="Description page here" name="description">
   <meta content="Frontend, Website, HTML, CSS" name="keywords">
   <meta content="" name="author">
-  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+  <meta content=
+  "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
   name="viewport">
   <link href="assets/img/favicon.ico" rel="shortcut icon">
   <link href="assets/bootstrap/css/bootstrap.css" media="all" rel="stylesheet" type="text/css">
@@ -67,57 +68,112 @@
 				<div class="bgwhit-main clearfix">
 
 					<header class="title-mainblack">
-						<h2>Your Salary Alerts</h2>
-						<p>You will receive anonymous salary profiles for people in the following job roles.</p>
+						<h2>Candidate Manager</h2>
+						<p>Here you can search for candidates by email address, view CVs and disable or delete candidate accounts.</p>
 					</header> <!-- //title-company -->
+
+					<div id="boxposting">
+						<table class="table">
+							<tr>
+								<td>
+									<strong>Quick Find </strong><br>
+									<div class="tb-search">
+										<form>
+											<input type="text" class="inp-src" placeholder="enter company name  ">
+											<input type="submit" class="btn-src">
+										</form>
+									</div>
+								</td>
+							</tr>
+				
+						</table>
+					</div> <!-- //boxposting -->
 
 					<div class="table-responsive">
 						<table id="sortTable" class="tablezebra table">
 							<thead>
 								<tr>
-									<th >Alert Name</th>
-									<th>Specialist Area</th>
-									<th>Employed As</th>
-									<th>Employed In</th>
-									<th width="17%">Employment Type</th>
-									<th>Created</th>
+									<th width="18%">Candidate Name</th>
+									<th width="20%">Candidate Email</th>
+									<th class="center">Joined Date</th>
+									<th class="center">CV</th>
+									<th class="center">Salary Profile</th>
+									<th class="center">Applications</th>
 									<th>Action</th>
 								</tr>
 							</thead>
 
 							<tbody>
 								<tr>
-									<td>Game designer Salaries</td>
-									<td>Game Design</td>
-									<td>Game Designer</td>
-									<td>London, UK</td>
-									<td>Permanent</td>
-									<td>30 Oct 14</td>
+									<td>Bill Smith</td>
+									<td> <a href="#" class="text-link">jrs21@gmail.com</a></td>
+									<td align="center">1 June 14</td>
+									<td align="center">Not added</td>
+									<td align="center">Yes</td>
+									<td align="center">0</td>
 									<td align="center">
-										<a href="#" class="icon-table"><img src="assets/images/icon_edit.png" alt=""></a>
+										<a href="#" class="icon-table"><img src="assets/images/icons/disable.png" alt=""></a>
 										<a href="#" class="icon-table"><img src="assets/images/icon_remove.png" alt=""></a>
 									</td>
 								</tr>
+
 								<tr>
-									<td>Alert 1 </td>
-									<td>Art and Design</td>
-									<td>3D Artist</td>
-									<td>-</td>
-									<td>-</td>
-									<td>24 Oct 14</td>
+									<td>Tom Jones</td>
+									<td> <a href="#" class="text-link">ash12@gmail.com</a></td>
+									<td align="center">14 May 14</td>
+									<td align="center"><a href="#" class="text-link">CV_1003</a></td>
+									<td align="center">No</td>
+									<td align="center">6</td>
 									<td align="center">
-										<a href="#" class="icon-table"><img src="assets/images/icon_edit.png" alt=""></a>
+										<a href="#" class="icon-table"><img src="assets/images/icons/disable.png" alt=""></a>
+										<a href="#" class="icon-table"><img src="assets/images/icon_remove.png" alt=""></a>
+									</td>
+								</tr>
+
+								<tr>
+									<td>Candidate</td>
+									<td> <a href="#" class="text-link">tj3645@gmail.com</a></td>
+									<td align="center">3 Apr 14</td>
+									<td align="center"><a href="#" class="text-link">CV_1002</a></td>
+									<td align="center">No</td>
+									<td align="center">2</td>
+									<td align="center">
+										<a href="#" class="icon-table"><img src="assets/images/icons/disable.png" alt=""></a>
+										<a href="#" class="icon-table"><img src="assets/images/icon_remove.png" alt=""></a>
+									</td>
+								</tr>
+
+								<tr>
+									<td>Bob Jones</td>
+									<td> <a href="#" class="text-link">bobjones31@gmail.com</a></td>
+									<td align="center">3 Apr 14</td>
+									<td align="center"><a href="#" class="text-link">CV_1003</a></td>
+									<td align="center">Yes</td>
+									<td align="center">1</td>
+									<td align="center">
+										<a href="#" class="icon-table"><img src="assets/images/icons/disable.png" alt=""></a>
 										<a href="#" class="icon-table"><img src="assets/images/icon_remove.png" alt=""></a>
 									</td>
 								</tr>
 							</tbody>
-						</table>	
-					</div>
+						</table>
+
+						<div class="pagination clearfix">
+							<!-- <a href="#" class="pagePrev"><</a> -->							
+							<a href="#" class="active">1</a>
+							<a href="#">2</a>
+							<a href="#">3</a>
+							<a href="#">4</a>
+							<a href="#">5</a>
+							<strong>...</strong>
+							<a href="#" class="pageNext">></a>
+						</div> <!-- //pagination -->
+					</div>	
 
 					<div class="icon-guide">
 						<ul>
 							<li class="icon-guide-key">Key : </li>
-							<li class="icon-guide-edit">Edit</li>
+							<li class="icon-guide-disable">Disable</li>
 							<li class="icon-guide-delete">Delete</li>
 						</ul>
 					</div>
