@@ -3624,6 +3624,9 @@ textarea:focus, select:hover, select:focus {
   border-right: 1px solid #ffffff;
   cursor: pointer;
 }
+.tablezebra.table tr > th:hover {
+  background: #328234;
+}
 .tablezebra.table tr > th:last-child {
   border: none;
 }
@@ -3676,6 +3679,7 @@ textarea:focus, select:hover, select:focus {
   .tablezebra .icon-table {
     margin: 0 4px;
     margin-bottom: 7px;
+    display: block;
   }
 }
 .tablezebra .icon-table:hover {
@@ -3741,6 +3745,10 @@ textarea:focus, select:hover, select:focus {
   background: url('../images/icons/disable.png?1418602515') center left no-repeat;
   padding-left: 26px;
 }
+.icon-guide ul li.icon-guide-report {
+  background: url('../images/icons/pdf.png?1418611730') center left no-repeat;
+  padding-left: 30px;
+}
 
 .tb-link-green {
   color: #3b9136;
@@ -3788,6 +3796,7 @@ textarea:focus, select:hover, select:focus {
 
 .text-link {
   color: #f28f00;
+  word-wrap: break-word;
 }
 .text-link:hover {
   text-decoration: none;

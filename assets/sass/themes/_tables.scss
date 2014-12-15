@@ -32,6 +32,10 @@
 				border-right:1px solid #ffffff;
 				cursor:pointer;
 
+				&:hover{
+					background: lighten(#276528, 8%);
+				}
+
 				&:last-child{
 					border:none;
 				}
@@ -86,6 +90,7 @@
 		@media (max-width : $screen-sm-max){
 			margin:0 4px;
 			margin-bottom:7px;
+			display:block;
 		}
 		
 		&:hover{
@@ -153,6 +158,11 @@
 				background:image-url('icons/disable.png') center left no-repeat;
 				padding-left:26px;
 			}
+
+			&.icon-guide-report{
+				background:image-url('icons/pdf.png') center left no-repeat;
+				padding-left:30px;
+			}
 			
 		}
 	}
@@ -190,6 +200,7 @@
 
 .text-link{
 	color:$orange-color;
+	word-wrap:break-word;
 	&:hover{
 		text-decoration:none;
 	}
