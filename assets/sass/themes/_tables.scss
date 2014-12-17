@@ -96,7 +96,15 @@
 		&:hover{
 			top:1px;
 		}
-	}		
+	}	
+
+	&.tb-static{
+		tr{
+			& > td{
+				padding:12px;
+			}
+		}
+	}	
 }
 
 .icon-guide{
