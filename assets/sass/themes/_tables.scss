@@ -185,9 +185,12 @@
 		background:darken($orange-color, 8%);
 	}
 }
+
 .tb-link-ex{color:$red }
 
 .btn-orangeflat{
+	background:none;
+	border:none;
 	background:$orange-color;
 	@include inline-block();
 	padding:10px 20px;
@@ -263,7 +266,7 @@
 /* ======== JOB POSTING BOX ======== */
 #boxposting{
 	width:70%;
-	max-width:575px;
+	max-width:595px;
 	margin-bottom:24px;
 
 	@media (max-width : $screen-sm-max){
@@ -390,4 +393,27 @@
 		border-left:1px solid $orange-color;
 		@include size(47px, 37px);
 	}
+}
+
+
+/* ======== SITE STATISTIC ======== */
+.tb-select{
+	@include inline-block();
+	margin-left: 15px;
+	margin-right: 15px;
+	width: 29%;
+
+	@media (max-width : 767px){
+		width: 100%;
+		margin:0;
+		margin-bottom:18px;
+	}
+
+	.bootstrap-select {
+		.btn-default{
+			background: #FFFFFF;
+			color: #565151;
+		}
+	}
+
 }
