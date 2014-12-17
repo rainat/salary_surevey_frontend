@@ -23,7 +23,7 @@
 	ul{
 		li{
 			@include inline-block();
-			width: 32px;
+			width: 30px;
 			margin-bottom:$pixel;
 			@include inline-block();
 
