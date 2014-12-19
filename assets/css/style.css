@@ -3902,7 +3902,7 @@ textarea:focus, select:hover, select:focus {
 }
 #boxposting .table tr th {
   font-size: 15px;
-  color: #3b9136;
+  color: #328234;
   position: relative;
 }
 #boxposting .table tr th:first-child:before {
@@ -3912,7 +3912,7 @@ textarea:focus, select:hover, select:focus {
   width: 7px;
   height: 100%;
   position: absolute;
-  border-left: 7px solid #419837;
+  border-left: 7px solid #328234;
 }
 #boxposting .post-nopack {
   font-style: italic;

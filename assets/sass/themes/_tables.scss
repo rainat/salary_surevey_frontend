@@ -290,7 +290,7 @@
 
 			th{
 				font-size:15px;
-				color:$green;
+				color: #328234;
 				position:relative;
 
 				&:first-child{
@@ -300,7 +300,7 @@
 						left:0;
 						@include size(7px, 100%);
 						position:absolute;
-						border-left: 7px solid #419837;
+						border-left: 7px solid #328234;
 					}
 
 				}
