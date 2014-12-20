@@ -155,7 +155,7 @@ $(document).ready(function(){
 	});
 
 	//SORT TABLE
-	$("#sortTable").tablesorter( {sortList: [[0,0], [1,0]]} ); 
+	$("#sortTable").tablesorter(); 
 
 
 	var max_fields      = 5; //maximum input boxes allowed
@@ -176,14 +176,14 @@ $(document).ready(function(){
         $(this).parent().remove(); x--;
     });
 
-    //EDIT_TABLE ====================================================
-    jQuery(".btn-editable")./*dbl*/click(function () {
-    	event.preventDefault();
+     //EDIT_TABLE ====================================================
+    ///jQuery(".btn-editable")./*dbl*/click(function () {
+    	/*event.preventDefault();
         var OriginalContent = jQuery('.tb_edit_target').text();
          
-        jQuery(OriginalContent).addClass("cellEditing");
-        jQuery(OriginalContent).html("<input type='text' value='" + OriginalContent + "' />");
-        jQuery(OriginalContent).children().first().focus();
+       jQuery('.tb_edit_target').addClass("cellEditing");
+        jQuery('.tb_edit_target').html("<input type='text' value='" + OriginalContent + "' />");
+        jQuery('.tb_edit_target').children().first().focus();
  
         jQuery(this).children().first().keypress(function (e) {
             if (e.which == 13) {
@@ -197,7 +197,7 @@ $(document).ready(function(){
           jQuery(this).parent().text(OriginalContent);
           jQuery(this).parent().removeClass("cellEditing");
       });
-    });
+    });*/
 });
 
 
