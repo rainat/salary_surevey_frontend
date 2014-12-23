@@ -251,6 +251,7 @@
 		td{
 			border:none;
 			padding:15px 8px;
+			vertical-align: middle;
 		}
 	}
 }
@@ -258,6 +259,21 @@
 	@include size(20px, 19px);
 	@include inline-block();
 	background:image-url('icons/pencil.png') 0 0 no-repeat;
+
+	&.active{
+		background:image-url('icons/pencil_use.png') 0 0 no-repeat;
+	}
+}
+
+.passfield{
+	background: none;
+	border:none;
+	border:1px solid transparent;
+	width: 95%;
+	&.active{
+		padding:12px 10px;
+		 border:1px solid #cecece;
+	}
 }
 
   /*EDIT TABLE*/
@@ -265,9 +281,11 @@
       width: auto;
       margin-bottom: 0;
       height: auto !important;
-      padding:3px !important;
+      padding:12px 10px;
       border:0;
-      background-color:rgb(255,253,210);  
+      background:white;  
+      border:1px solid #cecece;
+      width: 95%;
   }
 
 

@@ -177,27 +177,42 @@ $(document).ready(function(){
     });
 
      //EDIT_TABLE ====================================================
-    ///jQuery(".btn-editable")./*dbl*/click(function () {
-    	/*event.preventDefault();
-        var OriginalContent = jQuery('.tb_edit_target').text();
-         
-       jQuery('.tb_edit_target').addClass("cellEditing");
-        jQuery('.tb_edit_target').html("<input type='text' value='" + OriginalContent + "' />");
-        jQuery('.tb_edit_target').children().first().focus();
+     $(".btn-editable")./*dbl*/click(function () {
+    	event.preventDefault();
+    	$(this).addClass('active');
+    	var Target = $(this).parent().parent().find(".tb_edit_target");
+        var OriginalContent = $(Target).text();
+
+        $(Target).addClass("cellEditing");
+        $(Target).html("<input type='text' value='" + OriginalContent + "' />");
+        $(Target).children().first().focus();
  
-        jQuery(this).children().first().keypress(function (e) {
+        $(Target).children().first().keypress(function (e) {
             if (e.which == 13) {
-                var newContent = jQuery(this).val();
-                jQuery(this).parent().text(newContent);
-                jQuery(this).parent().removeClass("cellEditing");
+                var newContent = $(this).val();
+                $(this).parent().text(newContent);
+                $(this).parent().removeClass("cellEditing");
+                $('.btn-editable').removeClass('active');
             }
         });
          
-      jQuery(this).children().first().blur(function(){
-          jQuery(this).parent().text(OriginalContent);
-          jQuery(this).parent().removeClass("cellEditing");
-      });
-    });*/
+      /*$(Target).children().first().blur(function(){
+          $(this).parent().text(newContent);
+          $(this).parent().removeClass("cellEditing");
+      });*/
+
+
+      //PASSWORD EDIT
+       var targetPass = $(this).parent().parent().find("input[type='password']")
+       $(targetPass).prop('disabled', false).addClass('active');
+       $(targetPass).keypress(function(e){
+       	 if (e.which == 13) {
+       		$(this).prop("disabled", true).removeClass('active');
+       		$('.btn-editable').removeClass('active');
+       	  }
+       });
+
+    });
 });
 
 

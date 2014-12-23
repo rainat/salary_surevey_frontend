@@ -3859,6 +3859,7 @@ textarea:focus, select:hover, select:focus {
 .f-dtlaccount .table td {
   border: none;
   padding: 15px 8px;
+  vertical-align: middle;
 }
 
 .btn-editable {
@@ -3872,15 +3873,31 @@ textarea:focus, select:hover, select:focus {
   *display: inline;
   background: url('../images/icons/pencil.png?1418056693') 0 0 no-repeat;
 }
+.btn-editable.active {
+  background: url('../images/icons/pencil_use.png?1418056669') 0 0 no-repeat;
+}
+
+.passfield {
+  background: none;
+  border: none;
+  border: 1px solid transparent;
+  width: 95%;
+}
+.passfield.active {
+  padding: 12px 10px;
+  border: 1px solid #cecece;
+}
 
 /*EDIT TABLE*/
 .cellEditing input[type=text] {
   width: auto;
   margin-bottom: 0;
   height: auto !important;
-  padding: 3px !important;
+  padding: 12px 10px;
   border: 0;
-  background-color: #fffdd2;
+  background: white;
+  border: 1px solid #cecece;
+  width: 95%;
 }
 
 /* ======== JOB POSTING BOX ======== */
