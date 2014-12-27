@@ -220,6 +220,17 @@
 	}
 }
 
+.text-link-green{
+	color:#5aca00;
+	word-wrap:break-word;
+	@include prefixed(transition, all 0.2s linear);
+	
+	&:hover{
+		color:$orange-color;
+		text-decoration:none;
+	}
+}
+
 .tb-iconscolect{
 	text-align:center;
 	a{
@@ -443,3 +454,76 @@
 	}
 
 }
+
+
+/* ========  PACKAGE MANAGER ======== */
+
+.tb-tooltip{
+	@include inline-block;
+	position: relative;
+	float:right;
+
+	&:hover{
+		&:after{
+    		background:$orange-color;
+    		border-radius: 5px;
+    		bottom: 35px;
+    		color: #fff;
+    		content: attr(title);
+    		left: 50%;
+    		margin-left: -59px;
+    		padding: 11px 15px;
+    		position: absolute;
+    		z-index: 98;
+    		width: 137px;
+    		text-align: center;
+		}
+
+		&:before{
+			content: "";
+    		border: solid;
+    		border-color: $orange-color transparent;
+    		border-width: 16px 16px 0 16px;
+			bottom: 19px;
+    		left: 50%;
+    		margin-left: -16px;
+    		position: absolute;
+    		z-index: 99;
+		}
+	}
+}
+
+.editcol-btn{
+	@include inline-block();
+	
+	img{
+		margin-left: 15px;
+	}
+	span{
+		background:none;
+		border:none;
+		background:$orange-color;
+		@include inline-block();
+		padding: 7px 14px;
+		color:white;
+		font-size:13px;
+
+		&:hover, &:active{
+			text-decoration:none;
+			color:white;
+			background:darken($orange-color, 8%);
+		}
+	}
+}
+
+.cellEdit{
+	input{
+		border:1px solid #cecece;
+		background: white;
+		padding: 7px 10px;
+		@include inline-block();
+		width: 65px;	
+	}
+}
+
+		

@@ -142,7 +142,7 @@ $(document).ready(function(){
 
 	//TOOLTIP
 
-	$('a.icon-ask').qtip({ // Grab some elements to apply the tooltip to
+	/*$('a.icon-ask').qtip({ // Grab some elements to apply the tooltip to
 		content: {
 			text: 'My common piece of text here'
 		}
@@ -152,7 +152,7 @@ $(document).ready(function(){
 		content: {
 			text: 'My common piece of text here'
 		}
-	});
+	});*/
 
 	//SORT TABLE
 	$("#sortTable").tablesorter(); 
@@ -200,8 +200,6 @@ $(document).ready(function(){
           $(this).parent().text(newContent);
           $(this).parent().removeClass("cellEditing");
       });*/
-
-
       //PASSWORD EDIT
        var targetPass = $(this).parent().parent().find("input[type='password']")
        $(targetPass).prop('disabled', false).addClass('active');
@@ -211,8 +209,38 @@ $(document).ready(function(){
        		$('.btn-editable').removeClass('active');
        	  }
        });
-
     });
+
+
+
+   //TABLE CONTENT EDIT
+   $('.editcol-btn').on("click", function(){
+		  event.preventDefault();
+   		  var el = $(this);
+		  var TargetTb = $(this).parent().find(".editcol");
+		  var OrigiContent = $(TargetTb).text();
+
+		  if (el.html() == el.data("text-swap")) {
+		    el.html(el.data("text-original"));
+
+		    //INPUT VAL
+		    var newContent = $(TargetTb).children().first().val();
+            $(TargetTb).text(newContent);
+            $(TargetTb).removeClass("cellEdit");
+		  } 
+
+		  else {
+		    el.data("text-original", el.html());
+		    el.html(el.data("text-swap"));
+
+		    //INPUT VAL
+		    $(TargetTb).addClass("cellEdit");
+	        $(TargetTb).html("<input type='text' value='" + OrigiContent + "' />");
+	        $(TargetTb).children().first().focus();
+		  }
+
+   });
+
 });
 
 

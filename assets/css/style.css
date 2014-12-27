@@ -3819,6 +3819,20 @@ textarea:focus, select:hover, select:focus {
   text-decoration: none;
 }
 
+.text-link-green {
+  color: #5aca00;
+  word-wrap: break-word;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.text-link-green:hover {
+  color: #f28f00;
+  text-decoration: none;
+}
+
 .tb-iconscolect {
   text-align: center;
 }
@@ -4049,6 +4063,87 @@ textarea:focus, select:hover, select:focus {
 .tb-select .bootstrap-select .btn-default {
   background: #FFFFFF;
   color: #565151;
+}
+
+/* ========  PACKAGE MANAGER ======== */
+.tb-tooltip {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  position: relative;
+  float: right;
+}
+.tb-tooltip:hover:after {
+  background: #f28f00;
+  border-radius: 5px;
+  bottom: 35px;
+  color: #fff;
+  content: attr(title);
+  left: 50%;
+  margin-left: -59px;
+  padding: 11px 15px;
+  position: absolute;
+  z-index: 98;
+  width: 137px;
+  text-align: center;
+}
+.tb-tooltip:hover:before {
+  content: "";
+  border: solid;
+  border-color: #f28f00 transparent;
+  border-width: 16px 16px 0 16px;
+  bottom: 19px;
+  left: 50%;
+  margin-left: -16px;
+  position: absolute;
+  z-index: 99;
+}
+
+.editcol-btn {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+}
+.editcol-btn img {
+  margin-left: 15px;
+}
+.editcol-btn span {
+  background: none;
+  border: none;
+  background: #f28f00;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  padding: 7px 14px;
+  color: white;
+  font-size: 13px;
+}
+.editcol-btn span:hover, .editcol-btn span:active {
+  text-decoration: none;
+  color: white;
+  background: #c97700;
+}
+
+.cellEdit input {
+  border: 1px solid #cecece;
+  background: white;
+  padding: 7px 10px;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  width: 65px;
 }
 
 /*==========================================================================
