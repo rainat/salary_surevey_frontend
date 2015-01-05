@@ -3,7 +3,10 @@
 html, body								{ font-family: arial; }
 
 .html5fileupload .add, 
-.html5fileupload						{ background-color: #eeeeee; text-align: left; position: relative; border: 1px solid #dddddd; display: block; min-height: 55px; }
+.html5fileupload						{ background-color: #eeeeee; text-align: left; position: 
+relative; border: 1px dotted #b5b5b5; display: block; min-height: 55px; 
+border-image: image-url('border-image.png') 0 0 repeat;
+}
 .html5fileupload .add					{ border: none; background-color: #f3f3f3; }
 .html5fileupload .add:after,
 .html5fileupload:after					{ content: 'Drop your file(s) here or click to add one!'; font-size: 18px; color: #bbbbbb; position: absolute; top: 14%; left: 0; width: 100%; text-align: center; z-index:0;line-height: 2em;}
