@@ -243,6 +243,24 @@ $(document).ready(function(){
 
    $('.fileupload').html5fileupload();
 
+
+   /*Tabs Radio Button ==========================================================*/
+  $("input[name$='type']").click(function(){
+  		var value = $(this).val();
+		if(value=='savedcv') {
+			//$("#Individual_box").show();
+			$("#tabcontent_rd_upload").hide();
+			$(".uploadbox").css("width", "auto");
+		}
+		else if(value=='uploadcv') {
+			$("#tabcontent_rd_upload").show();
+			$(".uploadbox").css("width", "100%");
+			//$("#Individual_box").hide();
+		}
+  });
+  //$("#Individual_box").show();
+  $("#tabcontent_rd_upload").hide();
+
 });
 
 

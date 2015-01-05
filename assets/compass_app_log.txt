@@ -1448,3 +1448,29 @@ Load paths:
 2014-12-28 00:59:02 overwrite css/style.css 
 2014-12-30 05:58:58    create css/partials/html5fileupload.css 
 2014-12-30 06:02:32    create css/partials/fileupload.css 
+2014-12-30 07:42:22 overwrite css/style.css 
+2015-01-03 10:52:39 overwrite css/partials/fileupload.css 
+2015-01-03 10:53:26 identical css/partials/fileupload.css 
+2015-01-03 10:53:32 overwrite css/partials/fileupload.css 
+2015-01-03 10:56:41     error sass/partials/fileupload.scss (Line 67: Undefined variable: "$orange-color".)
+2015-01-03 10:56:42 overwrite css/partials/fileupload.css 
+2015-01-03 10:57:08     error sass/partials/fileupload.scss (Line 67: Undefined variable: "$orange-color".)
+2015-01-03 10:57:08 identical css/partials/fileupload.css 
+2015-01-03 10:58:34 overwrite css/partials/fileupload.css 
+2015-01-03 10:59:32     error sass/partials/fileupload.scss (Line 66: Undefined variable: "$orange-color".)
+2015-01-03 10:59:32 overwrite css/partials/fileupload.css 
+2015-01-03 11:00:36 overwrite css/partials/fileupload.css 
+2015-01-03 11:00:48 identical css/partials/fileupload.css 
+2015-01-03 11:01:23 overwrite css/partials/fileupload.css 
+2015-01-05 06:08:27 overwrite css/style.css 
+2015-01-05 06:08:39    remove .sass-cache/ 
+2015-01-05 06:08:39    remove css/style.css 
+2015-01-05 06:08:39    remove css/partials/fileupload.css 
+2015-01-05 06:08:48    create css/style.css 
+2015-01-05 06:08:48    create css/partials/fileupload.css 
+2015-01-05 06:10:28 overwrite css/style.css 
+2015-01-05 06:10:49 overwrite css/style.css 
+2015-01-05 06:12:43 overwrite css/style.css 
+2015-01-05 06:14:30 overwrite css/style.css 
+2015-01-05 06:15:28 overwrite css/style.css 
+2015-01-05 06:24:21 overwrite css/partials/fileupload.css 

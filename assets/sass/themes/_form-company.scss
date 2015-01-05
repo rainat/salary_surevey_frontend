@@ -16,6 +16,17 @@ label.nobold{
 	background:#e4e4e4;
 	padding:12px;
 	@include inline-block();
+	@include prefixed(transition, all .3s linear);
+
+	label{
+		margin-bottom: 0;
+	}
+}
+
+#tabcontent_rd{
+	.fileupload{
+		margin-top: 18px;
+	}
 }
 
 .inp-nolabel{
@@ -186,6 +197,11 @@ textarea, select{
 			text-decoration:none;
 		}
 	}
+}
+
+.file .iteminput1 i,  .iteminput1 i.glyphicon {
+	padding-left: 0;
+	color: white;
 }
 
 

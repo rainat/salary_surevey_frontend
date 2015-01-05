@@ -15,7 +15,7 @@
   <link href="assets/img/favicon.ico" rel="shortcut icon">
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
   <link href="assets/bootstrap/css/bootstrap.css" media="all" rel="stylesheet" type="text/css">
-  <link href="assets/css/jquery.qtip.css" media="all" rel="stylesheet" type="text/css">
+  <link href="assets/css/partials/fileupload.css" media="all" rel="stylesheet" type="text/css">
   <link href="assets/css/style.css" media="all" rel="stylesheet" type="text/css">
   <link href="assets/css/bootstrap-select.css" rel="stylesheet" type="text/css">
 
@@ -112,7 +112,9 @@
 								<div class="col-sm-12">
 									<div class="iteminput1">
 										<span><strong>6.</strong>Upload Your CV</span>
-										<div class="uploadbox"></div>
+										<div class="html5fileupload fileupload" data-url="html5fileupload.php" style="width: 100%;">
+									  		<input type="file" name="file" />
+									  	</div>
 									</div>
 									<em>You can upload from your hard drive or connect to a cloud based service such as Dropbox or Google Drive. Your CV must be .doc, .docx, .pdf or .rtf, and no larger than 1MB.</em><br><br>
 									
@@ -204,10 +206,10 @@
 	<script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="assets/js/bootstrap-select.js"></script>
 	<script type="text/javascript" src="assets/js/jquery.validate.js"></script>
-	<script type="text/javascript" src="assets/js/jquery.qtip.min.js"></script>
 	<script type="text/javascript" src="assets/js/checkbox_radio.js"></script>
 	<script type="text/javascript" src="assets/js/progress.js"></script>
 	<script src="assets/js/jquery.tablesorter.js" type="text/javascript"></script> 
+	<script src="assets/js/html5fileupload.min.js" type="text/javascript"></script> 
 	<script type="text/javascript" src="assets/js/wow.min.js"></script>
 	<script type="text/javascript">new WOW().init();</script>
 	<script type="text/javascript" src="assets/js/myjs.js"></script>

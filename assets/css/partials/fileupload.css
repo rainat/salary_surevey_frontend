@@ -1,8 +1,10 @@
 @charset "utf-8";
+/* line 3, ../../sass/partials/fileupload.scss */
 html, body {
   font-family: arial;
 }
 
+/* line 6, ../../sass/partials/fileupload.scss */
 .html5fileupload .add,
 .html5fileupload {
   background-color: #eeeeee;
@@ -13,24 +15,28 @@ html, body {
   min-height: 55px;
 }
 
+/* line 7, ../../sass/partials/fileupload.scss */
 .html5fileupload .add {
   border: none;
   background-color: #f3f3f3;
 }
 
+/* line 9, ../../sass/partials/fileupload.scss */
 .html5fileupload .add:after,
 .html5fileupload:after {
   content: 'Drop your file(s) here or click to add one!';
-  font-size: 30px;
+  font-size: 18px;
   color: #bbbbbb;
   position: absolute;
-  top: 10%;
+  top: 14%;
   left: 0;
   width: 100%;
   text-align: center;
   z-index: 0;
+  line-height: 2em;
 }
 
+/* line 11, ../../sass/partials/fileupload.scss */
 .html5fileupload .add:before,
 .html5fileupload:before {
   content: '';
@@ -45,31 +51,38 @@ html, body {
   z-index: 0;
 }
 
+/* line 13, ../../sass/partials/fileupload.scss */
 .html5fileupload.empty:after {
   content: '';
 }
 
+/* line 14, ../../sass/partials/fileupload.scss */
 .html5fileupload.empty:before {
   content: '';
 }
 
+/* line 16, ../../sass/partials/fileupload.scss */
 .html5fileupload.loading:after {
   content: 'Please wait, file is loading';
 }
 
+/* line 17, ../../sass/partials/fileupload.scss */
 .html5fileupload.loading:before {
   content: '';
 }
 
 /* not valid mime */
+/* line 20, ../../sass/partials/fileupload.scss */
 .html5fileupload.alert-danger {
   background-color: #f2dede;
 }
 
+/* line 21, ../../sass/partials/fileupload.scss */
 .html5fileupload.alert-danger:after {
   content: '';
 }
 
+/* line 22, ../../sass/partials/fileupload.scss */
 .html5fileupload .notvalid {
   font-weight: bold;
   color: #d9534f;
@@ -77,6 +90,7 @@ html, body {
 }
 
 /* multiple */
+/* line 25, ../../sass/partials/fileupload.scss */
 .html5fileupload .multiple {
   position: relative;
   padding: 5px;
@@ -84,16 +98,19 @@ html, body {
   text-align: right;
 }
 
+/* line 26, ../../sass/partials/fileupload.scss */
 .html5fileupload .multiple > * {
   margin-left: 5px;
 }
 
 /* double */
+/* line 28, ../../sass/partials/fileupload.scss */
 .html5fileupload .file.double {
   background: #fcf8e3;
 }
 
 /* preview */
+/* line 32, ../../sass/partials/fileupload.scss */
 .html5fileupload .file {
   background-color: #eeeeee;
   min-height: 60px;
@@ -106,6 +123,7 @@ html, body {
   transition: all 0.5s ease;
 }
 
+/* line 33, ../../sass/partials/fileupload.scss */
 .html5fileupload .file .preview {
   height: 50px;
   width: 50px;
@@ -117,19 +135,23 @@ html, body {
   margin: 5px;
 }
 
+/* line 34, ../../sass/partials/fileupload.scss */
 .html5fileupload .file .inner {
   float: left;
 }
 
+/* line 35, ../../sass/partials/fileupload.scss */
 .html5fileupload .file .input {
   padding: 5px 30px 5px 5px;
   position: relative;
 }
 
+/* line 36, ../../sass/partials/fileupload.scss */
 .html5fileupload .file .input input {
   padding-right: 40px;
 }
 
+/* line 37, ../../sass/partials/fileupload.scss */
 .html5fileupload .file .input .extension {
   position: absolute;
   top: 50%;
@@ -137,26 +159,31 @@ html, body {
   color: #999;
 }
 
+/* line 38, ../../sass/partials/fileupload.scss */
 .html5fileupload .file .name {
   padding: 5px 30px 5px 5px;
 }
 
+/* line 39, ../../sass/partials/fileupload.scss */
 .html5fileupload .file .size {
   font-size: 10px;
   color: #999999;
   padding: 0 30px 0px 5px;
 }
 
+/* line 40, ../../sass/partials/fileupload.scss */
 .html5fileupload .progress {
   margin: 5px;
 }
 
 /* smaller */
+/* line 47, ../../sass/partials/fileupload.scss */
 .html5fileupload.small .add,
 .html5fileupload.small {
   min-height: 35px;
 }
 
+/* line 48, ../../sass/partials/fileupload.scss */
 .html5fileupload.small .btn {
   font-size: 12px;
   line-height: 1.5;
@@ -164,20 +191,24 @@ html, body {
   padding: 1px 5px;
 }
 
+/* line 50, ../../sass/partials/fileupload.scss */
 .html5fileupload.small .add:after,
 .html5fileupload.small:after {
   font-size: 20px;
 }
 
+/* line 52, ../../sass/partials/fileupload.scss */
 .html5fileupload.small .file {
   min-height: 40px;
 }
 
+/* line 53, ../../sass/partials/fileupload.scss */
 .html5fileupload.small .file .preview {
   height: 30px;
   width: 30px;
 }
 
+/* line 55, ../../sass/partials/fileupload.scss */
 .html5fileupload input[type=file] {
   position: absolute;
   top: 0;
@@ -191,10 +222,12 @@ html, body {
   height: 100%;
 }
 
+/* line 56, ../../sass/partials/fileupload.scss */
 .html5fileupload > input[type=text] {
   display: none;
 }
 
+/* line 58, ../../sass/partials/fileupload.scss */
 .html5fileupload .progress {
   bottom: 10px;
   left: 10px;
@@ -202,6 +235,7 @@ html, body {
   display: none;
 }
 
+/* line 60, ../../sass/partials/fileupload.scss */
 .html5fileupload .tools {
   position: absolute;
   top: 5px;
@@ -210,11 +244,19 @@ html, body {
   display: inline-block;
 }
 
+/* line 61, ../../sass/partials/fileupload.scss */
 .html5fileupload .tools > * {
   margin: 0 0 0 5px;
 }
 
+/* line 63, ../../sass/partials/fileupload.scss */
 .html5fileupload.smalltools .tools .btn {
   padding: 1px 4px;
   font-size: 12px;
+}
+
+/* line 66, ../../sass/partials/fileupload.scss */
+.html5fileupload .btn-info, .html5fileupload .btn-success, .html5fileupload .btn-danger {
+  background: #f28f00;
+  border: none;
 }
