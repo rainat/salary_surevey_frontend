@@ -136,6 +136,21 @@ textarea, select{
 			background:image-url('arrowme6.png') center top no-repeat;
 		}
 	}
+
+	&.centered{
+		width: 90%;
+		margin: 0 auto;
+		display: block;
+		padding-top: 20px;
+		&:before{
+			content:"";
+			position:absolute;
+			left:0;
+			top:0;
+			background: #489943;
+			@include size(7px, 55px);
+		}
+	}
 }
 
 
@@ -202,6 +217,13 @@ textarea, select{
 .file .iteminput1 i,  .iteminput1 i.glyphicon {
 	padding-left: 0;
 	color: white;
+}
+
+.storedcv-block{
+	margin-bottom: 30px;
+	.desc{
+		margin-bottom: 30px;
+	}
 }
 
 
