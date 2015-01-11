@@ -261,6 +261,9 @@ $(document).ready(function(){
   //$("#Individual_box").show();
   $("#tabcontent_rd_upload").hide();
 
+  //DATEPICKER
+  $('.datepicker').pickmeup();
+
 });
 
 
