@@ -46,7 +46,7 @@ $border-dayweek						: #ededed;
 		display    : inline-block;
 		height     : 13.8em;
 		text-align : center;
-		width      : 23.8em;
+		width      : 25.6em;
 
 		.pmu-button {
 			color           : $color;
@@ -56,8 +56,8 @@ $border-dayweek						: #ededed;
 		}
 
 		.pmu-today {
-			background : $today-background;
-			color      : $today-color;
+			background : $color-hover;
+			color      : $selected;
 		}
 
 		.pmu-button:hover {

@@ -5027,7 +5027,7 @@ textarea:focus, select:hover, select:focus {
   display: inline-block;
   height: 13.8em;
   text-align: center;
-  width: 23.8em;
+  width: 25.6em;
 }
 /* line 51, ../sass/partials/_pickmeup.scss */
 .pickmeup .pmu-instance .pmu-button {
@@ -5038,8 +5038,8 @@ textarea:focus, select:hover, select:focus {
 }
 /* line 58, ../sass/partials/_pickmeup.scss */
 .pickmeup .pmu-instance .pmu-today {
-  background: #17384d;
-  color: #f28f00;
+  background: #f28f00;
+  color: white;
 }
 /* line 63, ../sass/partials/_pickmeup.scss */
 .pickmeup .pmu-instance .pmu-button:hover {
