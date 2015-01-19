@@ -3957,7 +3957,12 @@ textarea.inp-white, select.inp-white {
   background: white;
 }
 
-/* line 62, ../sass/themes/_form-company.scss */
+/* line 58, ../sass/themes/_form-company.scss */
+textarea {
+  padding: 17px;
+}
+
+/* line 66, ../sass/themes/_form-company.scss */
 .iteminput1 input[type="text"],
 .iteminput1 input[type="email"],
 .iteminput1 textarea, .iteminput1 select, .iteminput2 input[type="text"],
@@ -3967,7 +3972,7 @@ textarea.inp-white, select.inp-white {
   background: #f4f1f1;
   font-size: 12px;
 }
-/* line 67, ../sass/themes/_form-company.scss */
+/* line 71, ../sass/themes/_form-company.scss */
 .iteminput1 input[type="text"].inp-white,
 .iteminput1 input[type="email"].inp-white,
 .iteminput1 textarea.inp-white, .iteminput1 select.inp-white, .iteminput2 input[type="text"].inp-white,
@@ -3976,7 +3981,7 @@ textarea.inp-white, select.inp-white {
   background: white;
 }
 
-/* line 76, ../sass/themes/_form-company.scss */
+/* line 80, ../sass/themes/_form-company.scss */
 input[type="text"]:hover, input[type="text"]:focus,
 input[type="email"]:hover,
 input[type="email"]:focus,
@@ -3985,19 +3990,19 @@ textarea:focus, select:hover, select:focus {
   background: white;
 }
 
-/* line 82, ../sass/themes/_form-company.scss */
+/* line 86, ../sass/themes/_form-company.scss */
 .bootstrap-select {
   font-size: 14px;
   font-family: 'arial', sans-serif;
 }
-/* line 85, ../sass/themes/_form-company.scss */
+/* line 89, ../sass/themes/_form-company.scss */
 .bootstrap-select .btn-default {
   background: #f4f1f1;
   border: 1px solid #cecece;
   color: #b8b4b4;
 }
 
-/* line 93, ../sass/themes/_form-company.scss */
+/* line 97, ../sass/themes/_form-company.scss */
 .form-title {
   background: #3d9436;
   font-family: 'Open Sans', sans-serif;
@@ -4015,7 +4020,7 @@ textarea:focus, select:hover, select:focus {
   text-transform: uppercase;
   margin-bottom: 44px;
 }
-/* line 105, ../sass/themes/_form-company.scss */
+/* line 109, ../sass/themes/_form-company.scss */
 .form-title:before {
   content: '';
   width: 21px;
@@ -4026,7 +4031,7 @@ textarea:focus, select:hover, select:focus {
   background: transparent url('../images/arrowme4.png?1415181584') 0 0 no-repeat;
 }
 
-/* line 117, ../sass/themes/_form-company.scss */
+/* line 121, ../sass/themes/_form-company.scss */
 .grey-block {
   background: #fafafa;
   width: 100%;
@@ -4051,7 +4056,7 @@ textarea:focus, select:hover, select:focus {
 .grey-block:after {
   clear: both;
 }
-/* line 130, ../sass/themes/_form-company.scss */
+/* line 134, ../sass/themes/_form-company.scss */
 .grey-block.grey-block-arrow:before {
   content: '';
   position: absolute;
@@ -4061,14 +4066,14 @@ textarea:focus, select:hover, select:focus {
   bottom: -37px;
   background: url('../images/arrowme6.png?1415181583') center top no-repeat;
 }
-/* line 140, ../sass/themes/_form-company.scss */
+/* line 144, ../sass/themes/_form-company.scss */
 .grey-block.centered {
   width: 90%;
   margin: 0 auto;
   display: block;
   padding-top: 20px;
 }
-/* line 145, ../sass/themes/_form-company.scss */
+/* line 149, ../sass/themes/_form-company.scss */
 .grey-block.centered:before {
   content: "";
   position: absolute;
@@ -4079,7 +4084,7 @@ textarea:focus, select:hover, select:focus {
   height: 55px;
 }
 
-/* line 157, ../sass/themes/_form-company.scss */
+/* line 161, ../sass/themes/_form-company.scss */
 .notif-greybox {
   background: #f2f2f2;
   padding: 23px 25px;
@@ -4102,7 +4107,7 @@ textarea:focus, select:hover, select:focus {
 .notif-greybox:after {
   clear: both;
 }
-/* line 171, ../sass/themes/_form-company.scss */
+/* line 175, ../sass/themes/_form-company.scss */
 .notif-greybox:before {
   content: '';
   position: absolute;
@@ -4112,7 +4117,7 @@ textarea:focus, select:hover, select:focus {
   height: 30px;
   background: transparent url('../images/arrowme3.png?1415181585') center top no-repeat;
 }
-/* line 180, ../sass/themes/_form-company.scss */
+/* line 184, ../sass/themes/_form-company.scss */
 .notif-greybox .icon-angle {
   text-align: center;
   color: #d0d0d0;
@@ -4121,7 +4126,7 @@ textarea:focus, select:hover, select:focus {
 }
 
 /* ======== ADD FIELD DYNAMICALLY ======== */
-/* line 190, ../sass/themes/_form-company.scss */
+/* line 194, ../sass/themes/_form-company.scss */
 .move-field {
   display: block;
   float: left;
@@ -4130,13 +4135,13 @@ textarea:focus, select:hover, select:focus {
   background: url('../images/icons/close_row.png?1417835549') 0 0 no-repeat;
 }
 
-/* line 197, ../sass/themes/_form-company.scss */
+/* line 201, ../sass/themes/_form-company.scss */
 .btn-fieldwrap {
   width: 100%;
   padding-left: 15px;
   margin-bottom: 20px;
 }
-/* line 202, ../sass/themes/_form-company.scss */
+/* line 206, ../sass/themes/_form-company.scss */
 .btn-fieldwrap a {
   display: -moz-inline-stack;
   display: inline-block;
@@ -4153,23 +4158,23 @@ textarea:focus, select:hover, select:focus {
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
 }
-/* line 210, ../sass/themes/_form-company.scss */
+/* line 214, ../sass/themes/_form-company.scss */
 .btn-fieldwrap a:hover {
   color: #f28f00;
   text-decoration: none;
 }
 
-/* line 217, ../sass/themes/_form-company.scss */
+/* line 221, ../sass/themes/_form-company.scss */
 .file .iteminput1 i, .iteminput1 i.glyphicon {
   padding-left: 0;
   color: white;
 }
 
-/* line 222, ../sass/themes/_form-company.scss */
+/* line 226, ../sass/themes/_form-company.scss */
 .storedcv-block {
   margin-bottom: 30px;
 }
-/* line 224, ../sass/themes/_form-company.scss */
+/* line 228, ../sass/themes/_form-company.scss */
 .storedcv-block .desc {
   margin-bottom: 30px;
 }
