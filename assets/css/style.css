@@ -156,14 +156,20 @@ img {
   color: #f28f00;
 }
 
+/* line 118, ../sass/base/_general.scss */
+.link-textorange {
+  color: #f28f00;
+  text-decoration: underline;
+}
+
 /* ======== COLOR ======== */
-/* line 120, ../sass/base/_general.scss */
+/* line 125, ../sass/base/_general.scss */
 .text-greenlt {
   color: #70ff49;
 }
 
 /* ======== LAYOUT ======== */
-/* line 125, ../sass/base/_general.scss */
+/* line 130, ../sass/base/_general.scss */
 .centered {
   width: 100%;
   min-height: 100px;
@@ -1613,7 +1619,7 @@ ul#list-search li h5 {
   color: #454545;
 }
 /* line 1309, ../sass/style.scss */
-.iteminput1 input[type="text"] {
+.iteminput1 input[type="text"], .iteminput1 input[type="password"], .iteminput1 input[type="email"] {
   width: 100%;
   display: block;
   background: #fff;
@@ -3962,26 +3968,30 @@ textarea {
   padding: 17px;
 }
 
-/* line 66, ../sass/themes/_form-company.scss */
+/* line 67, ../sass/themes/_form-company.scss */
 .iteminput1 input[type="text"],
 .iteminput1 input[type="email"],
+.iteminput1 input[type="password"],
 .iteminput1 textarea, .iteminput1 select, .iteminput2 input[type="text"],
 .iteminput2 input[type="email"],
+.iteminput2 input[type="password"],
 .iteminput2 textarea, .iteminput2 select {
   border: 1px solid #cecece;
   background: #f4f1f1;
   font-size: 12px;
 }
-/* line 71, ../sass/themes/_form-company.scss */
+/* line 72, ../sass/themes/_form-company.scss */
 .iteminput1 input[type="text"].inp-white,
 .iteminput1 input[type="email"].inp-white,
+.iteminput1 input[type="password"].inp-white,
 .iteminput1 textarea.inp-white, .iteminput1 select.inp-white, .iteminput2 input[type="text"].inp-white,
 .iteminput2 input[type="email"].inp-white,
+.iteminput2 input[type="password"].inp-white,
 .iteminput2 textarea.inp-white, .iteminput2 select.inp-white {
   background: white;
 }
 
-/* line 80, ../sass/themes/_form-company.scss */
+/* line 81, ../sass/themes/_form-company.scss */
 input[type="text"]:hover, input[type="text"]:focus,
 input[type="email"]:hover,
 input[type="email"]:focus,
@@ -3990,19 +4000,19 @@ textarea:focus, select:hover, select:focus {
   background: white;
 }
 
-/* line 86, ../sass/themes/_form-company.scss */
+/* line 87, ../sass/themes/_form-company.scss */
 .bootstrap-select {
   font-size: 14px;
   font-family: 'arial', sans-serif;
 }
-/* line 89, ../sass/themes/_form-company.scss */
+/* line 90, ../sass/themes/_form-company.scss */
 .bootstrap-select .btn-default {
   background: #f4f1f1;
   border: 1px solid #cecece;
   color: #b8b4b4;
 }
 
-/* line 97, ../sass/themes/_form-company.scss */
+/* line 98, ../sass/themes/_form-company.scss */
 .form-title {
   background: #3d9436;
   font-family: 'Open Sans', sans-serif;
@@ -4020,7 +4030,7 @@ textarea:focus, select:hover, select:focus {
   text-transform: uppercase;
   margin-bottom: 44px;
 }
-/* line 109, ../sass/themes/_form-company.scss */
+/* line 110, ../sass/themes/_form-company.scss */
 .form-title:before {
   content: '';
   width: 21px;
@@ -4031,7 +4041,7 @@ textarea:focus, select:hover, select:focus {
   background: transparent url('../images/arrowme4.png?1415181584') 0 0 no-repeat;
 }
 
-/* line 121, ../sass/themes/_form-company.scss */
+/* line 122, ../sass/themes/_form-company.scss */
 .grey-block {
   background: #fafafa;
   width: 100%;
@@ -4056,7 +4066,7 @@ textarea:focus, select:hover, select:focus {
 .grey-block:after {
   clear: both;
 }
-/* line 134, ../sass/themes/_form-company.scss */
+/* line 135, ../sass/themes/_form-company.scss */
 .grey-block.grey-block-arrow:before {
   content: '';
   position: absolute;
@@ -4066,14 +4076,14 @@ textarea:focus, select:hover, select:focus {
   bottom: -37px;
   background: url('../images/arrowme6.png?1415181583') center top no-repeat;
 }
-/* line 144, ../sass/themes/_form-company.scss */
+/* line 145, ../sass/themes/_form-company.scss */
 .grey-block.centered {
   width: 90%;
   margin: 0 auto;
   display: block;
   padding-top: 20px;
 }
-/* line 149, ../sass/themes/_form-company.scss */
+/* line 150, ../sass/themes/_form-company.scss */
 .grey-block.centered:before {
   content: "";
   position: absolute;
@@ -4084,7 +4094,7 @@ textarea:focus, select:hover, select:focus {
   height: 55px;
 }
 
-/* line 161, ../sass/themes/_form-company.scss */
+/* line 162, ../sass/themes/_form-company.scss */
 .notif-greybox {
   background: #f2f2f2;
   padding: 23px 25px;
@@ -4107,7 +4117,7 @@ textarea:focus, select:hover, select:focus {
 .notif-greybox:after {
   clear: both;
 }
-/* line 175, ../sass/themes/_form-company.scss */
+/* line 176, ../sass/themes/_form-company.scss */
 .notif-greybox:before {
   content: '';
   position: absolute;
@@ -4117,7 +4127,7 @@ textarea:focus, select:hover, select:focus {
   height: 30px;
   background: transparent url('../images/arrowme3.png?1415181585') center top no-repeat;
 }
-/* line 184, ../sass/themes/_form-company.scss */
+/* line 185, ../sass/themes/_form-company.scss */
 .notif-greybox .icon-angle {
   text-align: center;
   color: #d0d0d0;
@@ -4126,7 +4136,7 @@ textarea:focus, select:hover, select:focus {
 }
 
 /* ======== ADD FIELD DYNAMICALLY ======== */
-/* line 194, ../sass/themes/_form-company.scss */
+/* line 195, ../sass/themes/_form-company.scss */
 .move-field {
   display: block;
   float: left;
@@ -4135,13 +4145,13 @@ textarea:focus, select:hover, select:focus {
   background: url('../images/icons/close_row.png?1417835549') 0 0 no-repeat;
 }
 
-/* line 201, ../sass/themes/_form-company.scss */
+/* line 202, ../sass/themes/_form-company.scss */
 .btn-fieldwrap {
   width: 100%;
   padding-left: 15px;
   margin-bottom: 20px;
 }
-/* line 206, ../sass/themes/_form-company.scss */
+/* line 207, ../sass/themes/_form-company.scss */
 .btn-fieldwrap a {
   display: -moz-inline-stack;
   display: inline-block;
@@ -4158,25 +4168,95 @@ textarea:focus, select:hover, select:focus {
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
 }
-/* line 214, ../sass/themes/_form-company.scss */
+/* line 215, ../sass/themes/_form-company.scss */
 .btn-fieldwrap a:hover {
   color: #f28f00;
   text-decoration: none;
 }
 
-/* line 221, ../sass/themes/_form-company.scss */
+/* line 222, ../sass/themes/_form-company.scss */
 .file .iteminput1 i, .iteminput1 i.glyphicon {
   padding-left: 0;
   color: white;
 }
 
-/* line 226, ../sass/themes/_form-company.scss */
+/* line 227, ../sass/themes/_form-company.scss */
 .storedcv-block {
   margin-bottom: 30px;
 }
-/* line 228, ../sass/themes/_form-company.scss */
+/* line 229, ../sass/themes/_form-company.scss */
 .storedcv-block .desc {
   margin-bottom: 30px;
+}
+
+/* line 235, ../sass/themes/_form-company.scss */
+.grey-block__half {
+  margin-bottom: 30px;
+}
+
+/* line 239, ../sass/themes/_form-company.scss */
+.btnwrap-login {
+  text-align: right;
+}
+/* line 242, ../sass/themes/_form-company.scss */
+.btnwrap-login .orangegadient {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  margin-bottom: 8px;
+}
+/* line 246, ../sass/themes/_form-company.scss */
+.btnwrap-login .link-textorange {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+}
+
+/* line 252, ../sass/themes/_form-company.scss */
+.radio__greybox__wrap {
+  margin-left: -8px;
+  overflow: hidden;
+}
+
+/* line 256, ../sass/themes/_form-company.scss */
+.radio__greybox {
+  background: #e4e4e4;
+  width: 100%;
+  margin-left: 8px;
+  padding: 15px 10px;
+  margin-bottom: 20px;
+  float: left;
+  display: block;
+  min-height: 155px;
+  height: auto !important;
+  height: 155px;
+}
+/* line 266, ../sass/themes/_form-company.scss */
+.radio__greybox:last-child {
+  margin-right: 0;
+}
+@media (min-width: 581px) {
+  /* line 256, ../sass/themes/_form-company.scss */
+  .radio__greybox {
+    width: 46.5%;
+  }
+}
+
+/* line 275, ../sass/themes/_form-company.scss */
+.list_disc_radio {
+  list-style-type: disc;
+  margin-left: 30px;
+}
+/* line 278, ../sass/themes/_form-company.scss */
+.list_disc_radio li {
+  list-style-type: disc;
+  margin-top: 5px;
 }
 
 /*==========================================================================

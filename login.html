@@ -30,7 +30,6 @@
 </head>
 
 <body>
-
 	<header id="headerweb">
 		<div class="wrapper">
 		      <a class="logintop" href="#">Login &nbsp;&nbsp;<i class=
@@ -66,105 +65,95 @@
 		<div class="wrapper">
 			<div class="itempage-result">
 				<div class="bgwhit-main">
+					<header class="title-mainblack"><h2>LOG IN OR CREATE AN ACCOUNT</h2></header>
 
 					<form id="ssearch" class="form-horizontal">
 						<div class="centered">
+							<div class="grey-block__half col-md-5">
+								<div class="form-title">LOG IN</div><div class="clearfix"></div> <!-- form-title -->
 
-							<div class="form-title">Post a job</div><div class="clearfix"></div> <!-- form-title -->
-
-							<div class="grey-block grey-block-arrow">
-								<div class="col-sm-6">
+								<div class="grey-block">
 									<div class="iteminput1">
-										<span><strong>1.</strong>Job Title</span>
-										<input type="text" placeholder="E.g. Gameplay Programmer">
+										<span>Email Address</span>
+										<input type="text" name="">
 									</div>
 
 									<div class="iteminput1">
-										<span><strong>3.</strong>Job Type</span>
-										<select class="selectpicker select2" multiple data-max-options="1">
-											<option value="">Writer</option>
-											<option value="1">Design</option>
-											<option value="2">Video maker</option>
-										</select>
-									</div>
-								</div>
-
-								<div class="col-sm-6">
-									<div class="iteminput1">
-										<span><strong>2.</strong>Job Reference</span>
-										<input type="text" placeholder="Enter job reference if required">
+										<span>Password</span><input type="password" name="">
 									</div>
 
+									<label class="nobold">
+										<input type="checkbox" class="cxbox">Remember Me
+									</label><br><br>
+
+									<div class="btnwrap-login">
+										<div class="orangegadient">
+											<input type="submit" name="submit" class="no-btn" value="Login"> &nbsp;<img src="assets/images/arrowbntorange.png" alt="">
+										</div><br>
+										<a href="#" class="link-textorange">Forgotten Passowrd</a>
+									</div>
+								</div>	
+							</div> <!-- //grey-block__half -->
+
+							<div class="grey-block__half col-md-7">
+								<div class="form-title">REATE AN ACCOUNT</div><div class="clearfix"></div> <!-- form-title -->
+
+								<div class="grey-block">
+									<p class="bolder">Choose Your Account Type</p><br>
+									
+									<div class="radio__greybox__wrap">
+										<label class="radio-bulled radio__greybox">
+										  <input type="radio" name="type" class="radio"> Use Existing Logo<br>
+										  <ul class="list_disc_radio">
+											<li>Save Jobs</li>
+											<li>One Click  Apply</li>
+											<li>Add Your Salary</li>
+											<li>Get Salary Alerts</li>
+										  </ul>
+										</label>
+
+										<label class="radio-bulled radio__greybox">
+											<input type="radio" name="type" class="radio"> Upload Logo<br>
+											<ul class="list_disc_radio">
+												<li>Add company profile</li>
+												<li>Post jobs</li>
+												<li>Post banners</li>
+												<li>Research Salaries</li>
+											</ul>
+										</label>
+									</div>
+
+									<div class="row">
+										<div class="iteminput1 col-md-6">
+											<span>First Name</span><input type="text" name="">
+										</div>
+
+										<div class="iteminput1 col-md-6">
+											<span>Last Name</span><input type="text" name="">
+										</div>
+									</div>
+
 									<div class="iteminput1">
-										<span><strong>4.</strong>Job Category</span>
-										<select class="selectpicker select2" multiple data-max-options="1">
-											<option value="">Writer</option>
-											<option value="1">Design</option>
-											<option value="2">Video maker</option>
-										</select>
+										<span>Email</span><input type="text" name="">
+									</div>
+									<div class="iteminput1">
+										<span>Password</span><input type="password" name="">
+									</div>
+									<div class="iteminput1">
+										<span>Confirm Password</span><input type="password" name="">
+									</div>
+									<label class="nobold">
+										<input type="checkbox" class="cxbox">I agree to <a href="#" class="text-orange">the Terms & Conditions</a> and <a href="#" class="text-orange">Privacy Policy</a>
+									</label><br><br>
+
+									<div class="btnwrap-login">
+										<div class="orangegadient">
+											<input type="submit" name="submit" class="no-btn" value="Create my account"> &nbsp;<img src="assets/images/arrowbntorange.png" alt="">
+										</div><br>
 									</div>
 								</div>
-								<div class="clearfix"></div>
-
-								<div class="col-md-12 iteminput1">
-									<span><strong>5.</strong>Job Description</span>
-									<textarea rows="15"></textarea>
-								</div>
-								<div class="clearfix"></div>
-								
-								
-								<div class="iteminput1 col-sm-6">
-									<span><strong>6.</strong>Job Location</span>
-									<input type="text" placeholder="Enter City and select">
-								</div>
-
-								<div class="iteminput1 col-sm-6">
-									<span><strong>7.</strong>Expires On</span>
-									<input type="text" placeholder="Select Date" class="datepicker">
-								</div>
-								
-
-								<div class="iteminput1 col-sm-6">
-									<span><strong>8.</strong>Job Application Method</span>
-									<select class="selectpicker select2" multiple data-max-options="1">
-										<option value="0">By Email</option>
-										<option value="1">Redirect to URL</option>
-									</select>
-								</div>
-
-								<div class="col-sm-6 iteminput1">
-									<input type="text" placeholder="abcgames@gmail.com" class="inp-nolabel">
-								</div>
-								<div class="clearfix"></div>
-
-								<div class="col-md-12">
-									<div class="iteminput1">
-										<span><strong>9.</strong>Job Logo</span>
-										<div class="uploadbox">
-											<label class="radio-bulled">
-											  <input type="radio" name="type" value="savedcv" class="radio" checked> Use Existing Logo
-											</label>
-											<label class="radio-bulled">
-											  <input type="radio" name="type" value="uploadcv" class="radio"> Upload Logo
-											</label>
-
-											<div id="tabcontent_rd">
-												<div id="tabcontent_rd_upload">
-													<div class="html5fileupload fileupload" data-url="html5fileupload.php" style="width: 100%;">
-										  			<input type="file" name="file" />
-										  			</div>
-												</div>
-											</div> <!-- // tabcontent_radio -->
-										</div> <!-- //uploadbox -->
-									</div> <!-- //iteminput1 -->
-								</div>
-
-							</div> <!-- GreyBlock -->
+							</div> <!-- grey-block__half -->
 						</div><!-- /centered -->
-
-						<div class="orangegadient linkorangeform">
-							<input type="submit" name="submit" class="no-btn" value="Preview"> &nbsp;<img src="assets/images/arrowbntorange.png" alt="">
-						</div>
 					</form>
 
 				</div><!-- //bgwhit-main -->

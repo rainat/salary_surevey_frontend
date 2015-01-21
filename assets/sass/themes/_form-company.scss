@@ -61,7 +61,8 @@ textarea{
 
 .iteminput1, .iteminput2 {
 	input[type="text"],
-	input[type="email"],
+	input[type="email"], 
+	input[type="password"],
 	textarea, select
 	{
 		border:1px solid #cecece;
@@ -229,6 +230,58 @@ textarea, select{
 		margin-bottom: 30px;
 	}
 }
+
+
+.grey-block__half{
+	margin-bottom:30px;
+}
+
+.btnwrap-login{
+	text-align: right;
+	
+	.orangegadient{
+		@include inline-block();
+		margin-bottom: 8px;
+	}
+	.link-textorange{
+		@include inline-block();
+	}
+}
+
+
+.radio__greybox__wrap{
+	margin-left: -8px;
+	overflow: hidden;
+}
+.radio__greybox{
+	background:#e4e4e4;
+	width: 100%;
+	margin-left: 8px;
+	padding: 15px 10px;
+	margin-bottom: 20px;
+	float: left;
+	display: block;
+	@include min-height(155px);
+
+	&:last-child{
+		margin-right:0;
+	}
+
+	@media (min-width: 581px){
+		width: 46.5%;
+	}
+}
+
+.list_disc_radio{
+	list-style-type: disc;
+	margin-left: 30px;
+	li{
+		list-style-type: disc;
+		margin-top: 5px;
+	}
+}
+
+
 
 
 
