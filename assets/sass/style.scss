@@ -1373,6 +1373,8 @@ ul#list-search {
     margin-top: 15px;
     margin-right: -4px;
   }
+
+
 }
 
 .lastlastmidch {
@@ -2956,6 +2958,10 @@ ul.clink {
   display: inline-block;
   margin-right: .8em;
   cursor: pointer;
+
+   .text-orange{
+      text-decoration: underline;
+    }
 }
 
 .custom-radio, .custom-check {
