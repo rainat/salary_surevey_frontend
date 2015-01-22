@@ -526,4 +526,88 @@
 	}
 }
 
+
+.salary-rec{
+	border:1px solid #dfdfdf;	
+}
+
+.salary-rec__header{
+	overflow: hidden;
+	padding:20px $pixel * 2 + 3;
+	p{
+		font-weight: 700;
+		margin-bottom: 0;
+
+		&.id{
+			float:left;
+		}
+		&.date{
+			float:right;
+		}
+
+		@media (max-width: 767px){
+			text-align:center;
+			&.date, &.id{
+				float: none;
+				display: block;
+				margin-bottom: 15px;
+			}
+		}
+	}
+}
+
+.salary-rec__list{
+	.salary-rec__list__title{
+		color:$green;
+		font-weight: 700;
+		font-size: 15px;
+		margin:0;
+		padding: $pixel + 2  $pixel * 2 + 3;
+		border:1px solid #dfdfdf;	
+		position: relative;
+		&:before{
+			content:'';
+			position: absolute;
+			left:0;
+			top:0;
+			width: 7px;
+			height:100%;
+			background:$green;
+		}
+	}
+
+	.salary-rec__list__desc{
+		padding: $pixel * 2;
+	}
+}
+
+.green_listyle{
+	list-style: none;
+	padding-left: $pixel + 7;
+	li{
+		list-style: none;
+		padding-left:$pixel * 3;
+		background:image-url("icons/thick.png") left top no-repeat;
+		margin-bottom: $pixel + 2;
+		display: block;
+	}
+}
+
+.table-record{
+	font-size: 13px;
+
+	&.table{
+		margin-bottom: 0;
+		@media (max-width: 768px){
+			max-width: 550px;
+		}
+		strong{
+			font-weight: normal;
+			font-weight: 700;
+		}
+		td{
+			border:none;
+		}
+	}
+}
 		

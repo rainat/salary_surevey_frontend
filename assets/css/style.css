@@ -4891,6 +4891,105 @@ textarea:focus, select:hover, select:focus {
   width: 65px;
 }
 
+/* line 530, ../sass/themes/_tables.scss */
+.salary-rec {
+  border: 1px solid #dfdfdf;
+}
+
+/* line 534, ../sass/themes/_tables.scss */
+.salary-rec__header {
+  overflow: hidden;
+  padding: 20px 23px;
+}
+/* line 537, ../sass/themes/_tables.scss */
+.salary-rec__header p {
+  font-weight: 700;
+  margin-bottom: 0;
+}
+/* line 541, ../sass/themes/_tables.scss */
+.salary-rec__header p.id {
+  float: left;
+}
+/* line 544, ../sass/themes/_tables.scss */
+.salary-rec__header p.date {
+  float: right;
+}
+@media (max-width: 767px) {
+  /* line 537, ../sass/themes/_tables.scss */
+  .salary-rec__header p {
+    text-align: center;
+  }
+  /* line 550, ../sass/themes/_tables.scss */
+  .salary-rec__header p.date, .salary-rec__header p.id {
+    float: none;
+    display: block;
+    margin-bottom: 15px;
+  }
+}
+
+/* line 560, ../sass/themes/_tables.scss */
+.salary-rec__list .salary-rec__list__title {
+  color: #3b9136;
+  font-weight: 700;
+  font-size: 15px;
+  margin: 0;
+  padding: 12px 23px;
+  border: 1px solid #dfdfdf;
+  position: relative;
+}
+/* line 568, ../sass/themes/_tables.scss */
+.salary-rec__list .salary-rec__list__title:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 7px;
+  height: 100%;
+  background: #3b9136;
+}
+/* line 579, ../sass/themes/_tables.scss */
+.salary-rec__list .salary-rec__list__desc {
+  padding: 20px;
+}
+
+/* line 584, ../sass/themes/_tables.scss */
+.green_listyle {
+  list-style: none;
+  padding-left: 17px;
+}
+/* line 587, ../sass/themes/_tables.scss */
+.green_listyle li {
+  list-style: none;
+  padding-left: 30px;
+  background: url('../images/icons/thick.png?1421931569') left top no-repeat;
+  margin-bottom: 12px;
+  display: block;
+}
+
+/* line 596, ../sass/themes/_tables.scss */
+.table-record {
+  font-size: 13px;
+}
+/* line 599, ../sass/themes/_tables.scss */
+.table-record.table {
+  margin-bottom: 0;
+}
+@media (max-width: 768px) {
+  /* line 599, ../sass/themes/_tables.scss */
+  .table-record.table {
+    max-width: 550px;
+  }
+}
+/* line 604, ../sass/themes/_tables.scss */
+.table-record.table strong {
+  font-weight: normal;
+  font-weight: 700;
+}
+/* line 608, ../sass/themes/_tables.scss */
+.table-record.table td {
+  border: none;
+}
+
 /*==========================================================================
   PAGINATION
 ========================================================================== */

@@ -1622,3 +1622,49 @@ Load paths:
 2015-01-22 00:44:51 overwrite css/style.css 
 2015-01-22 00:46:34 overwrite css/style.css 
 2015-01-22 00:47:25 overwrite css/style.css 
+2015-01-22 12:08:49 overwrite css/style.css 
+2015-01-22 12:09:38 overwrite css/style.css 
+2015-01-22 12:09:58 overwrite css/style.css 
+2015-01-22 12:10:58 overwrite css/style.css 
+2015-01-22 12:11:11 overwrite css/style.css 
+2015-01-22 19:07:52     error sass/style.scss (Line 555 of sass/themes/_tables.scss: Invalid CSS after "		border-left:": expected expression (e.g. 1px, bold), was ";")
+2015-01-22 19:07:53 overwrite css/style.css 
+2015-01-22 19:07:57     error sass/style.scss (Line 555 of sass/themes/_tables.scss: Invalid CSS after "		border-left:": expected expression (e.g. 1px, bold), was ";")
+2015-01-22 19:07:57 identical css/style.css 
+2015-01-22 19:10:03 overwrite css/style.css 
+2015-01-22 19:11:28 overwrite css/style.css 
+2015-01-22 19:11:37 overwrite css/style.css 
+2015-01-22 19:11:51 identical css/style.css 
+2015-01-22 19:13:36     error sass/style.scss (Line 563 of sass/themes/_tables.scss: Invalid CSS after "			width: 7px": expected ";", was ".")
+2015-01-22 19:13:36 overwrite css/style.css 
+2015-01-22 19:13:40     error sass/style.scss (Line 563 of sass/themes/_tables.scss: Invalid CSS after "			width: 7px": expected ";", was ".")
+2015-01-22 19:13:40 identical css/style.css 
+2015-01-22 19:15:05 overwrite css/style.css 
+2015-01-22 19:15:39 overwrite css/style.css 
+2015-01-22 19:16:15 identical css/style.css 
+2015-01-22 19:16:46 overwrite css/style.css 
+2015-01-22 19:18:02 overwrite css/style.css 
+2015-01-22 19:21:43 overwrite css/style.css 
+2015-01-22 19:21:47 overwrite css/style.css 
+2015-01-22 19:21:57 overwrite css/style.css 
+2015-01-22 19:24:42 overwrite css/style.css 
+2015-01-22 19:25:12 overwrite css/style.css 
+2015-01-22 19:25:34 overwrite css/style.css 
+2015-01-22 19:25:41 overwrite css/style.css 
+2015-01-22 19:26:54 overwrite css/style.css 
+2015-01-22 19:27:44 overwrite css/style.css 
+2015-01-22 19:28:26 overwrite css/style.css 
+2015-01-22 19:45:55 overwrite css/style.css 
+2015-01-22 19:46:11 overwrite css/style.css 
+2015-01-22 19:48:32 overwrite css/style.css 
+2015-01-22 19:49:22 overwrite css/style.css 
+2015-01-22 19:51:48 overwrite css/style.css 
+2015-01-22 19:51:56 identical css/style.css 
+2015-01-22 19:56:19 overwrite css/style.css 
+2015-01-22 19:59:40 overwrite css/style.css 
+2015-01-22 20:00:09 overwrite css/style.css 
+2015-01-22 20:00:35 overwrite css/style.css 
+2015-01-22 20:02:09 overwrite css/style.css 
+2015-01-22 20:03:38 overwrite css/style.css 
+2015-01-22 20:04:49 overwrite css/style.css 
+2015-01-22 20:06:10 overwrite css/style.css 
