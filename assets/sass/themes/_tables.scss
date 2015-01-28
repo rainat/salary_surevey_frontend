@@ -61,7 +61,7 @@
 					background:#dedcdc;
 				}
 				&:first-child{
-					border-left:3px solid  #8dbb1d;
+					border-left:3px solid  #8dbb1d; 
 				}
 
 				&.td-nodata{
@@ -109,6 +109,7 @@
 
 .icon-guide{
 	font: 12px 'arial', sans-serif;
+	margin-bottom: 25px;
 	ul{
 		li{
 			@include inline-block();
@@ -173,6 +174,14 @@
 			}
 			&.icon-guide-view{
 				background:image-url('icons/zoom.png') center left no-repeat;
+				padding-left:30px;
+			}
+			&.icon-guide-disable{
+				background:image-url('icons/disable_2.png') center left no-repeat;
+				padding-left:30px;
+			}
+			&.icon-guide-enable{
+				background:image-url('icons/enabled.png') center left no-repeat;
 				padding-left:30px;
 			}
 		}
@@ -609,5 +618,27 @@
 			border:none;
 		}
 	}
+}
+
+
+%extend_btn_action{
+	background: none;
+	border:none;
+	@include size(18px, 19px);
+	@include inline-block();
+	@include prefixed(transition, all 0.2s linear);
+
+	&:hover{
+		@include opacity(0.7);
+	}
+}
+.btn-disabled{
+	@extend %extend_btn_action;
+	background: image-url("icons/disable_2.png") 0 0 no-repeat;
+	
+}
+.btn-enabled{
+	@extend %extend_btn_action;
+	background: image-url("icons/enabled.png") 0 0 no-repeat;
 }
 		
