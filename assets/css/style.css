@@ -4343,7 +4343,7 @@ textarea:focus, select:hover, select:focus {
 }
 /* line 63, ../sass/themes/_tables.scss */
 .tablezebra.table tr > td:first-child {
-  border-left: 3px solid #8dbb1d;
+  border-left: 1px solid #8dbb1d;
 }
 /* line 67, ../sass/themes/_tables.scss */
 .tablezebra.table tr > td.td-nodata {
