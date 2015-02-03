@@ -641,4 +641,16 @@
 	@extend %extend_btn_action;
 	background: image-url("icons/enabled.png") 0 0 no-repeat;
 }
+
+.tb-list-action{
+	li{
+		@include inline-block();
+		padding: 0 8px;
+
+		&:last-child{
+			border-bottom:none;
+			border-left:1px solid #C4C1C1;
+		}
+	}
+}
 		

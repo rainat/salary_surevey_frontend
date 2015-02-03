@@ -5050,6 +5050,22 @@ textarea:focus, select:hover, select:focus {
   background: url('../images/icons/enabled.png?1422369471') 0 0 no-repeat;
 }
 
+/* line 646, ../sass/themes/_tables.scss */
+.tb-list-action li {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  padding: 0 8px;
+}
+/* line 650, ../sass/themes/_tables.scss */
+.tb-list-action li:last-child {
+  border-bottom: none;
+  border-left: 1px solid #C4C1C1;
+}
+
 /*==========================================================================
   PAGINATION
 ========================================================================== */
