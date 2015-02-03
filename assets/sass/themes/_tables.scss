@@ -226,6 +226,11 @@
 	}
 }
 
+.btn-greenflat{
+	@extend .btn-orangeflat;
+	background: $green;
+}
+
 .text-link{
 	color:$orange-color;
 	word-wrap:break-word;
@@ -650,15 +655,75 @@
 	background: image-url("icons/enabled.png") 0 0 no-repeat;
 }
 
-.tb-list-action{
-	li{
-		@include inline-block();
-		padding: 0 8px;
-
-		&:last-child{
-			border-bottom:none;
-			border-left:1px solid #C4C1C1;
-		}
+.download-pack{
+	text-align: right;
+	float: right;
+	p{
+		font-weight: 600;
+		margin-bottom: 0;
+		font-style: italic;
+		margin-bottom: 5px;
 	}
+	.btn-orangeflat{
+		background-image: image-url("icons/download_flat.png");
+		background-repeat: no-repeat;
+		background-position: 93% center;
+		padding-right: 60px;
+		padding-top: 13px;
+		padding-bottom: 13px;
+	}
+}
+
+.btn-buy{
+	@extend .btn-orangeflat;
+	background-image: image-url("icons/cart.png");
+	background-repeat: no-repeat;
+	background-position: 88% center;
+  	padding-right: 42px;
+  	@include background-size(22px auto);
+  	&:hover{
+  		background-image: image-url("icons/cart.png");
+  		background-repeat: no-repeat;
+		background-position: 89% center;
+		@include background-size(22px auto);
+  	}
+}
+.btn-subscribe{
+	@extend .btn-orangeflat;
+	background-color: green;
+	background-image: image-url("icons/subscribe.png");
+	background-repeat: no-repeat;
+	background-position: 88% center;
+  	padding-right: 40px;
+  	@include background-size(16px auto);
+
+  	&:hover{
+  		background-image: image-url("icons/subscribe.png");
+  		background-repeat: no-repeat;
+		background-position: 89% center;
+		@include background-size(16px auto);
+  	}
+}
+
+
+.btn-flatwrap{
+	@include inline-block();
+}
+
+.smallinfo{
+	display: block;
+	text-align:right;
+	margin:0;
+	margin-top: 3px;
+	a{
+		@include inline-block();
+		padding-right: 13px;
+		background: image-url("icons/play.png") 100% center  no-repeat;
+		@include background-size(8px auto);
+		color: #A7A7A7;
+	}
+	&:hover{
+		color:$orange-color;
+	} 
 }
 		
