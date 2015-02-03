@@ -53,6 +53,7 @@
 				padding:15px;
 				color:#383838;
 				vertical-align:middle;
+				word-wrap:break-word;
 
 				&:nth-child(even){
 					background: #e9e9e9;
@@ -184,6 +185,10 @@
 				background:image-url('icons/enabled.png') center left no-repeat;
 				padding-left:30px;
 			}
+			&.icon-guide-download{
+				background:image-url('icons/download.png') center left no-repeat;
+				padding-left:30px;
+			}
 		}
 	}
 }
@@ -242,6 +247,9 @@
 
 .tb-iconscolect{
 	text-align:center;
+	&.left{
+		text-align: left;
+	}
 	a{
 		@include inline-block();
 		@include prefixed(transition, all .2s linear);
