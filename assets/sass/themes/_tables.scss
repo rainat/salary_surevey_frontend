@@ -207,9 +207,6 @@
 		background:darken($orange-color, 8%);
 	}
 }
-
-.tb-link-ex{color:$red }
-
 .btn-orangeflat{
 	background:none;
 	border:none;
@@ -226,9 +223,36 @@
 	}
 }
 
+.btn-view{
+	@extend .btn-orangeflat;
+	background-image:image-url('icons/view.png');
+	background-repeat: no-repeat;
+	background-position: 15px center;
+  	padding-left: 50px;
+
+	&:hover{
+		background-image:image-url('icons/view.png');
+		background-repeat: no-repeat;
+		background-position: 14px center;
+	}
+}
+
+.tb-link-aplysm{
+	@extend .tb-link-aply;
+	padding:10px 12px;
+}
+
+.tb-link-ex{color:$red }
+
 .btn-greenflat{
 	@extend .btn-orangeflat;
 	background: $green;
+}
+
+.btn-greenflatsm{
+	@extend .btn-greenflat;
+	padding: 10px 12px;
+	font-size: 12px;
 }
 
 .text-link{
@@ -725,5 +749,27 @@
 	&:hover{
 		color:$orange-color;
 	} 
+}
+
+.wrap-title-twoside{
+	margin-bottom:8px;
+	&:before, &:after{
+		content: " ";
+		display: table;
+	}
+	&:after{
+		clear: both;
+	}
+
+	@media (min-width: 767px){
+		.title-mainblack{
+			float: left;
+		}
+		.rightside{
+			float: right;
+			padding-top: 10px;
+			margin-left: 15px;
+		}
+	}
 }
 		
