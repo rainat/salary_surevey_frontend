@@ -215,6 +215,7 @@
 	padding:10px 20px;
 	color:white;
 	font-size:13px;
+	text-align: center;
 
 	&:hover, &:active{
 		text-decoration:none;
@@ -712,21 +713,16 @@
 		@include background-size(22px auto);
   	}
 }
-.btn-subscribe{
+.btn-tbsign{
 	@extend .btn-orangeflat;
 	background-color: green;
-	background-image: image-url("icons/subscribe.png");
-	background-repeat: no-repeat;
-	background-position: 88% center;
-  	padding-right: 40px;
-  	@include background-size(16px auto);
-
-  	&:hover{
-  		background-image: image-url("icons/subscribe.png");
-  		background-repeat: no-repeat;
-		background-position: 89% center;
-		@include background-size(16px auto);
-  	}
+	padding: 6px 15px 6px 19px;
+	min-width: 114px;
+	span:before{
+		@include inline-block;
+  		vertical-align: middle;
+  		margin-left:0;
+	}
 }
 
 
@@ -736,19 +732,27 @@
 
 .smallinfo{
 	display: block;
-	text-align:right;
 	margin:0;
-	margin-top: 3px;
+	position:relative;
+
 	a{
 		@include inline-block();
-		padding-right: 13px;
-		background: image-url("icons/play.png") 100% center  no-repeat;
-		@include background-size(8px auto);
-		color: #A7A7A7;
+		//background: #9b9b9b image-url("icons/info.png") center center no-repeat;
+		padding: 4px 5px 3px;
+		position: absolute;
+		right: -13px;
+  		top: -12px;
+		background-color:#9b9b9b;
+		&:before{
+			font-size:14px;
+			color: #dedcdd;
+			margin: 0;
+		}
+
+		&:hover{
+			text-decoration: none;
+		}
 	}
-	&:hover{
-		color:$orange-color;
-	} 
 }
 
 .wrap-title-twoside{
