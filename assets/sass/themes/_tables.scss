@@ -226,16 +226,6 @@
 
 .btn-view{
 	@extend .btn-orangeflat;
-	background-image:image-url('icons/view.png');
-	background-repeat: no-repeat;
-	background-position: 15px center;
-  	padding-left: 50px;
-
-	&:hover{
-		background-image:image-url('icons/view.png');
-		background-repeat: no-repeat;
-		background-position: 14px center;
-	}
 }
 
 .tb-link-aplysm{
