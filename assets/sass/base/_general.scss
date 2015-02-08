@@ -49,6 +49,14 @@ img {
 	margin-bottom:$pixel - 3;
 }
 
+.title_db_line{
+	@extend .salary-rec__list__title;
+
+	&.first{
+		margin-top: -40px;
+	}
+}
+
 /* ======== BUTTON ======== */
 
 .btn-center{

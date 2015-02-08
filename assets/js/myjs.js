@@ -177,8 +177,8 @@ $(document).ready(function(){
     });
 
      //EDIT_TABLE ====================================================
-     $(".btn-editable")./*dbl*/click(function () {
-    	event.preventDefault();
+     $(".btn-editable")./*dbl*/click(function (e) {
+    	e.preventDefault();
     	$(this).addClass('active');
     	var Target = $(this).parent().parent().find(".tb_edit_target");
         var OriginalContent = $(Target).text();
