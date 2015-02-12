@@ -291,6 +291,10 @@ textarea, select{
 }
 
 
+.advBook__main--full{
+	@extend .advBook__main;
+	width: 100%;	
+}
 
 
 
