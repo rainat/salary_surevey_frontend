@@ -264,6 +264,9 @@ $(document).ready(function(){
   //DATEPICKER
   $('.datepicker').pickmeup();
 
+  //$('.disabled').attr('disabled');
+
+
 });
 
 
