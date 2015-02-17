@@ -1,0 +1,40 @@
+/*==========================================================================
+  ERROR PAGES
+========================================================================== */
+.error-wrap{
+	position: relative;
+}
+.error_desc{
+	float:left;
+	h2{
+		font:700 80px 'Lato', sans-serif;
+		line-height: 0.9em;
+	    text-transform: uppercase;
+	}
+
+	h4{
+		font:700 40px 'Lato', sans-serif;
+		line-height: 1.2em;
+	    text-transform: uppercase;
+
+	    span{
+	    	color: #447a40;
+	    }
+	}
+	.error_desc__thumb{
+		margin: 15px 0;
+	}
+
+	p{
+		font:700 21px 'Lato', sans-serif;
+	}
+}
+
+.error-wrap__main{
+	max-width: 960px;
+	margin: 0 auto;
+}
+.error-wrap__main__thumb{
+	float: right;
+	margin-top: 85px;
+}
