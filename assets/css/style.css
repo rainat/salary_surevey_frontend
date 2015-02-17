@@ -4806,8 +4806,9 @@ textarea:focus, select:hover, select:focus {
 /*==========================================================================
   ERROR PAGES
 ========================================================================== */
-.error-wrap {
+#error-wrap {
   position: relative;
+  padding-top: 50px;
 }
 
 .error_desc {
