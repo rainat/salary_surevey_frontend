@@ -68,7 +68,7 @@
 				<div class="bgwhit-main clearfix">
 
 					<header class="title-mainblack">
-						<h2>Add Banner</h2>
+						<h2>Add Banner (Admin) </h2>
 					</header>
 					
 					<form name="">
@@ -77,25 +77,34 @@
 							<div class="table-responsive">
 								<table class="advBook__main--full table">
 									<tr>
-										<td width="22%"><strong>Banner Type</strong></td>
+										<td width="22%"><strong>Company</strong></td>
+										<td >
+											<div class="iteminput1" style="width:70%">
+												<select class="selectpicker select2" multiple data-max-options="3">
+													<option value="0">ABC Company</option>
+													<option value="1">BCD Company </option>
+													<option value="2">EFG Company</option>
+												</select>
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td><strong>Banner Type</strong></td>
 										<td>
 											<label class="radio-bulled">
-											  <input type="radio" name="banner_type" class="radio" checked> 
-											  Skyscraper Banner 
+											  <input type="radio" name="banner_type" class="radio" checked> Skyscraper Banner 
 											</label><br>
 											<label class="radio-bulled ">
-											  <input type="radio" name="banner_type" class="radio" disabled> 
-											  Top Banner 
+											  <input type="radio" name="banner_type" class="radio" disabled> Top Banner 
 											</label><br>
 											<label class="radio-bulled">
-											  <input type="radio" name="banner_type" class="radio" disabled> 
-											  Skyscraper Banner 
+											  <input type="radio" name="banner_type" class="radio" disabled> Background Banner (Left)
 											</label><br>
 											<label class="radio-bulled">
-											  <input type="radio" name="banner_type" class="radio" disabled> 
-											  Top Banner 
+											  <input type="radio" name="banner_type" class="radio" disabled>Background Banner (Right)
 											</label><br>
 										</td>
+
 									</tr>
 									<tr>
 										<td><strong>Banner Title</strong></td>
@@ -128,7 +137,7 @@
 											<div class="box-bannerspec">
 												<strong>Skyscraper Banner </strong> 
 												<span class="box-bannerspec__spec">Specifications: </span>
-												<em>120 x 60 Pixelsjpeg, .gif, .png or .swf Max file size: 500KB</em>
+												<em>120 x 60 Pixels .jpeg, .gif, .png or .swfMax file size: 500KB</em>
 											</div><!-- // box-bannerspec -->
 
 										</td>

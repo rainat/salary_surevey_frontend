@@ -3512,6 +3512,7 @@ textarea, select {
   background: #f4f1f1;
   border: 1px solid #cecece;
   font-size: 12px;
+  height: 40px;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   -ms-border-radius: 0;
@@ -3796,6 +3797,23 @@ textarea:focus, select:hover, select:focus {
 
 .advBook__main--full {
   width: 100%;
+}
+
+.box-bannerspec {
+  background-color: #eeeeee;
+  max-width: 250px;
+  padding: 20px 30px;
+  margin-top: 20px;
+  border: 1px solid #DDDDDD;
+}
+.box-bannerspec strong {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 1.1em;
+}
+.box-bannerspec .box-bannerspec__spec {
+  display: block;
+  margin-bottom: 5px;
 }
 
 /*==========================================================================
@@ -4220,6 +4238,9 @@ textarea:focus, select:hover, select:focus {
 }
 .radio-bulled .custom-radio.checked.focus {
   background: url('../images/icons/radio_active.png?1418472103') 0 0 no-repeat;
+}
+.radio-bulled.disabled {
+  opacity: 0.5;
 }
 
 .cxbox-sm .custom-check {

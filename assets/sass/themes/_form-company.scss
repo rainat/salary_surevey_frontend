@@ -44,6 +44,7 @@ textarea, select{
 	background:#f4f1f1;
 	border:1px solid #cecece;
 	font-size:12px;
+	height: 40px;
 	@include border-radius(0);
 }
 
@@ -296,6 +297,25 @@ textarea, select{
 	width: 100%;	
 }
 
+
+.box-bannerspec{
+	background-color: #eeeeee;
+	max-width: 250px;
+	padding: 20px 30px;
+	margin-top: 20px;
+	border: 1px solid #DDDDDD;
+
+	strong{
+		display: block;
+		margin-bottom: 5px;
+		  font-size: 1.1em;
+	}
+
+	.box-bannerspec__spec{
+		display: block;
+		margin-bottom: 5px;
+	}
+}
 
 
 

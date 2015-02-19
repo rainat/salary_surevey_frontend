@@ -264,8 +264,8 @@ $(document).ready(function(){
   //DATEPICKER
   $('.datepicker').pickmeup();
 
-  //$('.disabled').attr('disabled');
-
+  //CHECKING disabled attr
+  $("input[type=radio]:disabled").closest('label').addClass('disabled');
 
 });
 
