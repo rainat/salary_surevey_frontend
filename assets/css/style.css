@@ -3928,6 +3928,8 @@ textarea:focus, select:hover, select:focus {
   border-right: 1px solid #dedcdc;
   padding: 3px 15px;
   margin: 0 7px;
+  background-position: center left;
+  background-repeat: no-repeat;
 }
 @media (max-width: 991px) {
   .icon-guide ul li {
@@ -3951,48 +3953,52 @@ textarea:focus, select:hover, select:focus {
   font-weight: 700;
 }
 .icon-guide ul li.icon-guide-edit {
-  background: url('../images/icon_edit.png?1417404954') center left no-repeat;
+  background-image: url('../images/icon_edit.png?1417404954');
   padding-left: 26px;
 }
 .icon-guide ul li.icon-guide-delete {
-  background: url('../images/icon_remove.png?1417404981') center left no-repeat;
+  background-image: url('../images/icon_remove.png?1417404981');
   padding-left: 21px;
 }
 .icon-guide ul li.icon-guide-archive {
-  background: url('../images/icons/bookstack.png?1418472038') center left no-repeat;
+  background-image: url('../images/icons/bookstack.png?1418472038');
   padding-left: 33px;
 }
 .icon-guide ul li.icon-guide-copy {
-  background: url('../images/icons/clip.png?1418471972') center left no-repeat;
+  background-image: url('../images/icons/clip.png?1418471972');
   padding-left: 33px;
 }
 .icon-guide ul li.icon-guide-renew {
-  background: url('../images/icons/referesh.png?1418472058') center left no-repeat;
+  background-image: url('../images/icons/referesh.png?1418472058');
   padding-left: 26px;
 }
 .icon-guide ul li.icon-guide-disable {
-  background: url('../images/icons/disable.png?1418602515') center left no-repeat;
+  background-image: url('../images/icons/disable.png?1418602515');
   padding-left: 26px;
 }
 .icon-guide ul li.icon-guide-report {
-  background: url('../images/icons/pdf.png?1418611730') center left no-repeat;
+  background-image: url('../images/icons/pdf.png?1418611730');
   padding-left: 30px;
 }
 .icon-guide ul li.icon-guide-view {
-  background: url('../images/icons/zoom.png?1418471952') center left no-repeat;
+  background-image: url('../images/icons/zoom.png?1418471952');
   padding-left: 30px;
 }
 .icon-guide ul li.icon-guide-disable {
-  background: url('../images/icons/disable_2.png?1422370033') center left no-repeat;
+  background-image: url('../images/icons/disable_2.png?1422370033');
   padding-left: 30px;
 }
 .icon-guide ul li.icon-guide-enable {
-  background: url('../images/icons/enabled.png?1422369471') center left no-repeat;
+  background-image: url('../images/icons/enabled.png?1422369471');
   padding-left: 30px;
 }
 .icon-guide ul li.icon-guide-download {
-  background: url('../images/icons/download.png?1422975444') center left no-repeat;
+  background-image: url('../images/icons/download.png?1422975444');
   padding-left: 30px;
+}
+.icon-guide ul li.icon-guide-reply {
+  background-image: url('../images/icons/reply.png?1424636220');
+  padding-left: 32px;
 }
 
 .tb-link-green {
@@ -4035,7 +4041,7 @@ textarea:focus, select:hover, select:focus {
 .btn-orangeflat:hover, .btn-view:hover, .btn-greenflat:hover, .btn-greenflatsm:hover, .btn-buy:hover, .btn-tbsign:hover, .btn-orangeflat:active, .btn-view:active, .btn-greenflat:active, .btn-greenflatsm:active, .btn-buy:active, .btn-tbsign:active {
   text-decoration: none;
   color: white;
-  background: #c97700;
+  background: #3b9136;
 }
 
 .tb-link-aplysm {
@@ -4048,6 +4054,9 @@ textarea:focus, select:hover, select:focus {
 
 .btn-greenflat, .btn-greenflatsm {
   background: #3b9136;
+}
+.btn-greenflat:hover, .btn-greenflatsm:hover {
+  background: #f28f00;
 }
 
 .btn-greenflatsm {
@@ -4655,6 +4664,39 @@ textarea:focus, select:hover, select:focus {
 .radio__text {
   overflow: hidden;
   margin-left: 15px;
+}
+
+.tb-hdtopline {
+  overflow: hidden;
+  border-bottom: 1px solid #cecece;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  margin-top: 60px;
+}
+.tb-hdtopline .btn-wrap {
+  float: right;
+}
+.tb-hdtopline .text-rt-italic {
+  font-style: italic;
+  float: left;
+  margin-right: 30px;
+  font-weight: 600;
+  font-size: 1.1em;
+}
+@media (min-width: 798px) {
+  .tb-hdtopline .text-rt-italic {
+    max-width: 380px;
+  }
+}
+@media (max-width: 767px) {
+  .tb-hdtopline .text-rt-italic, .tb-hdtopline .btn-wrap {
+    float: none;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .tb-hdtopline .btn-orangeflat, .tb-hdtopline .btn-view, .tb-hdtopline .btn-greenflat, .tb-hdtopline .btn-greenflatsm, .tb-hdtopline .btn-buy, .tb-hdtopline .btn-tbsign {
+    margin-bottom: 10px;
+  }
 }
 
 /*==========================================================================

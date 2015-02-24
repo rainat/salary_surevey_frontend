@@ -117,6 +117,8 @@
 			border-right:1px solid #dedcdc;
 			padding:3px 15px;
 			margin:0 7px;
+			background-position: center left;
+			background-repeat:  no-repeat;
 
 			@media(max-width : $screen-sm-max){
 				display:block;
@@ -141,53 +143,57 @@
 			}
 
 			&.icon-guide-edit{
-				background:image-url('icon_edit.png') center left no-repeat;
-				padding-left:26px;
+				background-image: image-url('icon_edit.png') ;
+				padding-left: 26px;
 			}
 
 			&.icon-guide-delete{
-				background:image-url('icon_remove.png') center left no-repeat;
+				background-image: image-url('icon_remove.png');
 				padding-left:21px;
 			}
 
 			&.icon-guide-archive{
-				background:image-url('icons/bookstack.png') center left no-repeat;
+				background-image:image-url('icons/bookstack.png');
 				padding-left:33px;
 			}
 
 			&.icon-guide-copy{
-				background:image-url('icons/clip.png') center left no-repeat;
+				background-image:image-url('icons/clip.png');
 				padding-left:33px;
 			}
 
 			&.icon-guide-renew{
-				background:image-url('icons/referesh.png') center left no-repeat;
+				background-image:image-url('icons/referesh.png');
 				padding-left:26px;
 			}
 			&.icon-guide-disable{
-				background:image-url('icons/disable.png') center left no-repeat;
+				background-image:image-url('icons/disable.png');
 				padding-left:26px;
 			}
 
 			&.icon-guide-report{
-				background:image-url('icons/pdf.png') center left no-repeat;
+				background-image:image-url('icons/pdf.png');
 				padding-left:30px;
 			}
 			&.icon-guide-view{
-				background:image-url('icons/zoom.png') center left no-repeat;
+				background-image:image-url('icons/zoom.png');
 				padding-left:30px;
 			}
 			&.icon-guide-disable{
-				background:image-url('icons/disable_2.png') center left no-repeat;
+				background-image:image-url('icons/disable_2.png');
 				padding-left:30px;
 			}
 			&.icon-guide-enable{
-				background:image-url('icons/enabled.png') center left no-repeat;
+				background-image:image-url('icons/enabled.png');
 				padding-left:30px;
 			}
 			&.icon-guide-download{
-				background:image-url('icons/download.png') center left no-repeat;
+				background-image:image-url('icons/download.png');
 				padding-left:30px;
+			}
+			&.icon-guide-reply{
+				background-image:image-url('icons/reply.png');
+				padding-left:32px;
 			}
 		}
 	}
@@ -220,7 +226,7 @@
 	&:hover, &:active{
 		text-decoration:none;
 		color:white;
-		background:darken($orange-color, 8%);
+		background:#3b9136;
 	}
 }
 
@@ -238,6 +244,10 @@
 .btn-greenflat{
 	@extend .btn-orangeflat;
 	background: $green;
+
+	&:hover{
+		background:#f28f00;
+	}
 }
 
 .btn-greenflatsm{
@@ -821,5 +831,47 @@
 	}
 
 }
+
+
+.tb-hdtopline{
+	overflow: hidden;
+	border-bottom:1px solid #cecece;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	  margin-top: 60px;
+
+	.btn-wrap{
+		float:right;
+
+
+	}
+
+	.text-rt-italic{
+
+		@media (min-width: 798px){
+			max-width: 380px;
+		}
+
+		font-style: italic;
+		float: left;
+		margin-right:30px;
+		font-weight: 600;
+		font-size: 1.1em;
+	}
+
+	@media (max-width: 767px){
+		.text-rt-italic, .btn-wrap{
+			float: none;
+			text-align: center;
+			margin-bottom: 15px;
+		}
+
+		.btn-orangeflat, .btn-greenflat{
+			margin-bottom: 10px;
+		}
+
+	}
+}
+
 
 		
