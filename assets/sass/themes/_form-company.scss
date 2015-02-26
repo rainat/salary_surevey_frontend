@@ -40,11 +40,11 @@ textarea{
 
 input[type="text"],
 input[type="email"],
-textarea, select{
+select{
 	background:#f4f1f1;
 	border:1px solid #cecece;
 	font-size:12px;
-	height: 40px;
+	height: 42px;
 	@include border-radius(0);
 }
 
@@ -314,6 +314,18 @@ textarea, select{
 	.box-bannerspec__spec{
 		display: block;
 		margin-bottom: 5px;
+	}
+}
+
+.wd-quearter{
+	@media (min-width: 768px){
+		width: 70%;
+	}
+
+	&.form-control{
+		@media (min-width: 768px){
+			width: 70%;
+		}
 	}
 }
 

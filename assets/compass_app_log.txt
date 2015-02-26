@@ -1981,3 +1981,17 @@ Load paths:
 2015-02-24 17:01:54 overwrite css/style.css 
 2015-02-26 19:28:46 overwrite css/style.css 
 2015-02-26 19:29:37 overwrite css/style.css 
+2015-02-27 05:46:44 overwrite css/style.css 
+2015-02-27 05:57:21 overwrite css/style.css 
+2015-02-27 05:57:31 overwrite css/style.css 
+2015-02-27 05:57:43 identical css/style.css 
+2015-02-27 06:06:23     error sass/style.scss (Line 325 of sass/themes/_form-company.scss: Invalid CSS after "	}": expected selector or at-rule, was "}")
+2015-02-27 06:06:23 overwrite css/style.css 
+2015-02-27 06:06:26     error sass/style.scss (Line 325 of sass/themes/_form-company.scss: Invalid CSS after "	}": expected selector or at-rule, was "}")
+2015-02-27 06:06:26 identical css/style.css 
+2015-02-27 06:06:30     error sass/style.scss (Line 325 of sass/themes/_form-company.scss: Invalid CSS after "	}": expected selector or at-rule, was "}")
+2015-02-27 06:06:30 identical css/style.css 
+2015-02-27 06:06:32     error sass/style.scss (Line 325 of sass/themes/_form-company.scss: Invalid CSS after "	}": expected selector or at-rule, was "}")
+2015-02-27 06:06:32 identical css/style.css 
+2015-02-27 06:06:43 overwrite css/style.css 
+2015-02-27 06:08:37 overwrite css/style.css 

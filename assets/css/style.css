@@ -3508,11 +3508,11 @@ textarea {
 
 input[type="text"],
 input[type="email"],
-textarea, select {
+select {
   background: #f4f1f1;
   border: 1px solid #cecece;
   font-size: 12px;
-  height: 40px;
+  height: 42px;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   -ms-border-radius: 0;
@@ -3814,6 +3814,17 @@ textarea:focus, select:hover, select:focus {
 .box-bannerspec .box-bannerspec__spec {
   display: block;
   margin-bottom: 5px;
+}
+
+@media (min-width: 768px) {
+  .wd-quearter {
+    width: 70%;
+  }
+}
+@media (min-width: 768px) {
+  .wd-quearter.form-control {
+    width: 70%;
+  }
 }
 
 /*==========================================================================
