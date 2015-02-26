@@ -3801,7 +3801,7 @@ textarea:focus, select:hover, select:focus {
 
 .box-bannerspec {
   background-color: #eeeeee;
-  max-width: 250px;
+  max-width: 315px;
   padding: 20px 30px;
   margin-top: 20px;
   border: 1px solid #DDDDDD;
@@ -4694,7 +4694,7 @@ textarea:focus, select:hover, select:focus {
     text-align: center;
     margin-bottom: 15px;
   }
-  .tb-hdtopline .btn-orangeflat, .tb-hdtopline .btn-view, .tb-hdtopline .btn-greenflat, .tb-hdtopline .btn-greenflatsm, .tb-hdtopline .btn-buy, .tb-hdtopline .btn-tbsign {
+  .tb-hdtopline .btn-orangeflat, .tb-hdtopline .btn-view, .tb-hdtopline .btn-greenflat, .tb-hdtopline .btn-greenflatsm, .tb-hdtopline .btn-buy, .tb-hdtopline .btn-tbsign, .tb-hdtopline .btn-greenflat, .tb-hdtopline .btn-greenflatsm {
     margin-bottom: 10px;
   }
 }
