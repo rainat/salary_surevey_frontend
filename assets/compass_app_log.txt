@@ -1996,3 +1996,64 @@ Load paths:
 2015-02-27 06:06:43 overwrite css/style.css 
 2015-02-27 06:08:37 overwrite css/style.css 
 2015-03-02 05:25:19 overwrite css/style.css 
+2015-04-11 02:38:40     error sass/style.scss (Line 147 of sass/base/_general.scss: Invalid CSS after "	copy": expected "{", was "}")
+2015-04-11 02:38:40 overwrite css/style.css 
+2015-04-11 02:40:32 overwrite css/style.css 
+2015-04-11 02:41:08 overwrite css/style.css 
+2015-04-11 05:30:32 overwrite css/style.css 
+2015-04-11 05:34:21     error sass/style.scss (Line 141 of sass/base/_general.scss: Invalid CSS after "	background: ": expected expression (e.g. 1px, bold), was "; /* Old browse...")
+2015-04-11 05:34:21 overwrite css/style.css 
+2015-04-11 05:34:24     error sass/style.scss (Line 141 of sass/base/_general.scss: Invalid CSS after "	background: ": expected expression (e.g. 1px, bold), was "; /* Old browse...")
+2015-04-11 05:34:24 identical css/style.css 
+2015-04-11 05:35:13     error sass/style.scss (Line 141 of sass/base/_general.scss: Invalid CSS after "	background: ": expected expression (e.g. 1px, bold), was "; /* Old browse...")
+2015-04-11 05:35:13 identical css/style.css 
+2015-04-11 05:35:15     error sass/style.scss (Line 141 of sass/base/_general.scss: Invalid CSS after "	background: ": expected expression (e.g. 1px, bold), was "; /* Old browse...")
+2015-04-11 05:35:15 identical css/style.css 
+2015-04-11 05:36:15 overwrite css/style.css 
+2015-04-11 05:38:52 overwrite css/style.css 
+2015-04-11 05:41:00 overwrite css/style.css 
+2015-04-11 05:41:11 identical css/style.css 
+2015-04-11 05:42:55 overwrite css/style.css 
+2015-04-11 05:44:54     error sass/style.scss (Line 131 of sass/base/_general.scss: Invalid CSS after "%btn_arrow_rt:": expected pseudoclass or pseudoelement, was " image-url("arr...")
+2015-04-11 05:44:54 overwrite css/style.css 
+2015-04-11 05:44:57     error sass/style.scss (Line 131 of sass/base/_general.scss: Invalid CSS after "%btn_arrow_rt:": expected pseudoclass or pseudoelement, was " image-url("arr...")
+2015-04-11 05:44:57 identical css/style.css 
+2015-04-11 05:45:26     error sass/style.scss (Line 131 of sass/base/_general.scss: Invalid CSS after "%btn_arrow_rt:": expected pseudoclass or pseudoelement, was " image-url("arr...")
+2015-04-11 05:45:26 identical css/style.css 
+2015-04-11 05:45:29     error sass/style.scss (Line 131 of sass/base/_general.scss: Invalid CSS after "%btn_arrow_rt:": expected pseudoclass or pseudoelement, was " image-url("arr...")
+2015-04-11 05:45:29 identical css/style.css 
+2015-04-11 05:46:05     error sass/style.scss (Line 131 of sass/base/_general.scss: Invalid CSS after ".btn_arrow_rt:": expected pseudoclass or pseudoelement, was " image-url("arr...")
+2015-04-11 05:46:05 overwrite css/style.css 
+2015-04-11 05:46:07     error sass/style.scss (Line 131 of sass/base/_general.scss: Invalid CSS after ".btn_arrow_rt:": expected pseudoclass or pseudoelement, was " image-url("arr...")
+2015-04-11 05:46:07 identical css/style.css 
+2015-04-11 05:46:33 overwrite css/style.css 
+2015-04-11 05:47:38 identical css/style.css 
+2015-04-11 05:48:25 identical css/style.css 
+2015-04-11 05:48:43     error sass/style.scss (Line 169 of sass/base/_general.scss: Invalid CSS after "	.extend %gradient": expected "{", was ";")
+2015-04-11 05:48:43 overwrite css/style.css 
+2015-04-11 05:48:45     error sass/style.scss (Line 169 of sass/base/_general.scss: Invalid CSS after "	.extend %gradient": expected "{", was ";")
+2015-04-11 05:48:45 identical css/style.css 
+2015-04-11 05:54:26     error sass/style.scss (Line 169 of sass/base/_general.scss: Invalid CSS after "	%gradient": expected "{", was ";")
+2015-04-11 05:54:26 overwrite css/style.css 
+2015-04-11 05:54:29     error sass/style.scss (Line 169 of sass/base/_general.scss: Invalid CSS after "	%gradient": expected "{", was ";")
+2015-04-11 05:54:29 identical css/style.css 
+2015-04-11 05:54:40     error sass/style.scss (Line 169 of sass/base/_general.scss: Invalid CSS after "	.extend %gradient": expected "{", was "();")
+2015-04-11 05:54:40 overwrite css/style.css 
+2015-04-11 05:54:43     error sass/style.scss (Line 169 of sass/base/_general.scss: Invalid CSS after "	.extend %gradient": expected "{", was "();")
+2015-04-11 05:54:43 identical css/style.css 
+2015-04-11 05:55:03     error sass/style.scss (Line 169 of sass/base/_general.scss: Invalid CSS after "...tends %gradient": expected "{", was ";")
+2015-04-11 05:55:03 overwrite css/style.css 
+2015-04-11 05:55:06     error sass/style.scss (Line 169 of sass/base/_general.scss: Invalid CSS after "...tends %gradient": expected "{", was ";")
+2015-04-11 05:55:06 identical css/style.css 
+2015-04-11 05:55:21 overwrite css/style.css 
+2015-04-11 05:55:48 overwrite css/style.css 
+2015-04-11 05:56:39 overwrite css/style.css 
+2015-04-11 05:57:37 identical css/style.css 
+2015-04-11 05:57:58 overwrite css/style.css 
+2015-04-11 06:04:40 overwrite css/style.css 
+2015-04-11 06:07:16 overwrite css/style.css 
+2015-04-11 06:08:05 overwrite css/style.css 
+2015-04-11 06:09:11 overwrite css/style.css 
+2015-04-11 06:09:27 overwrite css/style.css 
+2015-04-11 06:16:33 overwrite css/style.css 
+2015-04-11 06:28:40 overwrite css/style.css 
