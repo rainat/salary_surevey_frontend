@@ -17,14 +17,15 @@
 a {
   color: #666;
   text-decoration: none;
+  -webkit-transition: all ease-out .4s;
+  -moz-transition: all ease-out .4s;
+  -o-transition: all ease-out .4s;
+  transition: all ease-out 0.4s;
   &:hover, &:active {
     color: #909090;
     text-decoration: underline;
     opacity: .8;
-    -webkit-transition: all ease-out .4s;
-    -moz-transition: all ease-out .4s;
-    -o-transition: all ease-out .4s;
-    transition: all ease-out 0.4s;
+
   }
 }
 
@@ -3560,3 +3561,8 @@ ul.clink {
 
 /* Desktop large screen */
 @media (min-width: 1200px) {}
+
+
+
+// **IMPORTANT this file is updated file for new revision
+@import "update";

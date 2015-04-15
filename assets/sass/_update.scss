@@ -1,0 +1,136 @@
+/* BELOW STYLING WILL OVERRIDE ANOTHER STYLING */
+.main-logo{
+	a{
+		display: inline-block;
+	}
+}
+
+
+/* STYLING FOR RESPONSIVE NAVIGATION */
+.rwd-navigation{
+	display: none;
+	visibility: hidden;
+	.nav-btn{
+		display: block;
+		background: #489943;
+		width: 100%;
+		text-align: center;
+		border-radius: 3px;
+		font-size: 12px;
+		padding: 10px 5px;
+		color: white;
+		text-transform: uppercase;
+		cursor: pointer;
+		> span{
+			margin-right: 5px;
+			font-weight: bold;
+		}
+	}
+}
+
+.mobile-nav{
+	background: white;
+	border-right: 1px solid #f0f0f0;
+	border-left: 1px solid #f0f0f0;
+	li{
+		display: block;
+		a{
+			display: block;
+			text-align: left;
+			padding: 5px 10px;
+			border-bottom: 1px solid #f0f0f0;
+			text-transform: capitalize;
+		}
+		&:hover, &:focus, &:active{
+			a{
+				color: white;
+				background-color: #489943;
+				text-decoration: none;
+
+			}
+		}
+	}
+}
+
+
+@media (max-width:860px) {
+	.topbaner{
+		margin-top: 30px;
+	}
+	#nav-page{
+		width: 100%;
+		background: #489943;
+		text-align: center;
+		ul{
+			>li{
+				width: inherit !important;
+				float: none !important;
+				display: inline-block;
+				background-image: none;
+				> a{
+					font-size: 11px;
+					position: relative;
+					&:after{
+						content: "";
+						position: absolute;
+						width: 1px;
+						left: 100%;
+						height: 40%;
+						top: 30%;
+						background: rgba( white, .40% );
+					}
+				}
+				&:last-child{
+					>a {
+						&:after{
+							background-color: transparent;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (max-width:765px){
+	#nav-page{
+		ul{
+			>li{
+				> a{
+					font-size: 11px;
+					position: relative;
+					padding: 0 20px;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 570px) {
+	.topbaner{
+		.banner-advertise{
+			display: none;
+		}
+	}
+    #nav-page{
+    	display: none;
+    	.wrapper{
+    		display: none;
+    	}
+    }
+	.rwd-navigation{
+		display: block;
+		visibility: visible;
+	}
+	.border-block{
+		padding: 15px 5px;
+		.title-mainblack{
+			margin-left: 15px;
+		}
+	}
+	.cellEditing{
+		input[type="text"]{
+			width: 60%;
+		}
+	}
+}

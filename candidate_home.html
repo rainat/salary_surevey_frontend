@@ -20,6 +20,7 @@
   <link href="assets/css/jquery.qtip.css" media="all" rel="stylesheet" type="text/css">
   <link href="assets/css/style.css" media="all" rel="stylesheet" type="text/css">
   <link href="assets/css/bootstrap-select.css" rel="stylesheet" type="text/css">
+  <link href="assets/css/font-awesome.css" rel="stylesheet" type="text/css">
 
   <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -43,8 +44,21 @@
 		        </div>
 
 		        <div class="col-sm-9 img-wrap topbaner">
-		          <a href="#"><img alt="" src="assets/images/eabaner.jpg"></a>
-		        </div>
+
+		          <a href="#" class="banner-advertise"><img alt="" src="assets/images/eabaner.jpg"></a>
+
+					<div class="rwd-navigation">
+						<div class="nav-btn" data-toggle="collapse" data-target=".nav-collapse">
+							<span class="fa fa-bars">
+							</span>
+							menu navigation
+						</div>
+						
+						<ul class="nav-collapse mobile-nav collapse"></ul>
+					</div><!-- rwd-navigation end -->
+
+		        </div><!-- / .col-sm-9 .img-wrap .topbaner -->
+
 		  </div><!-- //tophead -->
 		</div><!-- wrapper -->
 
@@ -225,5 +239,6 @@
 	new WOW().init();
 	</script> 
 	<script src="assets/js/myjs.js" type="text/javascript"></script>
+	<script src="assets/js/update-scripts.js" type="text/javascript"></script>
 </body>
 </html>
