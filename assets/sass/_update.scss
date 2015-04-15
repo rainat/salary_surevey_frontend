@@ -52,6 +52,49 @@
 	}
 }
 
+/* PAGINATION */
+.pagination{
+	p{
+		strong{
+			color: #f28f00;
+			background: none repeat scroll 0 0 #dedcdc;
+			display: inline-block;
+			line-height: 1.5em;
+			margin-left: 0px !important;
+			padding: 2px 7px !important;
+			text-decoration: none;
+			vertical-align: middle;
+		}
+	}
+}
+
+.num-page{
+	float: right !important;
+	span, a{
+		display: inline-block;
+		vertical-align: middle;
+		text-decoration: none;
+		color: #6f6f6f;
+		padding: 3px 9px;
+		margin-right: 5px;
+		background: #DEDCDC;
+		margin-left: 0;
+		&.active{
+			background: #f28f00;
+			color: #fff;			
+		}
+	}
+	a{
+		&:last-child{
+			margin-right: 0;
+		}
+		&:hover, &:focus{
+			background: #f28f00;
+			color: #fff;
+		}
+	}
+
+}
 
 @media (max-width:860px) {
 	.topbaner{
@@ -103,6 +146,10 @@
 				}
 			}
 		}
+	}
+	.num-page{
+		margin-top: 10px;
+		float: left !important;
 	}
 }
 
