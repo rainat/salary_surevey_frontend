@@ -70,6 +70,7 @@
 
 .num-page{
 	float: right !important;
+	margin-bottom: 5px;
 	span, a{
 		display: inline-block;
 		vertical-align: middle;
@@ -78,6 +79,7 @@
 		padding: 3px 9px;
 		margin-right: 5px;
 		background: #DEDCDC;
+		margin-bottom: 5px;
 		margin-left: 0;
 		&.active{
 			background: #f28f00;
@@ -95,6 +97,16 @@
 	}
 
 }
+
+/* BUTTONS */
+.btn-to-center{
+	button, .btn-oraneflat{
+		&:first-child{
+			margin-right: 10px;
+		}
+	}
+}
+
 
 @media (max-width:860px) {
 	.topbaner{
@@ -147,8 +159,12 @@
 			}
 		}
 	}
+	.pagination{
+		p{
+			float: none;
+		}
+	}
 	.num-page{
-		margin-top: 10px;
 		float: left !important;
 	}
 }

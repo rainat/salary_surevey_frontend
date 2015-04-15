@@ -270,7 +270,8 @@
 						<p class="num-page">
 							<span><</span>
 							<span class="active">1</span>
-							<a href="#">2</a>
+							<!-- <a href="#">2</a> -->
+							<a href="#pause" data-toggle="modal" data-value="yes">2</a><!-- / THIS MARK UP FOR RUNNING MODAL PURPOSE -->
 							<a href="#">3</a>
 							<a href="#">4</a>
 							<a href="#">5</a>
@@ -343,6 +344,35 @@
 			</div>
 		</div>
 	</footer><!-- footerweb -->
+
+
+	<!-- NEW MODAL-SAMPLE MARK-UP BEGIN -->
+	<div id="pause" class="modal-riz modal fade in" data-keyboard="false" data-backdrop="static" tabindex="-1">
+		<div class="modal-dialog">
+			<div class="modal-content">
+			
+				<div class="modal-header">
+					<button class="close" aria-hidden="true" data-dismiss="modal" type="button">x</button>
+					<h4 class="modal-title">Pause Salary Alert</h4>
+				</div><!-- / .modal-header -->
+
+				<div class="modal-body">
+					<p class="red-text">Are you sure you want to <span>pause</span> this Salary Alert?</p>
+				</div><!-- / .modal-body -->
+
+				<div class="modal-footer">
+					
+					<div class="text-center btn-to-center">
+						<button class="btn-orangeflat" data-dismiss="modal" type="button">Cancel</button>
+						<button class="btn-orangeflat" type="button">Pause</button>
+					</div>
+
+				</div><!-- / .modal-footer -->
+
+			</div><!-- / .modal-content -->
+		</div>
+	</div>
+	<!-- NEW MODAL-SAMPLE MARK-UP END -->
 
 	<script src="assets/js/jquery-1.11.0.min.js" type="text/javascript"></script> 
 	<script src="assets/bootstrap/js/bootstrap.min.js" type="text/javascript"></script> 

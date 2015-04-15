@@ -5683,6 +5683,7 @@ textarea:focus, select:hover, select:focus {
 
 .num-page {
   float: right !important;
+  margin-bottom: 5px;
 }
 .num-page span, .num-page a {
   display: inline-block;
@@ -5692,6 +5693,7 @@ textarea:focus, select:hover, select:focus {
   padding: 3px 9px;
   margin-right: 5px;
   background: #DEDCDC;
+  margin-bottom: 5px;
   margin-left: 0;
 }
 .num-page span.active, .num-page a.active {
@@ -5704,6 +5706,11 @@ textarea:focus, select:hover, select:focus {
 .num-page a:hover, .num-page a:focus {
   background: #f28f00;
   color: #fff;
+}
+
+/* BUTTONS */
+.btn-to-center button:first-child, .btn-to-center .btn-oraneflat:first-child {
+  margin-right: 10px;
 }
 
 @media (max-width: 860px) {
@@ -5746,8 +5753,11 @@ textarea:focus, select:hover, select:focus {
     padding: 0 20px;
   }
 
+  .pagination p {
+    float: none;
+  }
+
   .num-page {
-    margin-top: 10px;
     float: left !important;
   }
 }
