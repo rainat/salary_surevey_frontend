@@ -5734,6 +5734,20 @@ textarea:focus, select:hover, select:focus {
   }
 
   .cellEditing input[type="text"] {
-    width: 60%;
+    width: 150px;
+  }
+
+  .passfield {
+    width: 150px;
+  }
+
+  .f-dtlaccount .tb_edit_target {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 110px;
+  }
+  .f-dtlaccount td:last-child {
+    padding-left: 0;
   }
 }
