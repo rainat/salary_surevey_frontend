@@ -5713,6 +5713,10 @@ textarea:focus, select:hover, select:focus {
   margin-right: 10px;
 }
 
+.recruit {
+  margin-right: -50px;
+}
+
 @media (max-width: 860px) {
   .topbaner {
     margin-top: 30px;
