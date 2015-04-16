@@ -5717,6 +5717,13 @@ textarea:focus, select:hover, select:focus {
   margin-right: -50px;
 }
 
+.form-inline .form-group .label-title {
+  vertical-align: middle;
+  height: 43px;
+  line-height: 43px;
+  font-size: 14px;
+}
+
 @media (max-width: 860px) {
   .topbaner {
     margin-top: 30px;
