@@ -1,0 +1,1344 @@
+a{
+    text-decoration: none !important;  
+}
+a:focus,a:active{
+    outline: 0;
+}
+.white{
+    color: #ffffff;
+}
+.light_blue{
+    color:#54bc75;
+}
+.light_red{
+    color:#f17777;
+}
+.light_green{
+    color:#7bc793;
+
+}
+.light_orange{
+    color: #f76d4a;
+}
+.orange-text{
+    color : #f28f00;
+}
+.fent_orange{
+    color:#f8c773;
+}
+.empty-salary-msg{
+    margin-top: 10px;
+    padding: 15px;
+}
+
+.box-table p span {
+    color: #f28f00;
+    text-decoration: none;
+}
+/*.paginationspan{
+    margin: 0px;
+    float: right;
+}*/
+#emailIdExitsDiv{
+    margin-top: -20px;
+}
+/*#emailIdExitsDiv h1{
+    text-align: center;
+    font-size: 15px;
+    color: #FF0000;
+    padding: 10px
+}*/
+#emailIdUseStaff h1{
+    text-align: center;
+    font-size: 15px;
+    color: #FF0000;
+    padding: 10px 
+}
+.loginbtnErr{
+    margin-left:10px;
+    text-align: center;
+    color: #fff;
+}
+.iteminput1 input[type="email"]{
+    width: 100%;
+    display: block;
+    background: #fff;
+    padding: 9px;
+    font-family: "arial";
+    font-size: 12px;
+    color: #454545;
+    border: #9b9b9b solid 1px;
+}
+.iteminput1 input[type="password"]{
+    width: 100%;
+    display: block;
+    background: #fff;
+    padding: 9px;
+    font-family: "arial";
+    font-size: 12px;
+    color: #454545;
+    border: #9b9b9b solid 1px;
+}
+.iteminput1 input[type="number"]{
+    width: 100%;
+    display: block;
+    background: #fff;
+    padding: 9px;
+    font-family: "arial";
+    font-size: 12px;
+    color: #454545;
+    border: #9b9b9b solid 1px;
+}
+.iteminput1 input[type="digits"]{
+    width: 100%;
+    display: block;
+    background: #fff;
+    padding: 9px;
+    font-family: "arial";
+    font-size: 12px;
+    color: #454545;
+    border: #9b9b9b solid 1px;
+}
+textarea{
+    width: 100%;
+    display: block;
+    background: #fff;
+    padding: 9px;
+    font-family: "arial";
+    font-size: 12px;
+    color: #454545;
+    border: #9b9b9b solid 1px;
+}
+
+.errorBtn{
+    background: linear-gradient(to bottom, #f28f00 0%, #f28f00 50%, #ce800f 51%, #ce800f 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: medium none;
+    font-size: 20px;
+    height: 62px;
+    padding: 0 36px 0 20px;
+    color: #fff;
+}
+#loginbtnErr a{
+    text-decoration: none;
+    color: #fff;
+}
+#loginbtnErr a {
+    text-decoration: none;
+    color: #fff;
+}
+.forerrortext .wrap-validation span.error {
+    bottom: -18px;
+    color: red;
+    font-size: 12px;
+    position: static;   
+}
+.candidateSlefResult{
+    /// margin-left:20px;
+    color: #419837;
+    font-weight: bold;
+
+}
+.boxsilform .disableinpemail {
+    background-color: #f4f1f1 !important;
+    border: 1px solid #9b9b9b !important;
+}
+.ajaxloader{
+    background-image: url("/img/ajax-loader-email.GIF") !important;
+    background-repeat: no-repeat !important;
+    background-position: right center !important;
+
+}
+
+.successloader{
+    background-image: url("/img/success.png") !important;
+    background-repeat: no-repeat !important;
+    background-position: right center !important;
+}
+.errorloader{
+    background-image: url("/img/cross_icon.png") !important;
+    background-repeat: no-repeat !important;
+    background-position: right center !important;
+}
+.submitWait{
+    cursor: not-allowed !important; 
+}
+#errorDiv{
+    color: #ff0000;
+    font-size: 15px;
+    margin-top: -11px;
+    padding: 25px;
+    text-align: center;
+}
+iteminputsal .wrap-validation span.error {
+    bottom: -18px;
+    color: red;
+    font-size: 12px;
+    position: absolute;
+}
+.header-table p span{
+    cursor: pointer;
+}
+.erroemsg{
+    font-size:20px;
+    padding-top: 10px;
+    //padding-bottom: 30px;
+    color:red;
+    text-align: center;
+}
+.searchInput input{
+    width: 100%;
+}
+#valideemailErr{
+    display: none;
+    color: red;
+}
+.editpencil {
+    border-color:#cecece;
+    border-width:1px 0 1px 1px;
+    border-style:solid;
+    float:right;
+    display:block;
+    width:40px;
+    height:38px;
+}
+/*search result autocompleate loader*/
+.autoCompleteLoader{
+    background: url('/img/autoloader.gif') right center no-repeat !important;  
+}
+figure.img-client {
+    display: block;
+    margin: 0 0 95px;
+    padding: 0;
+}
+.jobNotFound{
+    padding: 15px 10px; 
+    font-size: 15px;
+    color: #FF0000;
+}
+.footersec-view p i {
+    color: #f28f00;
+}
+.wrap-lists a{
+    cursor: pointer;  
+}
+
+.searchjoberror{
+    color: #ff0000;
+}
+.list-points-select ul li span {text-decoration:none;color:#f28f00;margin:0 0 0 4px;}
+.each-s p span {color: #f28f00;text-decoration: none;}
+.box-title2_custom a{
+    color: #489943;
+    display: block;
+    font-family: Arial;
+    font-size: 12px;
+    text-align: right;
+    margin-top: -32px;
+    text-decoration: none;
+    padding-bottom: 20px;
+    top: -36px;
+}
+.popup{
+    background-color: #cecece;
+    width: 400px;
+    height: auto;
+    padding: 20px;
+}
+.clink a{
+    cursor: pointer;  
+}
+
+/* new code 01/30/15 */
+#headerweb {
+    _background: url(../images/bgmap.jpg) center top no-repeat;
+    min-height: 100px;
+    padding-top: 33px;
+    position: relative;
+    z-index: 1;
+
+}
+.logintopSelect {
+    background: #489943 url("../images/users.png") 15px 50% no-repeat;
+    display: block;
+    color: #fff;
+    width: auto;
+    position: absolute;
+    right: 15px;
+    top: -33px;
+    font-size: 12px;
+    padding: 3px 11px 5px;
+    padding-left: 48px;
+    min-width: 200px;
+    text-align: right;
+    border-bottom: 2px solid #17B80E;
+}
+
+.logintopSelect .btn{
+    background: none;
+    padding: 5px;
+    border-radius:0;
+    -moz-border-radius:0;
+    webkit-border-radius:0;
+    color: white;
+    text-align: left;
+}
+.logintopSelect .btn-group > .btn:first-child {
+    margin-left: 0;
+    width:auto;
+    position:relative;
+    /*    text-align: left;
+        padding: 5px;*/
+
+}
+.logintopSelect .btn:hover, .logintopSelect .btn:focus, .logintopSelect .btn:active  {
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.logintopSelect .btn-group.open .dropdown-toggle {
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    color: white;
+}
+.logintopSelect  .btn-group.open .dropdown-toggle{
+
+}
+.logintopSelect .dropdown-menu {
+    width: auto;
+    min-width: 200px !important;
+    background: #489943;
+    border: none;
+    border-radius: 0px;
+    box-shadow: none;
+    text-align: left;
+    color: white;
+    top: 112%;
+    margin-left: -84px;
+    border-top: 1px solid #17B80E;
+    border-right:1px solid #178611;
+    border-left:1px solid #178611;
+    border-bottom:1px solid #178611;
+
+}
+
+.logintopSelect .dropdown-menu > li > a{
+    color: white;
+    border-bottom: 1px solid #178611;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.dropdown-menu > li:last-child > a {
+    border-bottom: none;
+}
+.logintopSelect .dropdown-menu > li > a:hover{
+    background: #20761B;
+    color:white;
+}
+
+.logintopSelect .dropdown-menu > li > a:hover{
+    background: #20761B;
+    color:white;
+}
+
+/*end new code 01/30/15*/
+
+#fade,
+#fade_wrapper,
+#fade_background {
+    transition: all 0.3s;
+}
+
+.boxcl a{
+    color:white;
+}
+
+.removebtn{
+    position: relative;
+}
+.partner img {
+    height: 60px;
+    max-width: 120px;
+    width: 120px;
+}
+figure.img-client img{
+    height: 60px;
+    max-width: 120px;
+    width: 120px;
+}
+.apply-now {
+    background: url("../images/orange-grad-bg.jpg") repeat-x scroll left center rgba(0, 0, 0, 0);
+    border: 1px solid #b96d00;
+    color: #ffffff;
+    cursor: pointer;
+    display: block;
+    font-family: Arial;
+    font-size: 12px;
+    margin: 0;
+    max-width: 86%;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+}
+.btn-setup a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.orangegadientanchor a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.btn-setup a:hover{
+    text-decoration: none;
+}
+.companyName {
+    color: #f28f00;
+    text-decoration: none;
+}
+.emptyRec{
+    color:red;
+    text-align: center;
+    padding: 10px;
+}
+#loader{
+    float: right;
+    margin-top: -35px !important;
+    position: relative;
+    display: none;
+}
+a.already-save-job{
+    background: url("../images/checks.jpg") no-repeat scroll 10px center rgba(0, 0, 0, 0);
+    display: block;
+    font-family: Arial;
+    font-size: 12px;
+    padding: 14px 0 14px 40px;
+    text-decoration: none;
+}
+.modal {
+    bottom: 0;
+    display: none;
+    left: 0;
+    outline: 0 none;
+    overflow: auto;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1050;
+}
+.savejob.block-link{
+    background-position: 23px center;
+    padding-left: 0;
+}
+.savejob.block-link {
+    background: url("../images/checks.jpg") no-repeat scroll 25px center rgba(0, 0, 0, 0);
+    border: 1px solid #d0d0d0;
+    color: #575a55;
+    margin: 0 auto 20px;
+    text-align: center;
+    text-decoration: none;
+    padding: 11px;
+}
+.savejob.block-link:hover:hover {
+    border: 1px solid #489943;
+    color: #489943;   
+    text-decoration: none;
+}
+.savejob.block-link a:hover {
+
+    color: #489943;
+    text-decoration: none;
+}
+a.email-this-job-send.block-link {
+    border:1px solid #d0d0d0;
+    color:#575a55;
+    margin:0 auto 20px;
+    text-align: center;
+}
+a.email-this-job-send.block-link {
+    background-position: 23px center;
+    padding-left: 0;
+}
+a.email-this-job-send.block-link:hover {
+    border:1px solid #489943;
+    color:#489943;
+}
+a.email-this-job-send {
+    background:url(../images/checks.jpg) no-repeat 10px center;
+    font-size:12px;
+    text-decoration:none;
+    font-family:Arial;
+    display:block;
+    padding:14px 0 14px 40px;
+}
+.wrap-validation div.check-val.error textArea{
+    border: 1px solid red !important;
+}
+.linkorangeformbtn{
+    color: #fff;
+    display: table;
+    margin: 8px -25px 6px 14px;
+}
+.linkorangeformbtn a{
+    text-decoration: none;
+}
+.lastTd{
+    padding: 0 3px 7px 18px  !important;
+    color: green;
+}
+.anccolor{
+    text-decoration: none;
+    color: orange;
+}
+.anccolor a:hover{
+    color: orange;
+}
+
+.companyInfo .row{
+    padding: 5px 0px 5px 0px;
+    border-bottom:1px solid;
+}
+
+
+#addJobApplicationModal .modal-dialog  {    width: 800px;}
+
+.wrap-validation div.check-val .border-color-red {
+    border: 1px solid red;
+}
+.border-color-red {
+    border: 1px solid red !important;
+}
+.border-error{
+    border-color:red !important;
+}
+/*
+* job application check box
+*/
+.checkform2 .custom-label{
+    float: left;
+    margin-right: 4px;
+}
+
+.checkform2 {
+    display: block;
+    font-family: "arial";
+    margin-top: 30px;
+    margin-bottom: 17px;
+    position: relative;
+}
+.appalyJobCondidtions{
+    margin-left:31px;
+}
+#uploadCVDivId{
+    /*background: none repeat scroll 0 0 #e4e4e4;*/
+    display: inline-block;
+    padding: 4px 5px 0;
+    vertical-align: middle;
+}
+
+/*.browsebtndiv{
+      background-color: #DFE8E4;  
+      padding: 10px 0px 10px 10px;
+}*/
+/*.browsebtn{
+      padding: 15px 0 10px 10px;
+      background-color:#f28f00;
+      font-family: "arial";
+
+}*/
+.atoz ul{
+    list-style-type: none; display:inline; 
+}
+.atoz ul :first-child {
+    padding-right: 33px;
+}
+
+.atozcompantlist li{
+    float: left;
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    text-transform: uppercase;
+    width: 30px;
+}
+
+.atozcompantlist li a{
+    padding : 0px !important;
+}
+
+.btnw{
+    width: 100% !important;
+}
+
+.mrgbt{
+    margin-bottom: 20px;
+}
+
+.btnwidth{
+    width: auto;
+}
+
+.dtcls .disableinp{
+    font-size: 14px !important;
+}
+
+.dtcls .input-group-addon{
+    border-radius: inherit;
+}
+
+.input-group-addon{
+    cursor: pointer !important;
+}
+
+.datepicker{z-index:1151 !important;}
+
+.iteminput1 .ajaxloader {
+    background-image: url("/img/ajax-loader-email.GIF") !important;
+    background-position: right center !important;
+    background-repeat: no-repeat !important;
+}
+
+.iteminput1 .successloader {
+    background-image: url("/img/success.png") !important;
+    background-position: right center !important;
+    background-repeat: no-repeat !important;
+}
+
+
+.iteminput1 .errorloader{
+    background-image: url("/img/cross_icon.png") !important;
+    background-repeat: no-repeat !important;
+    background-position: right center !important;
+}
+
+.error-message {
+    color:red;
+}
+
+.boxcls{
+    border-bottom: 1px solid #dfdfdf;
+    border-top: 1px solid #dfdfdf;
+    margin-left: -24px;
+    margin-right: -24px;
+    padding: 10px;
+}
+
+.mrg{
+    margin-top:4%;
+    padding-bottom: 0;
+    min-height: 110px !important;
+}
+
+.bttmcls{
+    margin: 0 -23px !important;
+    padding: 12px;
+}
+
+.centr{
+    text-align: center !important;
+    font-weight: bold;
+}
+
+.dtcls{
+    text-align: center !important;
+    color: #419837;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 15px;
+}
+
+.hght{
+    margin-top:4%;
+    padding-bottom: 0;
+    min-height: 89px !important;
+}
+
+.mrgbttom{
+    margin-top: 8px;
+}
+
+.widcls{
+    width: 100% !important;
+    margin: 0 !important;
+}
+
+table.widcls td, table.widcls th{
+    line-height: 45px !important;
+}
+.widcls tr:nth-of-type(2n+1) td:first-child{
+    line-height: 5px !important; 
+}
+
+.fwhtb1{
+    font-weight: bold;
+}
+.site .details-job {
+    border: 1px solid #dfdfdf;
+    display: block;
+    margin: 0 0 20px;
+    min-height: 170px;
+    overflow: visible;
+
+}
+
+.accountedit_pencil{
+    cursor: pointer;
+}
+.userdetail_tbox{
+    padding: 0px 10px 10px 0px;
+}
+#email_text{
+
+    padding-bottom: 15px;
+}
+.header a{
+    color: #fff;
+}
+.ssearch .sharesocial2 {
+    position: absolute;
+    right: 92px;
+}
+/*.ssearch .sharesocial2 {
+    position: relative;
+    right: 0;
+    margin-top: 35px;
+  }*/
+thead a{
+    color: #fff;
+}
+.iteminputCms {
+    display: block;
+    margin-bottom: 20px;
+    position: relative;
+}
+input[type="password"],input[type="text"].shwhidecls
+{
+    padding: 5px;
+    font-size: 13px;
+}
+
+.pointercls{
+    cursor: pointer !important;
+}
+
+.accdetailcls span.error{
+    display: inline-block;
+    position: unset;
+}
+.pagination {
+    margin: 0 0 20px;
+    text-align: right;
+}
+.pagination span:active, .pagination span.active {
+    margin-left: 2px;
+    padding: 3px 8px;
+}
+.pagination span .disabled, .pagination span.disabled {
+    margin-left: 4px;
+    padding: 3px 9px;
+}
+.pagination span:hover, .pagination span:active, .pagination span.active {
+    background-color: #f28f00;
+    color: #fff;
+}
+@media (max-width: 480px) {
+    .pagination span, .pagination span {
+        margin-left: 4px;
+        padding: 2px 7px;
+    }
+}
+.pagination span, .pagination strong {
+    background: none repeat scroll 0 0 #dedcdc;
+    color: #6f6f6f;
+    display: inline-block;
+    line-height: 1.5em;
+    margin-left: 4px;
+    padding: 3px 8px;
+    text-decoration: none;
+    vertical-align: middle;
+}
+.pagination span, .pagination strong {
+    background: #dedcdc;
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    zoom: 1;
+    *display: inline;
+    margin-left: 6px;
+    padding: 1px 2px;
+    text-decoration: none;
+    line-height: 1.5em;
+    color: #6f6f6f;
+}
+.pagination a, .pagination strong {
+    background: none repeat scroll 0 0 #dedcdc;
+    color: #6f6f6f;
+    display: inline-block;
+    line-height: 1.5em;
+    margin-left: 0px;
+    padding: 2px 7px;
+    text-decoration: none;
+    vertical-align: middle;
+}
+.multipleckeck i, .iteminput1 i.glyphicon {
+    padding-left: 0;
+    color: red;
+}
+.cmspageTitle{
+    padding: 5px 10px;
+    background: url("../images/bg-grey-grad.jpg") repeat-x scroll left top white;
+}
+.cmspagedata{
+    padding: 25px 10px 10px 10px;
+    background: rgb(243,243,243);
+}
+.bxbtm-link {
+    background-color: #efefef;
+    border: 1px solid #d1d1d1;
+    clear: both;
+    display: inline-block;
+    margin: 0 auto 0px;
+    max-width: 425px;
+    overflow: hidden;
+    padding: 12px 18px;
+    text-align: center;
+    //min-width: 420px;
+    width: auto !important;
+}
+.goWrapper{width: 100%; margin: 0 auto; text-align: center;}
+
+@media(max-width:400px) {
+    .bxbtm-link p a.goto-link {
+        width: 100%;
+    }
+}
+.bxbtm-link p a.goto-link {
+    background-color: #939393;
+    border: medium none;
+    color: #fff;
+    display: block;
+    float: left;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 700;
+    margin: 0 10px 0 0;
+    padding: 5px 9px;
+    text-decoration: none;
+}
+.bannerimg img {
+    height: 600px;
+    width: 120px;
+}
+figure.avatar-img img {
+    height: 100%;
+    max-width: 100%;
+}
+
+.iteminput1 .nobonus input[type="radio"], input[type="checkbox"] {
+    line-height: normal;
+    margin: 0px 0 0;
+    margin-top: -4px;
+}
+/*
+*LOGIN FORM CSS
+*/
+.loginformdiv{
+    background-color: #FAFAFA;
+    border-radius: 5px;
+}
+.logborder{
+    border-right: 1px solid black;
+    //background-color: #e4e4e4;
+}
+.logUnderlineborder{
+    border: 1px solid black;
+}
+.signformborder{
+    border-left: 1px solid gray;
+}
+.formpadding{
+    padding-top: 100px;
+}
+.loginForm{
+    padding: 10px;
+}
+// search field jobsearch and sealary result popup css
+.closePopupBtn{border-top: 0px solid #fff !important; padding: 0px !important; margin-top:0px !important;}
+#locationModal .bgwhit-main{padding: 5px 7px 20px !important;}
+#locationModal .title-mainblack{margin-bottom: 10px !important; margin-left: 19px;}
+#locationModal .grey-block{padding: 5px !important; margin-bottom: 5px}
+#locationModal .grey-block.grey-block-arrow:before{padding: 5px !important; background: none !important;}
+#locationModal .centered{margin: 20px 10px !important;}
+#locationModal .grey-block .col-md-12{margin-bottom: 10px !important; }
+#locationModal .grey-block .col-md-6{padding:0px 5px !important; }
+#locationModal #location_text{width: 100% !important;  margin-bottom: 10px; padding-left: 20px;}
+#locationModal #curency_text{margin-bottom: 17px; padding-top: 9px; font-size: 13px;width: 100% !important;}
+#locationModal #curency_text #popupCurrency{font-weight: bold; color: #f28f00; }
+#locationModal .orange{color:#f28f00;}
+.ftr{float:right;}
+
+.emailcheckstatus{
+    margin-top: 10px;
+}
+
+#loginModal .modal-dialog {
+    margin: 30px auto;
+    width: 800px;
+}
+
+#loginModal .modal-body {
+    padding: 0px;
+    position: relative;
+}
+#loginModal .itempage-result {
+    background: url("../images/bg-grey-grad.jpg") repeat-x scroll left top white;
+    font-family: "Open Sans";
+    margin-top: 0px;
+    min-height: 100px;
+    padding: 1px 1px 0;
+    position: relative;
+    width: 100%;
+
+}
+
+#tcontent .width45{width: 45% !important;}
+#tcontent .width30{width: 30% !important;}
+#tcontent .enterkeyword{padding:12px 20px; font-size: 14px;}
+
+#sendJobEmailIdArr{
+    padding: 5px 5px 5px 15px;
+}
+.inputEmailErr{
+    border: 1px solid red !important;
+}
+
+/*
+* add currency zone
+*/
+.currencyZone{
+    background: none repeat scroll 0 0 #fff;
+    padding: 15px;
+    color: #3c3a3a;
+}
+.currencyZoneSearchResult{
+    background: none repeat scroll 0 0 #fff;
+    padding: 15px;
+    color: #3c3a3a;
+}
+#switchTab{
+    cursor: pointer;
+}
+#regionCurrency{
+    font-weight: bold;
+}
+#scontent.nopad{
+    position: relative;
+    z-index: 0;
+}
+.tar{text-align: right;}
+
+.xmlFont{
+    font-weight: bold;
+    padding-top: 8px;
+}
+
+.bigtable{
+    width: 100%;
+    overflow-x: scroll;
+
+}
+@media (min-width: 992px) {
+    .bigtable .tablezebra {
+        width: 100%;
+        overflow-x: scroll;
+        white-space: normal;
+    }
+    .bigtable table th{
+        width: 150px;
+    }
+    .bigtable table td{
+        width: 150px;
+    }
+}
+#form_card_details span.error{color:red !important;}
+#cardInformation input{
+    background: none !important;  
+    border: 1px solid #CECECE;
+}
+#cardInformation .row{
+    margin-left: 5px !important;    
+    margin-right: 0px !important;  
+    margin-bottom: 5px !important;
+}
+#cardInformation .card-label{padding:10px 0 10px 15px !important;}
+#cardInformation .card-Value{padding:2px 0 10px 20px !important;}
+.custom-input-error{border:1px solid red !important;}
+.bgsilpag-result h5 span a {
+    color: #f28f00;
+}
+.changeSize .tablezebra.tb-static tr > td {
+    padding: 8px;
+}
+.changeSize .tablezebra.table tr {
+    border-bottom: 3px solid white;
+}
+
+.t-listdets span a {
+    color: #f28f00;
+    font-size: 12px;
+}
+.t-listdets span {
+    color: #f28f00;
+}
+#popupCompanyUrl{
+    text-transform: capitalize;
+}
+
+.alert-danger a{
+    background-color: #f2dede;
+    border-color: #ebccd1;
+    color: #000;
+}
+.title-details h5 a{
+    color: #419837;
+}
+.logintop {
+    background: none repeat scroll 0 0 #489943;
+    border-radius: 0 0 3px 3px;
+    color: #fff;
+    display: block;
+    font-size: 12px;
+    padding: 6px 0;
+    position: absolute;
+    right: 15px;
+    text-align: center;
+    top: -38px;
+    width: 93px;
+}
+.cust-top .bgsilpag-viewjob{padding:35px 16px 36px !important;}
+
+/* Report this entry pop up design */
+.closePopupBtn{border-top: 0px solid #fff !important; padding: 0px !important; margin-top:0px !important;}
+#report-this-entry .bgwhit-main{padding: 5px 7px 20px !important;}
+#report-this-entry .title-mainblack{margin-bottom: 10px !important; margin-left: 15px; margin-top: 10px !important;}
+#report-this-entry .grey-block{padding: 5px !important; margin-bottom: 5px}
+#report-this-entry .grey-block.grey-block-arrow:before{padding: 5px !important; background: none !important;}
+#report-this-entry .centered{margin: 20px 10px !important;}
+#report-this-entry .grey-block .col-md-12{margin-bottom: 10px !important; }
+#report-this-entry .grey-block .col-md-7{padding:0px 0px 15px 15px !important; }
+#report-this-entry #location_text{width: 100% !important;  margin-bottom: 10px; padding-left: 20px;}
+#report-this-entry #curency_text{margin-bottom: 17px; padding-top: 9px; font-size: 13px;width: 100% !important;}
+#report-this-entry #curency_text #popupCurrency{font-weight: bold; color: #f28f00; }
+#report-this-entry .orange{color:#f28f00;}
+#report-this-entry .close{opacity: 0.8 !important;}
+button.close{background-color: green;}
+.ftr{float:right;}
+
+.emailcheckstatus{
+    margin-top: 10px;
+}
+
+#report-this-entry .modal-dialog {
+    margin: 30px auto;
+    width: 600px;
+}
+
+#report-this-entry .modal-body {
+    padding: 0px;
+    position: relative;
+}
+#report-this-entry .itempage-result {
+    background: url("../images/bg-grey-grad.jpg") repeat-x scroll left top white;
+    font-family: "Open Sans";
+    margin-top: 0px;
+    min-height: 100px;
+    padding: 1px 1px 0;
+    position: relative;
+    width: 100%;
+
+}
+.report-this-entry-hide{
+    background-color: green;
+    font: 13px/1.4 "Lato",sans-serif !important;
+    opacity: 0.8 !important;
+}
+.emailIconStatus{margin-left: 10px;}
+
+.cust-top .bgsilpag-viewjob{padding:35px 16px 36px !important;}
+
+
+.paging-nav {
+    text-align: right;
+}
+
+.paging-nav a {
+    background: none repeat scroll 0 0 #dedcdc;
+    color: #6f6f6f;
+    display: inline-block;
+    line-height: 1.5em;
+    margin-left: 10px;
+    padding: 7px 11px;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.paging-nav .selected-page {
+    background: #f28f00;
+    font-weight: bold;
+}
+
+.paging-nav, #tableData {
+    width: 400px;
+    margin: 0 54%;
+    font-family: Arial, sans-serif;
+}
+.request-removal{font-size: 13px; font-weight: normal;}
+
+/* candidate request removal */
+.closePopupBtn{border-top: 0px solid #fff !important; padding: 0px !important; margin-top:0px !important;}
+#candidate-Request-Removal .bgwhit-main{padding: 5px 7px 20px !important;}
+#candidate-Request-Removal .title-mainblack{margin-bottom: 10px !important; margin-left: 19px; margin-top: 10px !important;}
+#candidate-Request-Removal .grey-block{padding: 5px !important; margin-bottom: 5px}
+#candidate-Request-Removal .grey-block.grey-block-arrow:before{padding: 5px !important; background: none !important;}
+#candidate-Request-Removal .centered{margin: 20px 10px !important;}
+#candidate-Request-Removal .grey-block .col-md-12{margin-bottom: 10px !important; }
+#candidate-Request-Removal .grey-block .col-md-7{padding:0px 0px 15px 15px !important; }
+#candidate-Request-Removal #location_text{width: 100% !important;  margin-bottom: 10px; padding-left: 20px;}
+#candidate-Request-Removal #curency_text{margin-bottom: 17px; padding-top: 9px; font-size: 13px;width: 100% !important;}
+#candidate-Request-Removal #curency_text #popupCurrency{font-weight: bold; color: #f28f00; }
+#candidate-Request-Removal .orange{color:#f28f00;}
+#candidate-Request-Removal .close{opacity: 0.8 !important;}
+button.close{background-color: green;}
+.ftr{float:right;}
+
+.emailcheckstatus{
+    margin-top: 10px;
+}
+
+#candidate-Request-Removal .modal-dialog {
+    margin: 30px auto;
+    width: 600px;
+}
+
+#candidate-Request-Removal .modal-body {
+    padding: 0px;
+    position: relative;
+}
+#candidate-Request-Removal .itempage-result {
+    background: url("../images/bg-grey-grad.jpg") repeat-x scroll left top white;
+    font-family: "Open Sans";
+    margin-top: 0px;
+    min-height: 100px;
+    padding: 1px 1px 0;
+    position: relative;
+    width: 100%;
+
+}
+.candidate-Request-Removal-hide{
+    background-color: green;
+    font: 13px/1.4 "Lato",sans-serif !important;
+    opacity: 0.8 !important;
+}
+.emailIconStatus{margin-left: 10px;}
+
+
+#companyName{
+    /*float: right;*/
+    text-align: left;
+    display:inline;
+    /*width: 65%;*/
+}
+.padd-bott {
+    min-height: 35px !important;
+    padding-bottom: 10px;
+}
+#rt-compro .box-title2 {
+    margin-bottom: 11px !important;
+    min-height: 0;
+}
+.cust-banner-rt .banner-rt {
+    height:100%;
+    position:absolute;
+    right:-25px;
+    top:37px;
+    width:48px;
+}
+.heading-profile h5 span{
+    padding-left: 5px;
+    color: #F28F00;
+}
+button.btn-orangeflat {
+    //border: 1px solid #a26309;
+    color: #fff;
+    display: block;
+    font-family: Arial;
+    font-size: 12px;
+    margin: 0 auto;
+    padding: 10px 30px;
+}
+.box-confirm {
+    background-color: #fff;
+    box-shadow: 0 0 6px #000;
+    height: 235px;
+    left: 50%;
+    margin-left: -277px;
+    margin-top: -110px;
+    padding: 24px 0 0;
+    position: relative;
+    top: 50%;
+    width: 594px;
+    z-index: 10000;
+}
+.custom-login-title .title-mainblack, .title-mainblackline {
+    margin-bottom: 16px;
+}
+.connectLink a{
+    color: white;
+}
+
+form#form-salaries h5 {
+    font-weight: 700;
+    font-family: Arial;
+    color: #53555c;
+    display: block;
+    font-size: 12px;
+    padding: 10px 0 10px !important;
+}
+#form-salaries .col-md-8, .col-md-4{margin-bottom: 10px !important;}
+.input-read-border{
+    border-color: red !important;
+}
+.bx-emailalerts .btn-orangeflat:hover{background-color:#FFA627 !important;}
+.orangegadient{
+    background: #f28f00 \9;
+    /* Old browsers */
+    background: #f28f00;
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2YyOGYwMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iI2YyOGYwMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUxJSIgc3RvcC1jb2xvcj0iI2NlODAwZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNjZTgwMGYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top, #f28f00 0%, #f28f00 50%, #f28f00 120%, #f28f00 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f28f00), color-stop(50%, #f28f00), color-stop(51%, #ce800f), color-stop(100%, #ce800f));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #f28f00 0%, #f28f00 50%, #f28f00 120%, #f28f00 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #f28f00 0%, #f28f00 50%, #f28f00 120%, #f28f00 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #f28f00 0%, #f28f00 50%, #f28f00 120%, #f28f00 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, #f28f00 0%, #f28f00 50%, #f28f00 120%, #f28f00 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f28f00',endColorstr='#f28f00',GradientType=0);
+    /* IE6-8 */
+    color: #fff;
+    font-family: "Lato";
+    transition: opacity .3s linear;
+    -moz-transition: opacity .3s linear;
+    -webkit-transition: opacity .3s linear;
+    cursor: pointer;    
+}
+form#s-job input.submitfield {
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2YyOGYwMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iI2YyOGYwMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUxJSIgc3RvcC1jb2xvcj0iI2NlODAwZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNjZTgwMGYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top, #f28f00 0%, #f28f00 50%, #f28f00 120%, #f28f00 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f28f00), color-stop(50%, #f28f00), color-stop(51%, #f28f00), color-stop(100%, #f28f00));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #f28f00 0%, #f28f00 50%, #f28f00 120%, #f28f00 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #f28f00 0%, #f28f00 50%, #f28f00 120%, #f28f00 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #f28f00 0%, #f28f00 50%, #f28f00 120%, #f28f00 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, #f28f00 0%, #f28f00 50%, #f28f00 120%, #f28f00 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f28f00',endColorstr='#f28f00',GradientType=0);
+    /* IE6-8 */
+    border: medium none;
+    color: #fff;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 15px;
+    height: 63px;
+    margin: 0;
+    padding: 12px 0;
+    text-transform: uppercase;
+    width: 23%;
+    float: right;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+.popuptext input{
+    width: 60%;
+}
+
+#myCvBox {
+    padding: 0px 0px 36px !important
+}
+.btn-greenflat{background-color: #29AF4D;}
+.btn-redflat{background-color: #EC2327;}
+#cv-remove-container, #remove-CV-Box{width:137px; padding:9px 0px; color:#fff; text-align: center;}
+.uploadErr{
+    font-size: 12px;
+    text-align: center;
+    float: left;
+}
+.mouseHand:hover {
+    cursor: pointer;
+}
+button#report-this-entry-hide, button#send-report, button#locationModalHide, button#submitEmailAlert, button#closeErrorDivId,
+button#closeErrorDivId, button#closesuccessModalId, button#remove-cv-cancel, button#remove-cv {
+    padding: 0px !important;
+}
+#SearchAndBenefits .tooltip-inner {
+         max-width: 300px;
+    /* If max-width does not work, try using width instead */
+    width: 300px; 
+}
+#SearchAndBenefits .tooltip.top .tooltip-arrow { border-top-color: #ff8400 !important; }
+#SearchAndBenefits .tooltip.top .tooltip-inner {
+     background: #ff8400;
+    color: #fff;
+  }
+#SearchAndBenefits .titlepopinf {
+    background: none repeat scroll 0 0 #d27109;
+    border-radius: 0 0 5px 5px;
+    color: #fff;
+    display: inline-block;
+    margin-top: -3px;
+    padding: 10;
+    text-align: center;
+    width: 80%;
+}
+/* My CV browse button design */
+label.myCv{font-weight: normal; color: #fff;}
+label.myCv input[type="file"] {
+    position: fixed;
+    top: -1000px;
+}
+.myCv {    
+    padding: 9px 22px;
+    background: #F18E00;
+    display: inline-block;
+}
+.myCv:hover {
+    background: #29AF4D;
+    cursor: pointer;
+}
+.myCv:active {
+    background: #29AF4D;
+}
+.myCv :invalid + span {
+    color: red;
+    font-weight: normal;
+    left:0px;
+}
+.myCv :valid + span {
+    color: #fff;
+}
+.no-file{margin-left: 5px;}
+.cv-wrapper{margin-top: 5px;}
+.uploadbox{padding:12px 18px !important;}
+.color-black{color:#000;}
+.modal-title .pauseText{text-transform:capitalize;}
+.salinputwrap{padding:13px 20px !important;}

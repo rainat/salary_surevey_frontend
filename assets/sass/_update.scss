@@ -1,10 +1,13 @@
+$color-orange: #f28f00;
+$color-orange-dark: darken( #f28f00, 20% );
+
+
 /* BELOW STYLING WILL OVERRIDE ANOTHER STYLING */
 .main-logo{
 	a{
 		display: inline-block;
 	}
 }
-
 
 /* STYLING FOR RESPONSIVE NAVIGATION */
 .rwd-navigation{
@@ -107,6 +110,30 @@
 	}
 }
 
+.btn-grad-orange-new{
+	position: relative;
+	background-color: $color-orange;
+	box-shadow: inset 0px -30px 0px -2px rgba(black, .08) ;
+	// background-image: linear-gradient( to top, $color-orange-dark 30%, $color-orange);
+	padding: 15px 42px;
+	display: inline-block;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	font-family: "Lato", sans-serif;
+	border: none;
+	transition: all .35s ease;
+	&:hover, &:focus{
+		box-shadow: inset 0px -90px 0px -2px rgba(black, .08) ;
+	}
+}
+
+.btnwrap-login{
+	.btn-grad-orange-new{
+		margin-top: 10px;
+	}
+}
+
 .recruit{
 	margin-right: -50px;
 }
@@ -185,6 +212,12 @@
 }
 
 @media (max-width: 570px) {
+	.mainlogo{
+		margin-top: 45px;
+	}
+	form#s-job input.submitfield{
+		font-size: 12px;
+	}
 	.topbaner{
 		.banner-advertise{
 			display: none;
@@ -208,22 +241,53 @@
 	}
 	.cellEditing{
 		input[type="text"]{
-			width: 150px;
+			width: 100px;
 		}
 	}
 	.passfield{
-		width: 150px;
+		width: 100px;
 	}
 	.f-dtlaccount{
 		.tb_edit_target{
 			overflow: hidden;
 			white-space: nowrap;
 			text-overflow: ellipsis;
-			max-width: 110px;
+			max-width: 100px;
 		}
 		td{
 			&:last-child{
 				padding-left: 0;
+			}
+		}
+		.table{
+			td{
+				padding: 5px;
+			}
+		}
+	}
+	.btnwrap-login{
+		text-align: center;
+		.orangegadient{
+			input.no-btn{
+				padding: 0 15px;
+				height: 38px;
+				margin-top: 15px;
+				line-height: 38px;
+			}
+			img{
+				display: none;
+			}
+		}
+		.btn-grad-orange-new{
+			padding: 10px 15px;
+			font-size: 16px;
+		}
+	}
+
+	.form-inline{
+		.form-group{
+			.label-title{
+				line-height: inherit;
 			}
 		}
 	}

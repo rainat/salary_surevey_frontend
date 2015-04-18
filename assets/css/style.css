@@ -5713,6 +5713,27 @@ textarea:focus, select:hover, select:focus {
   margin-right: 10px;
 }
 
+.btn-grad-orange-new {
+  position: relative;
+  background-color: #f28f00;
+  box-shadow: inset 0px -30px 0px -2px rgba(0, 0, 0, 0.08);
+  padding: 15px 42px;
+  display: inline-block;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  border: none;
+  transition: all .35s ease;
+}
+.btn-grad-orange-new:hover, .btn-grad-orange-new:focus {
+  box-shadow: inset 0px -90px 0px -2px rgba(0, 0, 0, 0.08);
+}
+
+.btnwrap-login .btn-grad-orange-new {
+  margin-top: 10px;
+}
+
 .recruit {
   margin-right: -50px;
 }
@@ -5773,6 +5794,14 @@ textarea:focus, select:hover, select:focus {
   }
 }
 @media (max-width: 570px) {
+  .mainlogo {
+    margin-top: 45px;
+  }
+
+  form#s-job input.submitfield {
+    font-size: 12px;
+  }
+
   .topbaner .banner-advertise {
     display: none;
   }
@@ -5797,20 +5826,44 @@ textarea:focus, select:hover, select:focus {
   }
 
   .cellEditing input[type="text"] {
-    width: 150px;
+    width: 100px;
   }
 
   .passfield {
-    width: 150px;
+    width: 100px;
   }
 
   .f-dtlaccount .tb_edit_target {
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
-    max-width: 110px;
+    max-width: 100px;
   }
   .f-dtlaccount td:last-child {
     padding-left: 0;
+  }
+  .f-dtlaccount .table td {
+    padding: 5px;
+  }
+
+  .btnwrap-login {
+    text-align: center;
+  }
+  .btnwrap-login .orangegadient input.no-btn {
+    padding: 0 15px;
+    height: 38px;
+    margin-top: 15px;
+    line-height: 38px;
+  }
+  .btnwrap-login .orangegadient img {
+    display: none;
+  }
+  .btnwrap-login .btn-grad-orange-new {
+    padding: 10px 15px;
+    font-size: 16px;
+  }
+
+  .form-inline .form-group .label-title {
+    line-height: inherit;
   }
 }
