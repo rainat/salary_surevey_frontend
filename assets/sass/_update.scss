@@ -149,6 +149,14 @@ $color-orange-dark: darken( #f28f00, 20% );
 	}
 }
 
+.bootstrap-select.btn-group .dropdown-menu{
+	background-color: white;
+	z-index: 9999;
+}
+
+header.box-title{
+	z-index: 33;
+}
 
 @media (max-width:860px) {
 	.topbaner{
