@@ -5915,6 +5915,7 @@ header.box-title {
 }
 .table-new.small-only tbody tr th.st-head-row, .table-new.small-only tbody tr th.st-head-row-main {
   text-align: center;
+  white-space: normal;
 }
 .table-new.small-only tbody tr td {
   width: 100%;

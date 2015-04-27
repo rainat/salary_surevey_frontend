@@ -335,6 +335,7 @@ header.box-title{
 			th{
 				&.st-head-row, &.st-head-row-main{
 					text-align: center;
+					white-space: normal;
 				}
 			}
 			td{
@@ -347,6 +348,6 @@ header.box-title{
 }
 .table-new.large-only{
 	@media (max-width: 800px) {
-	    display: none;
+	    display: none; 
 	}
 }
