@@ -158,6 +158,18 @@ header.box-title{
 	z-index: 33;
 }
 
+.sharesocial2-rel{
+	position: relative;
+	clear: both;
+	.sm{
+		float: left;
+		margin-left: 0;
+		margin-right: 5px;
+		margin-bottom: 5px;
+		display: inline-block;
+	}
+}
+
 @media (max-width:860px) {
 	.topbaner{
 		margin-top: 30px;
@@ -298,5 +310,43 @@ header.box-title{
 				line-height: inherit;
 			}
 		}
+	}
+}
+
+.table-responsive{
+	@media (max-width: 800px) {
+		overflow: initial;
+		border:none;
+	}
+	>pre{
+		display: none;
+	}
+}
+.table-new.small-only{
+	display: none !important;
+	@media (max-width: 800px) {
+	    display: block !important;
+	}
+	tbody{
+		width: 100%;
+		position: relative;
+		tr{
+			width: 100%;
+			th{
+				&.st-head-row, &.st-head-row-main{
+					text-align: center;
+				}
+			}
+			td{
+				width: 100%;
+				text-align: center;
+			}
+		}
+	}
+
+}
+.table-new.large-only{
+	@media (max-width: 800px) {
+	    display: none;
 	}
 }

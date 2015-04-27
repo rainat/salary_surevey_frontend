@@ -10,4 +10,6 @@
 			toggle: false
 		});
 	});
-})(jQuery); 
+
+	$("#sortTable").stacktable();
+})(jQuery);

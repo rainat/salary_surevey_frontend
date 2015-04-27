@@ -5754,6 +5754,18 @@ header.box-title {
   z-index: 33;
 }
 
+.sharesocial2-rel {
+  position: relative;
+  clear: both;
+}
+.sharesocial2-rel .sm {
+  float: left;
+  margin-left: 0;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
 @media (max-width: 860px) {
   .topbaner {
     margin-top: 30px;
@@ -5874,5 +5886,43 @@ header.box-title {
 
   .form-inline .form-group .label-title {
     line-height: inherit;
+  }
+}
+@media (max-width: 800px) {
+  .table-responsive {
+    overflow: initial;
+    border: none;
+  }
+}
+.table-responsive > pre {
+  display: none;
+}
+
+.table-new.small-only {
+  display: none !important;
+}
+@media (max-width: 800px) {
+  .table-new.small-only {
+    display: block !important;
+  }
+}
+.table-new.small-only tbody {
+  width: 100%;
+  position: relative;
+}
+.table-new.small-only tbody tr {
+  width: 100%;
+}
+.table-new.small-only tbody tr th.st-head-row, .table-new.small-only tbody tr th.st-head-row-main {
+  text-align: center;
+}
+.table-new.small-only tbody tr td {
+  width: 100%;
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  .table-new.large-only {
+    display: none;
   }
 }
