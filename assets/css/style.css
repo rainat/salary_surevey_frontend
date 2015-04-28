@@ -5766,6 +5766,22 @@ header.box-title {
   display: inline-block;
 }
 
+@media (max-width: 980px) {
+  #asideright {
+    width: 100%;
+  }
+  #asideright .sharesocial2-rel {
+    text-align: center;
+  }
+
+  .sharesocial2-rel span {
+    text-align: center;
+  }
+  .sharesocial2-rel .sm {
+    display: inline-block;
+    float: none;
+  }
+}
 @media (max-width: 860px) {
   .topbaner {
     margin-top: 30px;

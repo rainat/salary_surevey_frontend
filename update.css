@@ -1,0 +1,324 @@
+/* Desktop small screen */
+/* Desktop large screen */
+/* BELOW STYLING WILL OVERRIDE ANOTHER STYLING */
+.main-logo a {
+  display: inline-block;
+}
+
+/* STYLING FOR RESPONSIVE NAVIGATION */
+.rwd-navigation {
+  display: none;
+  visibility: hidden;
+}
+.rwd-navigation .nav-btn {
+  display: block;
+  background: #489943;
+  width: 100%;
+  text-align: center;
+  border-radius: 3px;
+  font-size: 12px;
+  padding: 10px 5px;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.rwd-navigation .nav-btn > span {
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+.mobile-nav {
+  background: white;
+  border-right: 1px solid #f0f0f0;
+  border-left: 1px solid #f0f0f0;
+}
+.mobile-nav li {
+  display: block;
+}
+.mobile-nav li a {
+  display: block;
+  text-align: left;
+  padding: 5px 10px;
+  border-bottom: 1px solid #f0f0f0;
+  text-transform: capitalize;
+}
+.mobile-nav li:hover a, .mobile-nav li:focus a, .mobile-nav li:active a {
+  color: white;
+  background-color: #489943;
+  text-decoration: none;
+}
+
+/* PAGINATION */
+.pagination p strong {
+  color: #f28f00;
+  background: none repeat scroll 0 0 #dedcdc;
+  display: inline-block;
+  line-height: 1.5em;
+  margin-left: 0px !important;
+  padding: 2px 7px !important;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+.num-page {
+  float: right !important;
+  margin-bottom: 5px;
+}
+.num-page span, .num-page a {
+  display: inline-block;
+  vertical-align: middle;
+  text-decoration: none;
+  color: #6f6f6f;
+  padding: 3px 9px;
+  margin-right: 5px;
+  background: #DEDCDC;
+  margin-bottom: 5px;
+  margin-left: 0;
+}
+.num-page span.active, .num-page a.active {
+  background: #f28f00;
+  color: #fff;
+}
+.num-page a:last-child {
+  margin-right: 0;
+}
+.num-page a:hover, .num-page a:focus {
+  background: #f28f00;
+  color: #fff;
+}
+
+/* BUTTONS */
+.btn-to-center button:first-child, .btn-to-center .btn-oraneflat:first-child {
+  margin-right: 10px;
+}
+
+.btn-grad-orange-new {
+  position: relative;
+  background-color: #f28f00;
+  box-shadow: inset 0px -30px 0px -2px rgba(0, 0, 0, 0.08);
+  padding: 15px 42px;
+  display: inline-block;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  border: none;
+  transition: all .35s ease;
+}
+.btn-grad-orange-new:hover, .btn-grad-orange-new:focus {
+  box-shadow: inset 0px -90px 0px -2px rgba(0, 0, 0, 0.08);
+}
+
+.btnwrap-login .btn-grad-orange-new {
+  margin-top: 10px;
+}
+
+.recruit {
+  margin-right: -50px;
+}
+
+.form-inline .form-group .label-title {
+  vertical-align: middle;
+  height: 43px;
+  line-height: 43px;
+  font-size: 14px;
+}
+
+.bootstrap-select.btn-group .dropdown-menu {
+  background-color: white;
+  z-index: 9999;
+}
+
+header.box-title {
+  z-index: 33;
+}
+
+.sharesocial2-rel {
+  position: relative;
+  clear: both;
+}
+.sharesocial2-rel .sm {
+  float: left;
+  margin-left: 0;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+@media (max-width: 980px) {
+  #asideright {
+    width: 100%;
+  }
+  #asideright .sharesocial2-rel {
+    text-align: center;
+  }
+
+  .sharesocial2-rel span {
+    text-align: center;
+  }
+  .sharesocial2-rel .sm {
+    display: inline-block;
+    float: none;
+  }
+}
+@media (max-width: 860px) {
+  .topbaner {
+    margin-top: 30px;
+  }
+
+  #nav-page {
+    width: 100%;
+    background: #489943;
+    text-align: center;
+  }
+  #nav-page ul > li {
+    width: inherit !important;
+    float: none !important;
+    display: inline-block;
+    background-image: none;
+  }
+  #nav-page ul > li > a {
+    font-size: 11px;
+    position: relative;
+  }
+  #nav-page ul > li > a:after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    left: 100%;
+    height: 40%;
+    top: 30%;
+    background: rgba(255, 255, 255, 0.4);
+  }
+  #nav-page ul > li:last-child > a:after {
+    background-color: transparent;
+  }
+}
+@media (max-width: 765px) {
+  #nav-page ul > li > a {
+    font-size: 11px;
+    position: relative;
+    padding: 0 20px;
+  }
+
+  .pagination p {
+    float: none;
+  }
+
+  .num-page {
+    float: left !important;
+  }
+}
+@media (max-width: 570px) {
+  .mainlogo {
+    margin-top: 45px;
+  }
+
+  form#s-job input.submitfield {
+    font-size: 12px;
+  }
+
+  .topbaner .banner-advertise {
+    display: none;
+  }
+
+  #nav-page {
+    display: none;
+  }
+  #nav-page .wrapper {
+    display: none;
+  }
+
+  .rwd-navigation {
+    display: block;
+    visibility: visible;
+  }
+
+  .border-block {
+    padding: 15px 5px;
+  }
+  .border-block .title-mainblack, .border-block .title-mainblackline {
+    margin-left: 15px;
+  }
+
+  .cellEditing input[type="text"] {
+    width: 100px;
+  }
+
+  .passfield {
+    width: 100px;
+  }
+
+  .f-dtlaccount .tb_edit_target {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 100px;
+  }
+  .f-dtlaccount td:last-child {
+    padding-left: 0;
+  }
+  .f-dtlaccount .table td {
+    padding: 5px;
+  }
+
+  .btnwrap-login {
+    text-align: center;
+  }
+  .btnwrap-login .orangegadient input.no-btn {
+    padding: 0 15px;
+    height: 38px;
+    margin-top: 15px;
+    line-height: 38px;
+  }
+  .btnwrap-login .orangegadient img {
+    display: none;
+  }
+  .btnwrap-login .btn-grad-orange-new {
+    padding: 10px 15px;
+    font-size: 16px;
+  }
+
+  .form-inline .form-group .label-title {
+    line-height: inherit;
+  }
+}
+@media (max-width: 800px) {
+  .table-responsive {
+    overflow: initial;
+    border: none;
+  }
+}
+.table-responsive > pre {
+  display: none;
+}
+
+.table-new.small-only {
+  display: none !important;
+}
+@media (max-width: 800px) {
+  .table-new.small-only {
+    display: block !important;
+  }
+}
+.table-new.small-only tbody {
+  width: 100%;
+  position: relative;
+}
+.table-new.small-only tbody tr {
+  width: 100%;
+}
+.table-new.small-only tbody tr th.st-head-row, .table-new.small-only tbody tr th.st-head-row-main {
+  text-align: center;
+  white-space: normal;
+}
+.table-new.small-only tbody tr td {
+  width: 100%;
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  .table-new.large-only {
+    display: none;
+  }
+}
