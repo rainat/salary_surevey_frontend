@@ -331,6 +331,16 @@ header.box-title{
 	}
 }
 
+
+@media (max-width: 361px) {
+	.btnwrap-login .orangegadient input.no-btn{
+		padding: 0 8px;
+		height: 25px;
+		margin-top: 15px; 
+		line-height: 25px;
+		font-size: 19px;
+	}
+}
 .table-responsive{
 	@media (max-width: 800px) {
 		overflow: initial;
