@@ -1,5 +1,3 @@
-/* Desktop small screen */
-/* Desktop large screen */
 /* BELOW STYLING WILL OVERRIDE ANOTHER STYLING */
 .main-logo a {
   display: inline-block;
@@ -283,6 +281,15 @@ header.box-title {
     line-height: inherit;
   }
 }
+@media (max-width: 361px) {
+  .btnwrap-login .orangegadient input.no-btn {
+    padding: 0 8px;
+    height: 25px;
+    margin-top: 15px;
+    line-height: 25px;
+    font-size: 19px;
+  }
+}
 @media (max-width: 800px) {
   .table-responsive {
     overflow: initial;
@@ -307,6 +314,9 @@ header.box-title {
 }
 .table-new.small-only tbody tr {
   width: 100%;
+}
+.table-new.small-only tbody tr th.st-head-row-main {
+  display: none;
 }
 .table-new.small-only tbody tr th.st-head-row, .table-new.small-only tbody tr th.st-head-row-main {
   text-align: center;
