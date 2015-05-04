@@ -5622,6 +5622,9 @@ textarea:focus, select:hover, select:focus {
 /* Desktop small screen */
 /* Desktop large screen */
 /* BELOW STYLING WILL OVERRIDE ANOTHER STYLING */
+.main-logo {
+  margin-top: 30px;
+}
 .main-logo a {
   display: inline-block;
 }
