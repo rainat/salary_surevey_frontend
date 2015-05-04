@@ -9,6 +9,33 @@ $color-orange-dark: darken( #f28f00, 20% );
 	}
 }
 
+/* STYLING FOR RECRUITING ON TOP */
+.recruittop{
+	background-color: #489943;
+	display: block;
+	color: #fff;
+	width: 110px;
+	text-align: center;
+	border-radius: 0 0 3px 3px;
+	padding: 6px 0;
+	position: absolute;
+	left: 15px;
+	top: -33px;
+	font-size: 12px;
+	line-height: 17px;
+	small{
+		color: #83ea66;
+		font-size: 1.5em;
+		position: relative;
+		top: 2px;
+	}
+}
+
+.recruittop, .logintop{
+	height: 34px;
+	line-height: inherit;
+}
+
 /* STYLING FOR RESPONSIVE NAVIGATION */
 .rwd-navigation{
 	display: none;
@@ -126,7 +153,6 @@ $color-orange-dark: darken( #f28f00, 20% );
 	&:hover, &:focus{
 		box-shadow: inset 0px -90px 0px -2px rgba(black, .08) ;
 	}
-
 }
 
 .btnwrap-login{
@@ -334,6 +360,10 @@ $color-orange-dark: darken( #f28f00, 20% );
 
 .form-inline{
 	.form-group{
+		width: 36%;
+		&.first{
+			width: 30% !important;
+		}
 		.label-title{
 			vertical-align: middle;
 			height: 43px;
@@ -449,6 +479,14 @@ header.box-title{
 	}
 	form#s-job input.submitfield{
 		font-size: 12px;
+		margin-top: 0;
+		margin-right: 10px;
+		height: 43px;
+	}
+	form#s-job{
+		.label-title{
+			line-height: 43px;
+		}
 	}
 	.topbaner{
 		.banner-advertise{
@@ -520,7 +558,32 @@ header.box-title{
 		.form-group{
 			.label-title{
 				line-height: inherit;
+
 			}
+		}
+	}
+}
+
+@media (max-width: 445px) {
+	form#s-job{
+		padding: 10px;
+		.first{
+			margin: 0;
+			text-align: center;
+		}
+		.form-group{
+			width: 100% !important;
+		}
+		.submitfield{
+			width: 99.5% !important;
+			margin: 0 0 !important;
+			padding: 0;
+			border: 1px solid #b96d00 !important;
+			height: 42px !important;
+			position: relative;
+			left: -1px;
+			top: 1px;
+
 		}
 	}
 }
