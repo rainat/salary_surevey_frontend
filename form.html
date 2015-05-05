@@ -51,7 +51,15 @@
 
 
 
-<body>
+<body class="clearfix">
+
+    <div id="nav-side-left" class="nav-sidebar">
+        <a href="#0" class="close-nav-side"><span>X</span> Close Navigation</a>
+        <ul><!-- WILL PLACE FOR MAIN NAVIGATION --></ul>
+    </div><!-- / #nav-side-left .nav-sidebar -->
+
+<div class="wrapper-body">
+<div class="wrapper-inner">
 
 <div class="alpha-bg">
 
@@ -93,11 +101,16 @@
 
 		<div id="tophead" class="row txtleft">
 
-			<div class="col-sm-3 mainlogo wow flipInX">
+                <div class="col-sm-3 mainlogo wow flipInX clearfix">
+                    <a href="#" class="logo-inner"><img alt="" src="assets/images/logo.png"></a>
 
-				<a href="#"><img src="assets/images/logo.png" alt=""></a>
+                    <!-- THE NEWEST NAVIGATION STYLE BEGIN -->
+                    <div class="box-navigation clearfix">
+                        <a href="javascript:;" class="nav-btn"><i class="fa fa-bars"></i></a>
+                    </div>
+                    <!-- THE NEWEST NAVIGATION STYLE END -->
 
-			</div>
+                </div><!-- / .main-logo -->
 
 		        <div class="col-sm-9 img-wrap topbaner">
 
@@ -642,6 +655,10 @@
 	</div>
 
 </footer><!-- footerweb -->
+
+
+</div><!-- / .wrapper-inner -->
+</div><!-- / .wrapper -->
 
 <script type="text/javascript" src="assets/js/jquery-1.11.0.min.js"></script>
 
