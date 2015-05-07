@@ -6348,7 +6348,7 @@ header.box-title {
   }
 }
 
-@media (max-width: 570px) {
+@media (max-width: 800px) {
   table#sortTable thead {
     display: none;
   }
@@ -6363,8 +6363,8 @@ header.box-title {
     content: attr(data-th);
     font-weight: bold;
     display: inline-block;
-    min-width: 160px;
     text-transform: capitalize;
+    width: 50%;
   }
   table#sortTable tbody tr td[align="center"] {
     text-align: left !important;

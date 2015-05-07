@@ -779,7 +779,7 @@ header.box-title{
 }
 
 // BELOW IS HOW TO HANDLE RESPONSIVE TABLE
-@media (max-width: 570px) {
+@media (max-width: 800px) {
     table#sortTable{
     	thead{
     		display: none;
@@ -798,8 +798,9 @@ header.box-title{
     					content: attr(data-th);
     					font-weight: bold;
     					display: inline-block;
-    					min-width: 160px;
+    					// min-width: 160px;
     					text-transform: capitalize;
+    					width: 50%;
     				}
     				&[align="center"]{
     					text-align: left !important;
