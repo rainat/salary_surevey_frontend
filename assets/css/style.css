@@ -6347,3 +6347,26 @@ header.box-title {
     display: none;
   }
 }
+
+@media (max-width: 570px) {
+  table#sortTable thead {
+    display: none;
+  }
+  table#sortTable tbody td {
+    display: block;
+  }
+  table#sortTable tbody tr td:first-child {
+    color: white;
+    background: #489943;
+  }
+  table#sortTable tbody tr td:before {
+    content: attr(data-th);
+    font-weight: bold;
+    display: inline-block;
+    min-width: 160px;
+    text-transform: capitalize;
+  }
+  table#sortTable tbody tr td[align="center"] {
+    text-align: left !important;
+  }
+}

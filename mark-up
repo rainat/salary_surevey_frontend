@@ -1,0 +1,25 @@
+<body class="clearfix">
+
+    <div id="nav-side-left" class="nav-sidebar">
+        <a href="#0" class="close-nav-side"><span>X</span> Close Navigation</a>
+        <ul><!-- WILL PLACE FOR MAIN NAVIGATION --></ul>
+    </div><!-- / #nav-side-left .nav-sidebar -->
+
+<div class="wrapper-body">
+<div class="wrapper-inner">
+
+                <div class="col-sm-3 mainlogo wow flipInX clearfix">
+                    <a href="#" class="logo-inner"><img alt="" src="assets/images/logo.png"></a>
+
+                    <!-- THE NEWEST NAVIGATION STYLE BEGIN -->
+                    <div class="box-navigation clearfix">
+                        <a href="javascript:;" class="nav-btn"><i class="fa fa-bars"></i></a>
+                    </div>
+                    <!-- THE NEWEST NAVIGATION STYLE END -->
+
+                </div><!-- / .main-logo -->
+
+
+
+</div><!-- / .wrapper-inner -->
+</div><!-- / .wrapper -->

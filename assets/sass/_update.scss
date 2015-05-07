@@ -1,5 +1,6 @@
 $color-orange: #f28f00;
 $color-orange-dark: darken( #f28f00, 20% );
+$color-green: #489943;
 
 
 /* BELOW STYLING WILL OVERRIDE ANOTHER STYLING */
@@ -775,4 +776,36 @@ header.box-title{
 	@media (max-width: 800px) {
 	    display: none; 
 	}
+}
+
+// BELOW IS HOW TO HANDLE RESPONSIVE TABLE
+@media (max-width: 570px) {
+    table#sortTable{
+    	thead{
+    		display: none;
+    	}
+    	tbody{
+    		td{
+    			display: block;
+    		}
+    		tr{
+    			td{
+    				&:first-child{
+    					color: white;
+    					background: $color-green;
+    				}
+    				&:before{
+    					content: attr(data-th);
+    					font-weight: bold;
+    					display: inline-block;
+    					min-width: 160px;
+    					text-transform: capitalize;
+    				}
+    				&[align="center"]{
+    					text-align: left !important;
+    				}
+    			}
+    		}
+    	}
+    }
 }
