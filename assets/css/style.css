@@ -6357,7 +6357,7 @@ header.box-title {
   }
   table#sortTable tbody tr td:first-child {
     color: white;
-    background: #489943;
+    background: #489943 !important;
   }
   table#sortTable tbody tr td:before {
     content: attr(data-th);
@@ -6365,6 +6365,9 @@ header.box-title {
     display: inline-block;
     text-transform: capitalize;
     width: 50%;
+  }
+  table#sortTable tbody tr td.td-nodata {
+    height: auto;
   }
   table#sortTable tbody tr td[align="center"] {
     text-align: left !important;

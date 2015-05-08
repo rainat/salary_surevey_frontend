@@ -792,7 +792,7 @@ header.box-title{
     			td{
     				&:first-child{
     					color: white;
-    					background: $color-green;
+    					background: $color-green !important;
     				}
     				&:before{
     					content: attr(data-th);
@@ -801,6 +801,9 @@ header.box-title{
     					// min-width: 160px;
     					text-transform: capitalize;
     					width: 50%;
+    				}
+    				&.td-nodata{
+    					height: auto;
     				}
     				&[align="center"]{
     					text-align: left !important;

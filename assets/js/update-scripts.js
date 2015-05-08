@@ -11,7 +11,6 @@
 		var wrapper  = $(".wrapper-inner");
 		wrapper.toggleClass("on-active");
 		nav_side.toggleClass("active-left");
-		
 	});
 
 	// responsive-main-menu @deprecated
