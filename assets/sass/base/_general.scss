@@ -194,3 +194,11 @@ $btn_arrow_rt: image-url("arrowbntorange.png");
   margin: 0 auto 23px auto;
   margin-bottom: 70px;
 }
+
+/*====== VALIDATION ======*/
+span.error {
+  bottom: -18px;
+  color: red;
+  font-size: 12px;
+  /* position: absolute; */
+}

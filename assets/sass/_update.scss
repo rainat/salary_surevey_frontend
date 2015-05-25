@@ -25,6 +25,7 @@ $color-green: #489943;
 	line-height: 17px !important;
 	right: 120px;
 	top: -90px;
+	display: none;
 	@media (max-width: 580px) {
 	    top: -33px;
 	}
@@ -46,13 +47,25 @@ $color-green: #489943;
 }
 
 
-#bodyweb{
+@media screen and (max-width: 767px){
 	.recruit{
-		@media (max-width: 580px) {
-		    right: -60px;
+		position: absolute;
+		top: 0;
+		right: 175px;
+		opacity: 1 !important;
+		@include border-radius(0);
+		@include border-bottom-radius(3px);
+
+		&.rotate90{
+			-webkit-transform: rotate(0deg);
+			  -moz-transform: rotate(0deg);
+			  -ms-transform: rotate(0deg);
+			  -o-transform: rotate(0deg);
+			  transform: rotate(0deg);
 		}
 	}
 }
+
 /* STYLING FOR RESPONSIVE NAVIGATION */
 .rwd-navigation{
 	display: none;

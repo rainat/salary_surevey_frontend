@@ -62,7 +62,7 @@ $(document).ready(function(){
 	});
 
 	//VALIDATION
-	$('#ssearch').validate({
+	/*$('#ssearch').validate({
 		ignore: [],
 		errorClass:'error',
 		validClass:'success',
@@ -89,7 +89,7 @@ $(document).ready(function(){
 			alert('valid form submitted');
 			return false;
 		}
-	});
+	});*/
 
 	//EXPAND
 	$('ul#list-search li').eq(5).nextAll().addClass('dnone');
@@ -155,7 +155,7 @@ $(document).ready(function(){
 	});*/
 
 	//SORT TABLE
-	$("#sortTable").tablesorter(); 
+	//$("#sortTable").tablesorter(); 
 
 
 	var max_fields      = 5; //maximum input boxes allowed

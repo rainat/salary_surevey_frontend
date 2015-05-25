@@ -22,5 +22,5 @@
 		});
 	});
 
-	$("#sortTable").stacktable();
+	//$("#sortTable").stacktable();
 })(jQuery);

@@ -19,7 +19,6 @@
   <link href="assets/css/style.css" media="all" rel="stylesheet" type="text/css">
   <link href="assets/css/bootstrap-select.css" rel="stylesheet" type="text/css">
   <link href="assets/css/font-awesome.css" rel="stylesheet" type="text/css">
-
   <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
@@ -96,7 +95,7 @@
 			<div class="itempage-result">
 				<div class="bgwhit-main">
 
-					<form id="ssearch" class="form-horizontal">
+					<form id="form_sample_1" class="form-horizontal" method="get">
 						<div class="centered">
 
 							<div class="form-title">Post a job</div><div class="clearfix"></div> <!-- form-title -->
@@ -106,7 +105,11 @@
 								<div class="half in-left">
 									<div class="box-field">
 										<span class="label-field"><strong>1.</strong> Job Title</span>
-										<input type="text" placeholder="E.g Gameplay Programmer">
+										<div class="form-validation">
+											<div class="check-val">
+												<input type="text" placeholder="E.g Gameplay Programmer" name="name"required>
+											</div>
+										</div>
 									</div><!-- / .box-field -->
 								</div><!-- / .half .in-left -->
 
@@ -116,7 +119,11 @@
 											<strong>2.</strong>
 											Job Reference
 										</span>
-										<input type="text" placeholder="Enter job reference if required">
+										<div class="form-validation">
+											<div class="check-val">
+												<input type="text" name="job" placeholder="Enter job reference if required" required>
+											</div>
+										</div>
 									</div><!-- / .box-field -->
 								</div><!-- / .half .in-right -->
 
@@ -128,7 +135,7 @@
 											<strong>3.</strong>
 											Job Type
 										</span>
-										<select class="selectpicker select2" multiple data-max-options="1">
+										<select class="selectpicker select2" multiple data-max-options="1"  name="jb-type" required>
 											<option value="">Writter</option>
 											<option value="1">Design</option>
 											<option value="2">Video Marker</option>
@@ -142,7 +149,7 @@
 											<strong>4.</strong>
 											Job Category
 										</span>
-										<select class="selectpicker select2" multiple data-max-options="1">
+										<select class="selectpicker select2" multiple data-max-options="1" name="jb-category" required>
 											<option value="">Writter</option>
 											<option value="1">Design</option>
 											<option value="2">Video Marker</option>
@@ -158,7 +165,11 @@
 											<strong>5.</strong>
 											Job Description
 										</span>
-										<textarea rows="8"></textarea>
+										<div class="form-validation">
+											<div class="check-val">
+												<textarea rows="8" name="jb-desc" required></textarea>
+											</div>
+										</div>
 									</div><!-- / .box-field -->
 								</div><!-- / .in-full -->
 
@@ -170,7 +181,11 @@
 											<strong>6.</strong>
 											Job Location
 										</span>
-										<input type="text" placeholder="Enter City and select">
+										<div class="form-validation">
+											<div class="check-val">
+												<input type="text" placeholder="Enter City and select" name="jb-loc" required>
+											</div>
+										</div>
 									</div><!-- / .box-field -->
 								</div><!-- / .half .in-left -->
 
@@ -180,7 +195,11 @@
 											<strong>7.</strong>
 											Expires on
 										</span>
-										<input type="text" placeholder="Select Date" class="datepicker">
+										<div class="form-validation">
+											<div class="check-val">
+												<input type="text" placeholder="Select Date" class="datepicker" name="expired" required>
+											</div>
+										</div>
 									</div>
 								</div><!-- / .half .in-right -->
 								<div class="clearfix"></div>
@@ -192,7 +211,7 @@
 									</span>
 
 									<div class="half in-left">
-										<select class="selectpicker select2" multiple data-max-options="1">
+										<select class="selectpicker select2" multiple data-max-options="1" name="method" required>
 											<option value="">By Email</option>
 											<option value="1">Redirect URL</option>
 										</select>
@@ -232,93 +251,6 @@
 								<div class="clearfix"></div>
 
 							</div><!-- / .form-wrapper .arrow-wrapper -->
-
-							<!-- <div class="grey-block grey-block-arrow">
-								<div class="col-sm-6">
-									<div class="iteminput1">
-										<span><strong>1.</strong>Job Title</span>
-										<input type="text" placeholder="E.g. Gameplay Programmer">
-									</div>
-
-									<div class="iteminput1">
-										<span><strong>3.</strong>Job Type</span>
-										<select class="selectpicker select2" multiple data-max-options="1">
-											<option value="">Writer</option>
-											<option value="1">Design</option>
-											<option value="2">Video maker</option>
-										</select>
-									</div>
-								</div>
-
-								<div class="col-sm-6">
-									<div class="iteminput1">
-										<span><strong>2.</strong>Job Reference</span>
-										<input type="text" placeholder="Enter job reference if required">
-									</div>
-
-									<div class="iteminput1">
-										<span><strong>4.</strong>Job Category</span>
-										<select class="selectpicker select2" multiple data-max-options="1">
-											<option value="">Writer</option>
-											<option value="1">Design</option>
-											<option value="2">Video maker</option>
-										</select>
-									</div>
-								</div>
-								<div class="clearfix"></div>
-
-								<div class="col-md-12 iteminput1">
-									<span><strong>5.</strong>Job Description</span>
-									<textarea rows="15"></textarea>
-								</div>
-								<div class="clearfix"></div>
-								
-								
-								<div class="iteminput1 col-sm-6">
-									<span><strong>6.</strong>Job Location</span>
-									<input type="text" placeholder="Enter City and select">
-								</div>
-
-								<div class="iteminput1 col-sm-6">
-									<span><strong>7.</strong>Expires On</span>
-									<input type="text" placeholder="Select Date" class="datepicker">
-								</div>
-								
-
-								<div class="iteminput1 col-sm-6">
-									<span><strong>8.</strong>Job Application Method</span>
-									<select class="selectpicker select2" multiple data-max-options="1">
-										<option value="0">By Email</option>
-										<option value="1">Redirect to URL</option>
-									</select>
-								</div>
-
-								<div class="col-sm-6 iteminput1">
-									<input type="text" placeholder="abcgames@gmail.com" class="inp-nolabel">
-								</div>
-								<div class="clearfix"></div>
-
-								<div class="col-md-12">
-									<div class="iteminput1">
-										<span><strong>9.</strong>Job Logo</span> -->
-										<!-- <div class="uploadbox">
-											<label class="radio-bulled">
-											  <input type="radio" name="type" value="savedcv" class="radio" checked> Use Existing Logo
-											</label>
-											<label class="radio-bulled">
-											  <input type="radio" name="type" value="uploadcv" class="radio"> Upload Logo
-											</label>
-
-											<div id="tabcontent_rd">
-												<div id="tabcontent_rd_upload">
-													<div class="html5fileupload fileupload" data-url="html5fileupload.php" style="width: 100%;">
-										  			<input type="file" name="file" />
-										  			</div>
-												</div>
-											</div>  --><!-- // tabcontent_radio -->
-										<!-- </div> --> <!-- //uploadbox -->
-									<!-- </div> --> <!-- //iteminput1 -->
-								<!-- </div> -->
 
 							</div> <!-- GreyBlock -->
 						</div><!-- /centered -->
@@ -402,6 +334,7 @@
 	<script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="assets/js/bootstrap-select.js"></script>
 	<script type="text/javascript" src="assets/js/jquery.validate.js"></script>
+	<script type="text/javascript" src="assets/js/customFormValidation.js"></script>
 	<script type="text/javascript" src="assets/js/checkbox_radio.js"></script>
 	<script type="text/javascript" src="assets/js/progress.js"></script>
 	<script src="assets/js/jquery.tablesorter.js" type="text/javascript"></script> 
@@ -412,7 +345,56 @@
 	<script type="text/javascript" src="assets/js/myjs.js"></script>
 	<script src="assets/js/update-scripts.js" type="text/javascript"></script>
 	<script type="text/javascript">
-		$('#ssearch').validate({
+	jQuery(document).ready(function (){
+		ClientFormValidation.init();
+		/*$("#form_sample_1").validate({
+			rules: {
+				firstname: "required",
+				lastname: "required",
+				username: {
+					required: true,
+					minlength: 2
+				},
+				password: {
+					required: true,
+					minlength: 5
+				},
+				confirm_password: {
+					required: true,
+					minlength: 5,
+					equalTo: "#password"
+				},
+				email: {
+					required: true,
+					email: true
+				},
+				topic: {
+					required: "#newsletter:checked",
+					minlength: 2
+				},
+				agree: "required"
+			},
+			messages: {
+				firstname: "Please enter your firstname",
+				lastname: "Please enter your lastname",
+				username: {
+					required: "Please enter a username",
+					minlength: "Your username must consist of at least 2 characters"
+				},
+				password: {
+					required: "Please provide a password",
+					minlength: "Your password must be at least 5 characters long"
+				},
+				confirm_password: {
+					required: "Please provide a password",
+					minlength: "Your password must be at least 5 characters long",
+					equalTo: "Please enter the same password as above"
+				},
+				email: "Please enter a valid email address",
+				agree: "Please accept our policy"
+			}
+		});*/
+		/*$('#ssearch').validate({
 			ignore: [],
 			errorClass:'error',
 			validClass:'success',
@@ -432,12 +414,13 @@
 				ygender: {
 					required: true
 				}
-			},
+			}
 			submitHandler: function (form) {
 				alert('valid form submitted');
 				return false;
 			}
-		});
+		});*/
+	});
 	</script>
 </body>
 </html>
