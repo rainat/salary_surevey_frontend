@@ -105,7 +105,7 @@
 								<div class="half in-left">
 									<div class="box-field">
 										<span class="label-field"><strong>1.</strong> Job Title</span>
-										<div class="form-validation">
+										<div class="wrap-validation">
 											<div class="check-val">
 												<input type="text" placeholder="E.g Gameplay Programmer" name="name"required>
 											</div>
@@ -119,7 +119,7 @@
 											<strong>2.</strong>
 											Job Reference
 										</span>
-										<div class="form-validation">
+										<div class="wrap-validation">
 											<div class="check-val">
 												<input type="text" name="job" placeholder="Enter job reference if required" required>
 											</div>
@@ -135,11 +135,15 @@
 											<strong>3.</strong>
 											Job Type
 										</span>
-										<select class="selectpicker select2" multiple data-max-options="1"  name="jb-type" required>
-											<option value="">Writter</option>
-											<option value="1">Design</option>
-											<option value="2">Video Marker</option>
-										</select>
+										<div class="wrap-validation">
+											<div class="check-val">
+												<select class="selectpicker select2" multiple data-max-options="1"  name="jb-type" required>
+													<option value="">Writter</option>
+													<option value="1">Design</option>
+													<option value="2">Video Marker</option>
+												</select>
+											</div>
+										</div>
 									</div><!-- / .box-field -->
 								</div><!-- / .half .in-left -->
 
@@ -149,11 +153,15 @@
 											<strong>4.</strong>
 											Job Category
 										</span>
-										<select class="selectpicker select2" multiple data-max-options="1" name="jb-category" required>
-											<option value="">Writter</option>
-											<option value="1">Design</option>
-											<option value="2">Video Marker</option>
-										</select>
+										<div class="wrap-validation">
+											<div class="check-val">
+												<select class="selectpicker select2" multiple data-max-options="1" name="jb-category" required>
+													<option value="">Writter</option>
+													<option value="1">Design</option>
+													<option value="2">Video Marker</option>
+												</select>
+											</div>
+										</div>
 									</div>
 								</div><!-- / .half .in-right -->
 
@@ -165,7 +173,7 @@
 											<strong>5.</strong>
 											Job Description
 										</span>
-										<div class="form-validation">
+										<div class="wrap-validation">
 											<div class="check-val">
 												<textarea rows="8" name="jb-desc" required></textarea>
 											</div>
@@ -181,7 +189,7 @@
 											<strong>6.</strong>
 											Job Location
 										</span>
-										<div class="form-validation">
+										<div class="wrap-validation">
 											<div class="check-val">
 												<input type="text" placeholder="Enter City and select" name="jb-loc" required>
 											</div>
@@ -195,7 +203,7 @@
 											<strong>7.</strong>
 											Expires on
 										</span>
-										<div class="form-validation">
+										<div class="wrap-validation">
 											<div class="check-val">
 												<input type="text" placeholder="Select Date" class="datepicker" name="expired" required>
 											</div>
@@ -211,10 +219,14 @@
 									</span>
 
 									<div class="half in-left">
-										<select class="selectpicker select2" multiple data-max-options="1" name="method" required>
-											<option value="">By Email</option>
-											<option value="1">Redirect URL</option>
-										</select>
+										<div class="wrap-validation">
+											<div class="check-val">
+												<select class="selectpicker select2" multiple data-max-options="1" name="method" required>
+													<option value="">By Email</option>
+													<option value="1">Redirect URL</option>
+												</select>
+											</div>
+										</div>
 									</div><!-- / .half .in-left -->
 
 									<div class="half in-right">

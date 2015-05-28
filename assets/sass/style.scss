@@ -242,26 +242,7 @@ a {
   }
 }
 
-.wrap-validation {
-  display: block;
-  height: auto;
-  _position: relative;
-  _z-index: 90;
-  span.error {
-    bottom: -18px;
-    color: red;
-    font-size: 12px;
-    position: absolute;
-  }
-  div.check-val {
-    input {
-      border: 1px solid transparent;
-    }
-    &.error input {
-      border: 1px solid red !important;
-    }
-  }
-}
+
 
 .success {
   background: url(../images/success.png) no-repeat center center;

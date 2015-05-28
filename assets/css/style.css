@@ -255,14 +255,6 @@ img {
   margin-bottom: 70px;
 }
 
-/*====== VALIDATION ======*/
-span.error {
-  bottom: -18px;
-  color: red;
-  font-size: 12px;
-  /* position: absolute; */
-}
-
 a {
   color: #666;
   text-decoration: none;
@@ -486,25 +478,6 @@ a.no-confirm {
   width: 94%;
   margin: 0 auto;
   text-align: right;
-}
-
-.wrap-validation {
-  display: block;
-  height: auto;
-  _position: relative;
-  _z-index: 90;
-}
-.wrap-validation span.error {
-  bottom: -18px;
-  color: red;
-  font-size: 12px;
-  position: absolute;
-}
-.wrap-validation div.check-val input {
-  border: 1px solid transparent;
-}
-.wrap-validation div.check-val.error input {
-  border: 1px solid red !important;
 }
 
 .success {
@@ -6395,4 +6368,29 @@ header.box-title {
   table#sortTable tbody tr td[align="center"] {
     text-align: left !important;
   }
+}
+.wrap-validation {
+  display: block;
+  height: auto;
+  position: relative;
+  padding-bottom: 3px;
+  z-index: 90;
+}
+.wrap-validation span.error {
+  bottom: -18px;
+  color: red;
+  font-size: 12px;
+  position: absolute;
+  display: block;
+  width: 100%;
+}
+.wrap-validation div.check-val input {
+  border: 1px solid transparent;
+}
+.wrap-validation div.check-val.error input {
+  border: 1px solid red !important;
+}
+
+.form-wrapper .box-field {
+  margin-bottom: 28px;
 }

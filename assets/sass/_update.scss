@@ -826,3 +826,33 @@ header.box-title{
     	}
     }
 }
+
+//VALIDATION
+.wrap-validation {
+  display: block;
+  height: auto;
+  position: relative;
+  padding-bottom: 3px;
+  z-index: 90;
+  span.error {
+    bottom: -18px;
+    color: red;
+    font-size: 12px;
+    position: absolute;
+    display: block;
+    width: 100%;
+  }
+  div.check-val {
+    input {
+      border: 1px solid transparent;
+    }
+    &.error input {
+      border: 1px solid red !important;
+    }
+  }
+}
+
+.form-wrapper .box-field{
+	margin-bottom: 28px
+}
+
