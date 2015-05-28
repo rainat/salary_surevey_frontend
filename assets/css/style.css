@@ -5892,11 +5892,6 @@ textarea:focus, select:hover, select:focus {
   margin-bottom: 10px;
 }
 @media (max-width: 570px) {
-  .form-wrapper .box-field {
-    margin-bottom: 15px;
-  }
-}
-@media (max-width: 570px) {
   .form-wrapper .box-field .half {
     margin-bottom: 15px;
   }

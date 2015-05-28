@@ -322,9 +322,6 @@ $color-green: #489943;
 	// }
 	.box-field{
 		margin-bottom: 10px;
-		@media (max-width: 570px) {
-		    margin-bottom: 15px;
-		}
 		.half{
 			@media (max-width: 570px) {
 			    margin-bottom: 15px;
