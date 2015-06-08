@@ -70,20 +70,44 @@ $color-green: #489943;
 .rwd-navigation{
 	display: none;
 	visibility: hidden;
+	top: 40px;
+	position: relative;
+	// float: right;
+	text-align: right;
+	@media (max-width: 675px) {
+	    display: block;
+	    visibility: visible;
+	}
 	.nav-btn{
-		display: block;
+		// display: block;
+		display: inline-block;
 		background: #489943;
-		width: 100%;
+		// width: 100%;
 		text-align: center;
 		border-radius: 3px;
 		font-size: 12px;
-		padding: 10px 5px;
+		// padding: 10px 5px;
+		padding: 10px 16px;
 		color: white;
 		text-transform: uppercase;
 		cursor: pointer;
 		> span{
-			margin-right: 5px;
+			// margin-right: 5px;
+			margin: 0; 
 			font-weight: bold;
+		}
+	}
+	.mobile-nav{
+		position: relative;
+		width: 100%;
+		// margin-top: 100px;
+		text-align: left;
+		float: left;
+		margin-bottom: 30px;
+		li{
+			a{
+				padding: 7px 10px;
+			}
 		}
 	}
 }
@@ -647,10 +671,10 @@ header.box-title{
     		display: none;
     	}
     }
-	// .rwd-navigation{
-	// 	display: block;
-	// 	visibility: visible;
-	// }
+	.rwd-navigation{
+		display: block;
+		visibility: visible;
+	}
 	.border-block{
 		padding: 15px 5px;
 		.title-mainblack{

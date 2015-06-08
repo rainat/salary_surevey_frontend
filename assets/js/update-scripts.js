@@ -3,7 +3,7 @@
 	'use strict';
 
 	// RESPONSIVE NAVIGATION ON SIDEBAR
-	$('#nav-page .wrapper > ul').clone(false).find("ul,li").removeAttr("id").remove(".submenu").appendTo($("#nav-side-left ul"));
+	// $('#nav-page .wrapper > ul').clone(false).find("ul,li").removeAttr("id").remove(".submenu").appendTo($("#nav-side-left ul"));
 
 	// ACTIVE SIDEBAR ON LEFT
 	$('.nav-btn, .close-nav-side').click( function() {
@@ -21,6 +21,6 @@
 			toggle: false
 		});
 	});
-
+	
 	//$("#sortTable").stacktable();
 })(jQuery);
