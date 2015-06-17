@@ -5610,6 +5610,73 @@ textarea:focus, select:hover, select:focus {
   display: inline-block;
 }
 
+/* PLACEHOLDER */
+::-webkit-input-placeholder {
+  color: #b8b4b4;
+  font: 13px/1.4 'Lato', sans-serif;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #b8b4b4;
+  font: 13px/1.4 'Lato', sans-serif;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #b8b4b4;
+  font: 13px/1.4 'Lato', sans-serif;
+}
+
+:-ms-input-placeholder {
+  color: #b8b4b4;
+  font: 13px/1.4 'Lato', sans-serif;
+}
+
+/* STYLING FOR TOOLTIPSTER*/
+.tooltipster-salary {
+  background: #f28f00;
+  border: none;
+  border-radius: 9px;
+  max-width: 230px;
+  text-align: center;
+  color: white;
+}
+.tooltipster-salary .tooltipster-content {
+  padding: 0 15px 30px;
+}
+.tooltipster-salary p {
+  color: white;
+  font-size: 14px;
+  line-height: 1.4;
+}
+.tooltipster-salary .title-tooltipster {
+  background-color: #bf7100;
+  display: inline-block;
+  margin: 0 auto 15px;
+  padding: 20px 15px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 14px;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+}
+.tooltipster-salary .tooltipster-arrow-top span,
+.tooltipster-salary .tooltipster-arrow-top-right span,
+.tooltipster-salary .tooltipster-arrow-top-left span {
+  border-left: 20px solid transparent !important;
+  border-right: 20px solid transparent !important;
+  border-top: 20px solid;
+  bottom: -19px;
+}
+.tooltipster-salary .tooltipster-arrow-bottom span, .tooltipster-salary .tooltipster-arrow-bottom-right span, .tooltipster-salary .tooltipster-arrow-bottom-left span {
+  border-left: 20px solid transparent !important;
+  border-right: 20px solid transparent !important;
+  border-bottom: 20px solid;
+  top: -19px;
+}
+
 /* STYLING FOR RECRUITING ON TOP */
 .recruittop {
   background-color: #489943;
