@@ -24,6 +24,10 @@ $color-green: #489943;
 		background-image: url("../images/arrow-orange-right.png");
 		background-repeat: no-repeat;
 		display: inline-block;
+
+		&:hover{
+			text-decoration:none;
+		}
 	}
 	ul{
 		background-image: none;
