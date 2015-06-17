@@ -6505,3 +6505,9 @@ header.box-title {
 .form-wrapper .box-field {
   margin-bottom: 28px;
 }
+
+/*SELECT FONT*/
+.bootstrap-select.btn-group .btn .filter-option {
+  font-family: 'Open Sans';
+  font-size: 12.5px;
+}
