@@ -12,6 +12,27 @@ $color-green: #489943;
 }
 
 
+/* SIMILAR LINK JOB */
+.list-similar-jobs{
+	position: relative;
+	.link-job{
+		position: absolute;
+		right: 15px;
+		top: 25px;
+		width: 15px;
+		height: 24px;
+		background-image: url("../images/arrow-orange-right.png");
+		background-repeat: no-repeat;
+		display: inline-block;
+	}
+	ul{
+		background-image: none;
+		li{
+			position: relative;
+		}
+	}
+}
+
 /* PLACEHOLDER */
 ::-webkit-input-placeholder {
 	color: #b8b4b4;
@@ -81,7 +102,9 @@ $color-green: #489943;
 		border-top: 20px solid;
 		bottom: -19px;
 	}
-	.tooltipster-arrow-bottom span, .tooltipster-arrow-bottom-right span, .tooltipster-arrow-bottom-left span{
+	.tooltipster-arrow-bottom span, 
+	.tooltipster-arrow-bottom-right span, 
+	.tooltipster-arrow-bottom-left span{
 		  border-left: 20px solid transparent !important;
 		  border-right: 20px solid transparent !important;
 		  border-bottom: 20px solid;

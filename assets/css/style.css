@@ -5610,6 +5610,27 @@ textarea:focus, select:hover, select:focus {
   display: inline-block;
 }
 
+/* SIMILAR LINK JOB */
+.list-similar-jobs {
+  position: relative;
+}
+.list-similar-jobs .link-job {
+  position: absolute;
+  right: 15px;
+  top: 25px;
+  width: 15px;
+  height: 24px;
+  background-image: url("../images/arrow-orange-right.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+.list-similar-jobs ul {
+  background-image: none;
+}
+.list-similar-jobs ul li {
+  position: relative;
+}
+
 /* PLACEHOLDER */
 ::-webkit-input-placeholder {
   color: #b8b4b4;
@@ -5670,7 +5691,9 @@ textarea:focus, select:hover, select:focus {
   border-top: 20px solid;
   bottom: -19px;
 }
-.tooltipster-salary .tooltipster-arrow-bottom span, .tooltipster-salary .tooltipster-arrow-bottom-right span, .tooltipster-salary .tooltipster-arrow-bottom-left span {
+.tooltipster-salary .tooltipster-arrow-bottom span,
+.tooltipster-salary .tooltipster-arrow-bottom-right span,
+.tooltipster-salary .tooltipster-arrow-bottom-left span {
   border-left: 20px solid transparent !important;
   border-right: 20px solid transparent !important;
   border-bottom: 20px solid;
