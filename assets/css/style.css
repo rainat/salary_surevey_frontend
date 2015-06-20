@@ -148,7 +148,7 @@ img {
   top: 13px;
   width: 23px;
   height: 24px;
-  background: url('../images/icons/out.png?1429011281') left top no-repeat;
+  background: url('../images/icons/out.png?1429203976') left top no-repeat;
 }
 .btn-orange:hover {
   border: 1px solid white;
@@ -197,18 +197,18 @@ img {
 }
 
 .btn-grad-orange.arrRight {
-  background: #f28f00 url('../images/arrowbntorange.png?1429011281');
-  background: url('../images/arrowbntorange.png?1429011281'), -moz-linear-gradient(top, #f28f00 0%, #f28f00 52%, #f28f00 52%, #de8608 53%, #de8608 100%);
+  background: #f28f00 url('../images/arrowbntorange.png?1429203976');
+  background: url('../images/arrowbntorange.png?1429203976'), -moz-linear-gradient(top, #f28f00 0%, #f28f00 52%, #f28f00 52%, #de8608 53%, #de8608 100%);
   /* FF3.6+ */
-  background: url('../images/arrowbntorange.png?1429011281'), -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f28f00), color-stop(52%, #f28f00), color-stop(52%, #f28f00), color-stop(53%, #de8608), color-stop(100%, #de8608));
+  background: url('../images/arrowbntorange.png?1429203976'), -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f28f00), color-stop(52%, #f28f00), color-stop(52%, #f28f00), color-stop(53%, #de8608), color-stop(100%, #de8608));
   /* Chrome,Safari4+ */
-  background: url('../images/arrowbntorange.png?1429011281'), -webkit-linear-gradient(top, #f28f00 0%, #f28f00 52%, #f28f00 52%, #de8608 53%, #de8608 100%);
+  background: url('../images/arrowbntorange.png?1429203976'), -webkit-linear-gradient(top, #f28f00 0%, #f28f00 52%, #f28f00 52%, #de8608 53%, #de8608 100%);
   /* Chrome10+,Safari5.1+ */
-  background: url('../images/arrowbntorange.png?1429011281'), -o-linear-gradient(top, #f28f00 0%, #f28f00 52%, #f28f00 52%, #de8608 53%, #de8608 100%);
+  background: url('../images/arrowbntorange.png?1429203976'), -o-linear-gradient(top, #f28f00 0%, #f28f00 52%, #f28f00 52%, #de8608 53%, #de8608 100%);
   /* Opera 11.10+ */
-  background: url('../images/arrowbntorange.png?1429011281'), -ms-linear-gradient(top, #f28f00 0%, #f28f00 52%, #f28f00 52%, #de8608 53%, #de8608 100%);
+  background: url('../images/arrowbntorange.png?1429203976'), -ms-linear-gradient(top, #f28f00 0%, #f28f00 52%, #f28f00 52%, #de8608 53%, #de8608 100%);
   /* IE10+ */
-  background: url('../images/arrowbntorange.png?1429011281'), linear-gradient(to bottom, #f28f00 0%, #f28f00 52%, #f28f00 52%, #de8608 53%, #de8608 100%);
+  background: url('../images/arrowbntorange.png?1429203976'), linear-gradient(to bottom, #f28f00 0%, #f28f00 52%, #f28f00 52%, #de8608 53%, #de8608 100%);
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f28f00', endColorstr='#de8608',GradientType=0 );
   /* IE6-9 */
@@ -3392,7 +3392,7 @@ ul.clink li a:hover {
   top: 20px;
   width: 20px;
   height: 18px;
-  background: url('../images/icons/arrow_rt.png?1429011281') 0 0 no-repeat;
+  background: url('../images/icons/arrow_rt.png?1429203976') 0 0 no-repeat;
   -webkit-transition: all 0.6s linear;
   -moz-transition: all 0.6s linear;
   -ms-transition: all 0.6s linear;
@@ -3461,7 +3461,7 @@ ul.clink li a:hover {
   float: left;
   width: 37px;
   height: 60px;
-  background: url('../images/icons/check_green.png?1429011281') 0 0 no-repeat;
+  background: url('../images/icons/check_green.png?1429203976') 0 0 no-repeat;
   margin-right: 20px;
 }
 @media (max-width: 330px) {
@@ -3624,7 +3624,7 @@ textarea:focus, select:hover, select:focus {
   position: absolute;
   left: 0;
   bottom: -20px;
-  background: transparent url('../images/arrowme4.png?1429011281') 0 0 no-repeat;
+  background: transparent url('../images/arrowme4.png?1429203976') 0 0 no-repeat;
 }
 
 .grey-block {
@@ -3655,7 +3655,7 @@ textarea:focus, select:hover, select:focus {
   height: 37px;
   left: 0;
   bottom: -37px;
-  background: url('../images/arrowme6.png?1429011281') center top no-repeat;
+  background: url('../images/arrowme6.png?1429203976') center top no-repeat;
 }
 .grey-block.centered {
   width: 90%;
@@ -3700,7 +3700,7 @@ textarea:focus, select:hover, select:focus {
   bottom: -30px;
   width: 100%;
   height: 30px;
-  background: transparent url('../images/arrowme3.png?1429011281') center top no-repeat;
+  background: transparent url('../images/arrowme3.png?1429203976') center top no-repeat;
 }
 .notif-greybox .icon-angle {
   text-align: center;
@@ -3715,7 +3715,7 @@ textarea:focus, select:hover, select:focus {
   float: left;
   width: 41px;
   height: 40px;
-  background: url('../images/icons/close_row.png?1429011281') 0 0 no-repeat;
+  background: url('../images/icons/close_row.png?1429203976') 0 0 no-repeat;
 }
 
 .btn-fieldwrap {
@@ -3729,7 +3729,7 @@ textarea:focus, select:hover, select:focus {
   *vertical-align: auto;
   *zoom: 1;
   *display: inline;
-  background: url('../images/icons/add-more.png?1429011281') left center no-repeat;
+  background: url('../images/icons/add-more.png?1429203976') left center no-repeat;
   color: #565656;
   padding: 12px 0 12px 45px;
   -webkit-transition: all 0.2s linear;
@@ -3987,51 +3987,51 @@ textarea:focus, select:hover, select:focus {
   font-weight: 700;
 }
 .icon-guide ul li.icon-guide-edit {
-  background-image: url('../images/icon_edit.png?1429011281');
+  background-image: url('../images/icon_edit.png?1429203976');
   padding-left: 26px;
 }
 .icon-guide ul li.icon-guide-delete {
-  background-image: url('../images/icon_remove.png?1429011281');
+  background-image: url('../images/icon_remove.png?1429203976');
   padding-left: 21px;
 }
 .icon-guide ul li.icon-guide-archive {
-  background-image: url('../images/icons/bookstack.png?1429011281');
+  background-image: url('../images/icons/bookstack.png?1429203976');
   padding-left: 33px;
 }
 .icon-guide ul li.icon-guide-copy {
-  background-image: url('../images/icons/clip.png?1429011281');
+  background-image: url('../images/icons/clip.png?1429203976');
   padding-left: 33px;
 }
 .icon-guide ul li.icon-guide-renew {
-  background-image: url('../images/icons/referesh.png?1429011281');
+  background-image: url('../images/icons/referesh.png?1429203976');
   padding-left: 26px;
 }
 .icon-guide ul li.icon-guide-disable {
-  background-image: url('../images/icons/disable.png?1429011281');
+  background-image: url('../images/icons/disable.png?1429203976');
   padding-left: 26px;
 }
 .icon-guide ul li.icon-guide-report {
-  background-image: url('../images/icons/pdf.png?1429011281');
+  background-image: url('../images/icons/pdf.png?1429203976');
   padding-left: 30px;
 }
 .icon-guide ul li.icon-guide-view {
-  background-image: url('../images/icons/zoom.png?1429011281');
+  background-image: url('../images/icons/zoom.png?1429203976');
   padding-left: 30px;
 }
 .icon-guide ul li.icon-guide-disable {
-  background-image: url('../images/icons/disable_2.png?1429011281');
+  background-image: url('../images/icons/disable_2.png?1429203976');
   padding-left: 30px;
 }
 .icon-guide ul li.icon-guide-enable {
-  background-image: url('../images/icons/enabled.png?1429011281');
+  background-image: url('../images/icons/enabled.png?1429203976');
   padding-left: 30px;
 }
 .icon-guide ul li.icon-guide-download {
-  background-image: url('../images/icons/download.png?1429011281');
+  background-image: url('../images/icons/download.png?1429203976');
   padding-left: 30px;
 }
 .icon-guide ul li.icon-guide-reply {
-  background-image: url('../images/icons/reply.png?1429011281');
+  background-image: url('../images/icons/reply.png?1429203976');
   padding-left: 32px;
 }
 
@@ -4171,10 +4171,10 @@ textarea:focus, select:hover, select:focus {
   *vertical-align: auto;
   *zoom: 1;
   *display: inline;
-  background: url('../images/icons/pencil.png?1429011281') 0 0 no-repeat;
+  background: url('../images/icons/pencil.png?1429203976') 0 0 no-repeat;
 }
 .btn-editable.active {
-  background: url('../images/icons/pencil_use.png?1429011281') 0 0 no-repeat;
+  background: url('../images/icons/pencil_use.png?1429203976') 0 0 no-repeat;
 }
 
 .passfield {
@@ -4267,14 +4267,14 @@ textarea:focus, select:hover, select:focus {
 .radio-bulled .custom-radio {
   width: 17px;
   height: 17px;
-  background: url('../images/icons/radio.png?1429011281') 0 0 no-repeat;
+  background: url('../images/icons/radio.png?1429203976') 0 0 no-repeat;
   margin-top: 3px;
 }
 .radio-bulled .custom-radio.checked {
-  background: url('../images/icons/radio_active.png?1429011281') 0 0 no-repeat;
+  background: url('../images/icons/radio_active.png?1429203976') 0 0 no-repeat;
 }
 .radio-bulled .custom-radio.checked.focus {
-  background: url('../images/icons/radio_active.png?1429011281') 0 0 no-repeat;
+  background: url('../images/icons/radio_active.png?1429203976') 0 0 no-repeat;
 }
 .radio-bulled.disabled {
   opacity: 0.5;
@@ -4283,14 +4283,14 @@ textarea:focus, select:hover, select:focus {
 .cxbox-sm .custom-check {
   width: 13px;
   height: 13px;
-  background: url('../images/icons/cxbox.png?1429011281') 0 0 no-repeat;
+  background: url('../images/icons/cxbox.png?1429203976') 0 0 no-repeat;
   margin-top: 3px;
 }
 .cxbox-sm .custom-check.checked {
-  background: url('../images/icons/cxbox_active.png?1429011281') 0 0 no-repeat;
+  background: url('../images/icons/cxbox_active.png?1429203976') 0 0 no-repeat;
 }
 .cxbox-sm .custom-check.checked.focus {
-  background: url('../images/icons/cxbox_active.png?1429011281') 0 0 no-repeat;
+  background: url('../images/icons/cxbox_active.png?1429203976') 0 0 no-repeat;
 }
 
 @media (max-width: 991px) {
@@ -4323,7 +4323,7 @@ textarea:focus, select:hover, select:focus {
   text-shadow: none;
   background-color: transparent;
   border: 0;
-  background: transparent url('../images/icons/src.png?1429011281') center center no-repeat;
+  background: transparent url('../images/icons/src.png?1429203976') center center no-repeat;
   border-left: 1px solid #f28f00;
   width: 47px;
   height: 37px;
@@ -4488,7 +4488,7 @@ textarea:focus, select:hover, select:focus {
 .green_listyle li {
   list-style: none;
   padding-left: 30px;
-  background: url('../images/icons/thick.png?1429011281') left top no-repeat;
+  background: url('../images/icons/thick.png?1429203976') left top no-repeat;
   margin-bottom: 12px;
   display: block;
 }
@@ -4534,11 +4534,11 @@ textarea:focus, select:hover, select:focus {
 }
 
 .btn-disabled {
-  background: url('../images/icons/disable_2.png?1429011281') 0 0 no-repeat;
+  background: url('../images/icons/disable_2.png?1429203976') 0 0 no-repeat;
 }
 
 .btn-enabled {
-  background: url('../images/icons/enabled.png?1429011281') 0 0 no-repeat;
+  background: url('../images/icons/enabled.png?1429203976') 0 0 no-repeat;
 }
 
 .download-pack {
@@ -4552,7 +4552,7 @@ textarea:focus, select:hover, select:focus {
   margin-bottom: 5px;
 }
 .download-pack .btn-orangeflat, .download-pack .btn-view, .download-pack .btn-greenflat, .download-pack .btn-greenflatsm, .download-pack .btn-buy, .download-pack .btn-tbsign {
-  background-image: url('../images/icons/download_flat.png?1429011281');
+  background-image: url('../images/icons/download_flat.png?1429203976');
   background-repeat: no-repeat;
   background-position: 93% center;
   padding-right: 60px;
@@ -4561,7 +4561,7 @@ textarea:focus, select:hover, select:focus {
 }
 
 .btn-buy {
-  background-image: url('../images/icons/cart.png?1429011281');
+  background-image: url('../images/icons/cart.png?1429203976');
   background-repeat: no-repeat;
   background-position: 88% center;
   padding-right: 42px;
@@ -4571,7 +4571,7 @@ textarea:focus, select:hover, select:focus {
   background-size: 22px auto;
 }
 .btn-buy:hover {
-  background-image: url('../images/icons/cart.png?1429011281');
+  background-image: url('../images/icons/cart.png?1429203976');
   background-repeat: no-repeat;
   background-position: 89% center;
   -moz-background-size: 22px auto;
@@ -5624,6 +5624,9 @@ textarea:focus, select:hover, select:focus {
   background-repeat: no-repeat;
   display: inline-block;
 }
+.list-similar-jobs .link-job:hover {
+  text-decoration: none;
+}
 .list-similar-jobs ul {
   background-image: none;
 }
@@ -6502,4 +6505,10 @@ header.box-title {
 
 .form-wrapper .box-field {
   margin-bottom: 28px;
+}
+
+/*SELECT FONT*/
+.bootstrap-select.btn-group .btn .filter-option {
+  font-family: 'Open Sans';
+  font-size: 12.5px;
 }

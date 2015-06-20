@@ -24,6 +24,10 @@ $color-green: #489943;
 		background-image: url("../images/arrow-orange-right.png");
 		background-repeat: no-repeat;
 		display: inline-block;
+
+		&:hover{
+			text-decoration:none;
+		}
 	}
 	ul{
 		background-image: none;
@@ -978,5 +982,11 @@ header.box-title{
 
 .form-wrapper .box-field{
 	margin-bottom: 28px
+}
+
+/*SELECT FONT*/
+.bootstrap-select.btn-group .btn .filter-option{
+	  font-family: 'Open Sans';
+	  font-size: 12.5px;
 }
 
