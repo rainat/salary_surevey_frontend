@@ -5761,7 +5761,7 @@ textarea:focus, select:hover, select:focus {
 .rwd-navigation {
   display: none;
   visibility: hidden;
-  top: 40px;
+  top: 80px;
   position: relative;
   text-align: right;
 }
@@ -5791,6 +5791,7 @@ textarea:focus, select:hover, select:focus {
   width: 100%;
   text-align: left;
   float: left;
+  top: -40px;
   margin-bottom: 30px;
 }
 .rwd-navigation .mobile-nav li a {
