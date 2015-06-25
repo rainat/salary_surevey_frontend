@@ -40,6 +40,15 @@
 		touchDevices: false,
 		trigger: "hover",
 	});
+
+	$(".selecttips").tooltipster({
+		content: $('<div class="box-tooltipster"><h3 class="title-tooltipster">Job Reference</h3><p>Although all salary data is displayed anonymously, your job title will be published to enable users to make relevant comparisons. If you have a very unique and identifiable job title you may wish to generalise this to ensure anonymity.</p></div>'),
+		theme: "tooltipster-salary",	
+		animation: "fade",
+		delay: 50,
+		touchDevices: false,
+		trigger: "hover",
+	});
 	//$("#sortTable").stacktable();
 })(jQuery);
 

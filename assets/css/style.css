@@ -5637,24 +5637,28 @@ textarea:focus, select:hover, select:focus {
 /* PLACEHOLDER */
 ::-webkit-input-placeholder {
   color: #b8b4b4;
-  font: 13px/1.4 'Lato', sans-serif;
+  font-family: 'Open Sans';
+  font-size: 12.5px;
 }
 
 :-moz-placeholder {
   /* Firefox 18- */
   color: #b8b4b4;
-  font: 13px/1.4 'Lato', sans-serif;
+  font-family: 'Open Sans';
+  font-size: 12.5px;
 }
 
 ::-moz-placeholder {
   /* Firefox 19+ */
   color: #b8b4b4;
-  font: 13px/1.4 'Lato', sans-serif;
+  font-family: 'Open Sans';
+  font-size: 12.5px;
 }
 
 :-ms-input-placeholder {
   color: #b8b4b4;
-  font: 13px/1.4 'Lato', sans-serif;
+  font-family: 'Open Sans';
+  font-size: 12.5px;
 }
 
 /* STYLING FOR TOOLTIPSTER*/
