@@ -6516,3 +6516,20 @@ header.box-title {
   font-family: 'Open Sans';
   font-size: 12.5px;
 }
+
+.rwd-navigation{
+  top: 40px;  
+}
+.rwd-navigation .mobile-nav{
+  top: -20px;
+}
+.rwd-navigation .mobile-nav li:first-child a{
+  border-top: 1px solid #f0f0f0;
+}
+.nav-btn{
+  transition: all 350ms ease-out;
+}
+.nav-btn:hover,
+.nav-btn:focus{
+  opacity: .8;
+}
