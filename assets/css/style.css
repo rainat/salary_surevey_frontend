@@ -6519,6 +6519,7 @@ header.box-title {
 
 .rwd-navigation{
   top: 40px;  
+  padding-top: 60px;
 }
 .rwd-navigation .mobile-nav{
   top: -20px;
@@ -6526,6 +6527,7 @@ header.box-title {
 .rwd-navigation .mobile-nav li:first-child a{
   border-top: 1px solid #f0f0f0;
 }
+
 .nav-btn{
   transition: all 350ms ease-out;
 }
