@@ -28,8 +28,10 @@
 		theme: "tooltipster-salary",	
 		animation: "fade",
 		delay: 50,
-		touchDevices: false,
-		trigger: "hover",
+		//touchDevices: false,
+		trigger: ['hover'],
+		iconTouch: true,
+		position: ['right']
 	});
 
 	$(".jobtips").tooltipster({
@@ -39,6 +41,7 @@
 		delay: 50,
 		touchDevices: false,
 		trigger: "hover",
+		position: ['right']
 	});
 
 	$(".selecttips").tooltipster({
@@ -48,6 +51,7 @@
 		delay: 50,
 		touchDevices: false,
 		trigger: "hover",
+		position: ['right']
 	});
 	//$("#sortTable").stacktable();
 })(jQuery);
