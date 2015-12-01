@@ -6535,3 +6535,8 @@ header.box-title {
 .nav-btn:focus{
   opacity: .8;
 }
+
+.highlightDate{
+  color: white;
+  background-color: green;
+}

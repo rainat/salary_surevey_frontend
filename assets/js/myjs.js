@@ -262,7 +262,34 @@ $(document).ready(function(){
   $("#tabcontent_rd_upload").hide();
 
   //DATEPICKER
-  $('.datepicker').pickmeup();
+  /*var tempDate = new Date();
+  var dateNow = tempDate.setDate();
+   console.log('date now :' + dateNow);*/
+	var datesFromDatabase = [];
+	var d = new Date();
+		for (i = 2; i < 7; i++) {
+		var tempDay = new Date(); tempDay.setHours(0,0,0,0);
+		tempDay.setDate(d.getDate()-i);
+		datesFromDatabase.push(tempDay.getTime());
+		console.log(tempDay.setDate(d.getDate()-i));
+	}
+
+  $('.datepicker').pickmeup({
+  		//flat: true,
+        //mode: 'multiple',
+        // Before rendering dates, highlight if from database
+        render: function(date) {
+            if ($.inArray(date.getTime(), datesFromDatabase) > -1){
+                return {
+                    class_name : 'highlightDate',
+                    disabled   : true,
+                }
+            }
+        }
+  	});
+
+
+ 
 
   //CHECKING disabled attr
   $("input[type=radio]:disabled").closest('label').addClass('disabled');
