@@ -31,7 +31,8 @@
 		//touchDevices: false,
 		trigger: ['hover'],
 		iconTouch: true,
-		position: ['right']
+		position: ['top'],
+		offsetY: 30
 	});
 
 	$(".jobtips").tooltipster({
@@ -41,7 +42,8 @@
 		delay: 50,
 		touchDevices: false,
 		trigger: "hover",
-		position: ['right']
+		position: ['top'],
+		offsetY: 30
 	});
 
 	$(".selecttips").tooltipster({
@@ -51,7 +53,8 @@
 		delay: 50,
 		touchDevices: false,
 		trigger: "hover",
-		position: ['right']
+		position: ['top'],
+		offsetY: 30
 	});
 	//$("#sortTable").stacktable();
 })(jQuery);
