@@ -289,8 +289,8 @@ $(document).ready(function(){
   	});
 
 
- 
-
+  //BOOTSTRAP COMBOBOX
+  $('.combobox').combobox();
   //CHECKING disabled attr
   $("input[type=radio]:disabled").closest('label').addClass('disabled');
 
