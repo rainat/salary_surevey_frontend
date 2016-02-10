@@ -17,7 +17,9 @@ $(document).ready(function(){
 
    	//SELECT STYLE
     $(window).on('load', function () {
-      $('.selectpicker').selectpicker();
+      $('.selectpicker').selectpicker({
+      		dropupAuto : false
+      });
 	  $('a.yes-confirm,a.no-confirm').on('click',function(e) {
 			e.preventDefault();
 			$('.alpha-bg').fadeOut();

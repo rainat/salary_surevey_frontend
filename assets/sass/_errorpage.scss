@@ -1,0 +1,37 @@
+/** 404 page
+===================================*/
+
+.halfCenter-section{
+	max-width: 950px;
+	margin : 0 auto;
+	padding: 80px 0;
+}
+.nobg-map{
+	background: none !important;
+	background-color: white;
+}
+
+.allert-text{
+	font-size: 25px;
+	padding-top: 50px;
+	text-align: center;
+	@media screen and (min-width: 62em){
+		font-size: 30px;
+		text-align: left;
+	}
+}
+
+.alert-thumb{
+	text-align: center;
+	@media screen and (min-width: 62em){
+		padding-right: 10px;
+		text-align: left;
+	}
+}
+
+.error-backlink{
+	color: #489943;
+	&:hover{
+		text-decoration: underline;
+	}
+}

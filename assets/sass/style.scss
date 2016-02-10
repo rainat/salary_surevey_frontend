@@ -493,7 +493,7 @@ h6 {
 /* --------------------- END HEADER LAYOUT --------------------- */
 /* --------------------- BODYWEB LAYOUT --------------------- */
 
-#bodyweb! {}
+//#bodyweb! {}
 
 #scontent {
   &.nopad {
@@ -861,7 +861,7 @@ table.tabelhome {
   }
   tr {
     min-height: 20px;
-    &:first-child! {}
+    //&:first-child! {}
   }
   .linkorange1 a {
     padding-right: 10px;
@@ -1971,6 +1971,7 @@ p.report-entry {
   }
 }
 
+
 .full-border {
   border: 1px solid #dadada;
 }
@@ -3021,7 +3022,7 @@ ul.clink {
   min-height: 150px;
   color: #3c3a3a;
   padding:30px 30px 36px;
-  @include clearfix;
+  //@include clearfix;
 }
 
 @import "themes/dashboard";
@@ -3527,7 +3528,6 @@ ul.clink {
     font-size: 16px;
   }
 }
-
 @media (max-width: 330px) {
   .bxbtm-link p span {
     float: none;
@@ -3545,5 +3545,6 @@ ul.clink {
 
 
 
-// **IMPORTANT this file is updated file for new revision
+// IMPORTANT this file is updated file for new revision
 @import "update";
+@import "errorpage";

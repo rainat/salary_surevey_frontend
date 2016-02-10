@@ -31,8 +31,9 @@
 		//touchDevices: false,
 		trigger: ['hover'],
 		iconTouch: true,
-		position: ['top'],
-		offsetY: 30
+		position: 'top',
+		offsetY: 20,
+		positionTracker: true
 	});
 
 	$(".jobtips").tooltipster({
